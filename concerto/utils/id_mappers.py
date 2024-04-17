@@ -1,5 +1,7 @@
 import pandas as pd
-
+import pathlib
+_path = pathlib.Path(__file__).parent
+_chem_path =_path.joinpath('chem_xref.tsv.gz').__str__()
 
 def download_files_from_metanex():
     """
@@ -12,7 +14,8 @@ def download_files_from_metanex():
         comment='#',
         names=['source', 'ID', 'description']
     )
-    chem_df.to_csv('chem_xref.tsv', sep='\t', index=True)
+    chem_df.drop(columns=['description'], inplace=True)
+    chem_df.to_csv(_chem_path, sep='\t', index=True)
 
     url = 'https://www.metanetx.org/cgi-bin/mnxget/mnxref/reac_xref.tsv'
     reactions_df = pd.read_csv(
@@ -21,7 +24,8 @@ def download_files_from_metanex():
         comment='#',
         names=['source', 'ID', 'description']
     )
-    reactions_df.to_csv('reac_xref.tsv', sep='\t', index=True)
+    react_path = _path.joinpath('reac_xref.tsv').__str__()
+    reactions_df.to_csv(react_path, sep='\t', index=True)
 
 
 def load_chem_xref():
@@ -29,10 +33,10 @@ def load_chem_xref():
     This function loads the .tsv file downloaded from the metanex website into a pandas DataFrame.
     """
     chem_df = pd.read_csv(
-        'chem_xref.tsv',
-        delimiter='\t',
+        _chem_path,
+        delimiter=',',
         comment='#',
-        names=['source', 'ID', 'description']
+        names=['source', 'ID']
     )
     return chem_df
 
@@ -70,3 +74,45 @@ def generate_id_mapping_dict(df, source, target):
     target_dict = generate_dict(df, target)
     source_to_target = {j: target_dict[i] for i, j in source_dict.items() if i in target_dict}
     return source_to_target
+
+
+class MetanexMapper:
+    def __init__(self):
+        self.chem_df = load_chem_xref()
+        self.mnx_to_bigg = generate_id_mapping_dict(self.chem_df, 'bigg', 'mnx')
+        self.bigg_to_mnx = generate_id_mapping_dict(self.chem_df, 'mnx', 'bigg')
+        self.id_sources = self.chem_df.source.str.split(':').str[0].unique()
+
+    def print_id_sources(self):
+        """
+        This function prints the unique sources in the DataFrame.
+        """
+        for id in sorted(self.id_sources):
+            print(id)
+
+    def get_bigg_id(self, mnx_id):
+        """
+        This function returns the BiGG ID for a given MetaNetX ID.
+
+        Parameters:
+        mnx_id (str): The MetaNetX ID for which the BiGG ID is to be retrieved.
+
+        Returns:
+        str: The BiGG ID for the given MetaNetX ID.
+        """
+        return self.mnx_to_bigg.get(mnx_id, None)
+
+    def get_mnx_id(self, bigg_id):
+        """
+        This function returns the MetaNetX ID for a given BiGG ID.
+
+        Parameters:
+        bigg_id (str): The BiGG ID for which the MetaNetX ID is to be retrieved.
+
+        Returns:
+        str: The MetaNetX ID for the given BiGG ID.
+        """
+        return self.bigg_to_mnx.get(bigg_id, None)
+
+    def generate_dict(self, source, target):
+        return generate_id_mapping_dict(self.chem_df, source, target)
