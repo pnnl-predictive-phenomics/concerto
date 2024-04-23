@@ -50,6 +50,7 @@ def download_reaction_properties():
     reactions_df.drop(columns=['description'], inplace=True)
     reactions_df.to_csv(_reactions_path, sep='\t', index=True)
 
+
 def load_reactions_xref():
     """
     This function loads the .tsv file downloaded from the metanex website into a pandas DataFrame.
@@ -75,7 +76,7 @@ def load_chem_xref():
             _chem_path,
             delimiter='\t',
             comment='#',
-            names=['source', 'ID']
+            names=['source', 'ID'], index_col=0,
         )
 
 
@@ -156,5 +157,24 @@ class MetanexMapper:
         return generate_id_mapping_dict(self.chem_df, source, target)
 
 
+class ReactionMapper(object):
+    def __init__(self):
+        self.reactions_df = load_reactions_xref()
+        self.id_sources = self.reactions_df.source.str.split(':').str[0].unique()
+
+    def print_id_sources(self):
+        """
+        This function prints the unique sources in the DataFrame.
+        """
+        for id in sorted(self.id_sources):
+            print(id)
+    def generate_dict(self, source, target):
+        return generate_id_mapping_dict(self.reactions_df, source, target)
+
+
 if __name__ == '__main__':
-    download_metabolite_ids_xref()
+    rxn_mapper = ReactionMapper()
+    rxn_mapper.print_id_sources()
+    dics = rxn_mapper.generate_dict('bigg.reaction', 'metacyc.reaction')
+    print(dics)
+

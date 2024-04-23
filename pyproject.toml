@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "concerto"
+version = "0.0.1"
+dynamic = ["version"]
+dependencies = [
+    'cobra',
+    'pandas',
+    'memote',
+]
+requires-python = ">=3.8"
+
+authors = [
+  { name="James Pino", email="james.ch.pino@gmail.com" , roles=["author", "maintainer"]},
+  { name="Jeremy Zucker", email="jeremy.zucker@pnnl.gov" , roles=["author", "maintainer"]},
+]
+description = "Genome scale metabolic modeling toolkit used for various projects at PNNL"
+readme = "README.md"
+license = {file = "LICENSE"}
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Development Status :: 4 - Beta",
+]
+
+[project.urls]
+Homepage = "https://github.com/pnnl-predictive-phenomics/concerto"
+Issues = "https://github.com/pnnl-predictive-phenomics/concerto/issues"
+
+
+[tool.setuptools.packages.find]
+# All the following settings are optional:
+where = ["src"]  # ["."] by default
+include = ["concerto*"]  # ["*"] by default
+exclude = ["tests*"]  # empty by default
+
+[tool.setuptools]
+include-package-data = true
