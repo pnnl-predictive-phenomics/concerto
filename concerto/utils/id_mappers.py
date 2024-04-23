@@ -1,44 +1,82 @@
+import os.path
+
 import pandas as pd
 import pathlib
-_path = pathlib.Path(__file__).parent
+from concerto.storage import id_mapping_dir
+_path = pathlib.Path(id_mapping_dir)
 _chem_path =_path.joinpath('chem_xref.tsv.gz').__str__()
+_reactions_path = _path.joinpath('reac_xref.tsv').__str__()
 
-def download_files_from_metanex():
+
+def download_metabolite_ids_xref():
     """
     This function downloads a file from the metanex website and saves it as a .tsv file.
     """
-    url = 'https://www.metanex.org/cgi-bin/mnxget/mnxref/chem_xref.tsv'
+    url = 'https://www.metanetx.org/cgi-bin/mnxget/mnxref/chem_xref.tsv'
     chem_df = pd.read_csv(
         url,
         delimiter='\t',
         comment='#',
-        names=['source', 'ID', 'description']
+        names=['source', 'ID', 'description'],
+        # engine='c'
     )
     chem_df.drop(columns=['description'], inplace=True)
     chem_df.to_csv(_chem_path, sep='\t', index=True)
 
+
+def download_reaction_xref():
     url = 'https://www.metanetx.org/cgi-bin/mnxget/mnxref/reac_xref.tsv'
     reactions_df = pd.read_csv(
         url,
         delimiter='\t',
         comment='#',
-        names=['source', 'ID', 'description']
+        names=['source', 'ID', 'description'],
+        engine='c'
     )
-    react_path = _path.joinpath('reac_xref.tsv').__str__()
-    reactions_df.to_csv(react_path, sep='\t', index=True)
+    reactions_df.drop(columns=['description'], inplace=True)
+    reactions_df.to_csv(_reactions_path, sep='\t', index=True)
+
+
+def download_reaction_properties():
+    url = 'https://www.metanetx.org/cgi-bin/mnxget/mnxref/reac_prop.tsv'
+
+    reactions_df = pd.read_csv(
+        url,
+        delimiter='\t',
+        comment='#',
+        names=['MNX_ID', 'equation',  'source_db', 'ec_number', 'equation_balanced', 'transport_reaction'],
+        engine='c'
+    )
+    reactions_df.drop(columns=['description'], inplace=True)
+    reactions_df.to_csv(_reactions_path, sep='\t', index=True)
+
+def load_reactions_xref():
+    """
+    This function loads the .tsv file downloaded from the metanex website into a pandas DataFrame.
+    """
+    if not os.path.exists(_reactions_path):
+        download_reaction_xref()
+    reactions_df = pd.read_csv(
+        _reactions_path,
+        delimiter='\t',
+        comment='#',
+        names=['source', 'ID']
+    )
+    return reactions_df
 
 
 def load_chem_xref():
     """
     This function loads the .tsv file downloaded from the metanex website into a pandas DataFrame.
     """
-    chem_df = pd.read_csv(
-        _chem_path,
-        delimiter=',',
-        comment='#',
-        names=['source', 'ID']
-    )
-    return chem_df
+    if not os.path.exists(_chem_path):
+        download_metabolite_ids_xref()
+    return pd.read_csv(
+            _chem_path,
+            delimiter='\t',
+            comment='#',
+            names=['source', 'ID']
+        )
 
 
 def generate_dict(df, source):
@@ -116,3 +154,7 @@ class MetanexMapper:
 
     def generate_dict(self, source, target):
         return generate_id_mapping_dict(self.chem_df, source, target)
+
+
+if __name__ == '__main__':
+    download_metabolite_ids_xref()

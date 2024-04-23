@@ -2,13 +2,12 @@ import cobra
 import logging
 import pandas as pd
 import pathlib
-from concerto.utils import universal_model
+from concerto.utils import load_universal_model
 
 _log = logging.getLogger()
 
 _path = pathlib.Path(__file__).parent
 _f_path = _path.joinpath('plate_to_bigg.csv').__str__()
-biolog_map = pd.read_csv(_f_path, index_col=False)
 
 
 def add_biolog_exchanges(model):
@@ -30,6 +29,11 @@ def add_biolog_exchanges(model):
     new_model = model.copy()
     not_found = set()
     added = set()
+
+    # load in material needed to add biolog exchanges
+    universal_model = load_universal_model()
+    biolog_map = pd.read_csv(_f_path, index_col=False)
+
     for rxn in biolog_map.exchange:
         if rxn not in new_model.reactions:
             if rxn in universal_model.reactions:
