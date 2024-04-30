@@ -34,5 +34,5 @@ jobs:
           TWINE_PASSWORD: ${{ secrets.PYPI_API_TOKEN }}
       run: |
           python -m build
-          twine upload --repository testpypi dist/*
-#          twine upload --repository pypi dist/*
+          #twine upload --repository testpypi dist/*
+          twine upload --repository pypi dist/*
