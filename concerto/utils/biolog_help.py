@@ -1,14 +1,13 @@
 import cobra
-import pathlib
-from concerto.helpers.biolog_to_exchange import biolog_map
 import logging
+import pandas as pd
+import pathlib
+from concerto.utils import load_universal_model
 
 _log = logging.getLogger()
-_path = pathlib.Path(__file__).parent
 
-universal_model = cobra.io.load_json_model(
-    _path.joinpath('universal_model_cobrapy.json').__str__()
-)
+_path = pathlib.Path(__file__).parent
+_f_path = _path.joinpath('plate_to_bigg.csv').__str__()
 
 
 def add_biolog_exchanges(model):
@@ -30,6 +29,11 @@ def add_biolog_exchanges(model):
     new_model = model.copy()
     not_found = set()
     added = set()
+
+    # load in material needed to add biolog exchanges
+    universal_model = load_universal_model()
+    biolog_map = pd.read_csv(_f_path, index_col=False)
+
     for rxn in biolog_map.exchange:
         if rxn not in new_model.reactions:
             if rxn in universal_model.reactions:
@@ -44,6 +48,8 @@ def add_biolog_exchanges(model):
                 not_found.add(rxn)
     for i in not_found:
         _log.warning(f'{i} not found in universal model')
+        print(f'{i} not found in universal model')
     _log.info(f"Added {len(added)} biolog exchange reactions")
+    print(f"Added {len(added)} biolog exchange reactions")
 
     return new_model
