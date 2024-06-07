@@ -46,7 +46,7 @@ We welcome contributions to improve the model's quality and extend its capabilit
 
 ## License
 
-This project is licensed under the [Apache 2.0] license. See the `LICENSE` file for details.
+This project is licensed under the [Apache 2.0](https://github.com/pnnl-predictive-phenomics/concerto/blob/main/LICENSE) license. See the `LICENSE` file for details.
 
 ## Contact
 
