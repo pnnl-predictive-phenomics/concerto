@@ -614,62 +614,62 @@
             {
                "trajectory": "M_4abut_e_state",
                "timepoint": 10.0,
-               "lower": 1.4944523572921753,
-               "upper": 1.4944523572921753
+               "lower": 0.46180030703544617,
+               "upper": 0.46180030703544617
             },
             {
                "trajectory": "M_4abut_e_state",
                "timepoint": 20.0,
-               "lower": 1.8099517822265625,
-               "upper": 1.8099517822265625
+               "lower": 0.45669257640838623,
+               "upper": 0.45669257640838623
             },
             {
                "trajectory": "M_4abut_e_state",
                "timepoint": 30.0,
-               "lower": 2.046821355819702,
-               "upper": 2.046821355819702
+               "lower": 0.45650970935821533,
+               "upper": 0.45650970935821533
             },
             {
                "trajectory": "M_4abut_e_state",
                "timepoint": 40.0,
-               "lower": 2.237050771713257,
-               "upper": 2.237050771713257
+               "lower": 0.456499308347702,
+               "upper": 0.456499308347702
             },
             {
                "trajectory": "M_4abut_e_state",
                "timepoint": 50.0,
-               "lower": 2.3940279483795166,
-               "upper": 2.3940279483795166
+               "lower": 0.45649874210357666,
+               "upper": 0.45649874210357666
             },
             {
                "trajectory": "M_4abut_e_state",
                "timepoint": 60.0,
-               "lower": 2.525345802307129,
-               "upper": 2.525345802307129
+               "lower": 0.45649874210357666,
+               "upper": 0.45649874210357666
             },
             {
                "trajectory": "M_4abut_e_state",
                "timepoint": 70.0,
-               "lower": 2.6360557079315186,
-               "upper": 2.6360557079315186
+               "lower": 0.45649874210357666,
+               "upper": 0.45649874210357666
             },
             {
                "trajectory": "M_4abut_e_state",
                "timepoint": 80.0,
-               "lower": 2.7298481464385986,
-               "upper": 2.7298481464385986
+               "lower": 0.45649874210357666,
+               "upper": 0.45649874210357666
             },
             {
                "trajectory": "M_4abut_e_state",
                "timepoint": 90.0,
-               "lower": 2.8095834255218506,
-               "upper": 2.8095834255218506
+               "lower": 0.45649874210357666,
+               "upper": 0.45649874210357666
             },
             {
                "trajectory": "M_4abut_e_state",
                "timepoint": 100.0,
-               "lower": 2.8775339126586914,
-               "upper": 2.8775339126586914
+               "lower": 0.45649874210357666,
+               "upper": 0.45649874210357666
             },
             {
                "trajectory": "M_arg__L_e_state",
@@ -680,62 +680,62 @@
             {
                "trajectory": "M_arg__L_e_state",
                "timepoint": 10.0,
-               "lower": 0.5859325528144836,
-               "upper": 0.5859325528144836
+               "lower": 0.34409743547439575,
+               "upper": 0.34409743547439575
             },
             {
                "trajectory": "M_arg__L_e_state",
                "timepoint": 20.0,
-               "lower": 0.49850326776504517,
-               "upper": 0.49850326776504517
+               "lower": 0.3431538939476013,
+               "upper": 0.3431538939476013
             },
             {
                "trajectory": "M_arg__L_e_state",
                "timepoint": 30.0,
-               "lower": 0.4633592963218689,
-               "upper": 0.4633592963218689
+               "lower": 0.34311118721961975,
+               "upper": 0.34311118721961975
             },
             {
                "trajectory": "M_arg__L_e_state",
                "timepoint": 40.0,
-               "lower": 0.44313719868659973,
-               "upper": 0.44313719868659973
+               "lower": 0.34310880303382874,
+               "upper": 0.34310880303382874
             },
             {
                "trajectory": "M_arg__L_e_state",
                "timepoint": 50.0,
-               "lower": 0.4293670058250427,
-               "upper": 0.4293670058250427
+               "lower": 0.343108594417572,
+               "upper": 0.343108594417572
             },
             {
                "trajectory": "M_arg__L_e_state",
                "timepoint": 60.0,
-               "lower": 0.41911187767982483,
-               "upper": 0.41911187767982483
+               "lower": 0.343108594417572,
+               "upper": 0.343108594417572
             },
             {
                "trajectory": "M_arg__L_e_state",
                "timepoint": 70.0,
-               "lower": 0.41108909249305725,
-               "upper": 0.41108909249305725
+               "lower": 0.343108594417572,
+               "upper": 0.343108594417572
             },
             {
                "trajectory": "M_arg__L_e_state",
                "timepoint": 80.0,
-               "lower": 0.40463873744010925,
-               "upper": 0.40463873744010925
+               "lower": 0.343108594417572,
+               "upper": 0.343108594417572
             },
             {
                "trajectory": "M_arg__L_e_state",
                "timepoint": 90.0,
-               "lower": 0.3993699252605438,
-               "upper": 0.3993699252605438
+               "lower": 0.343108594417572,
+               "upper": 0.343108594417572
             },
             {
                "trajectory": "M_arg__L_e_state",
                "timepoint": 100.0,
-               "lower": 0.39502429962158203,
-               "upper": 0.39502429962158203
+               "lower": 0.343108594417572,
+               "upper": 0.343108594417572
             },
             {
                "trajectory": "M_asp__L_e_state",
@@ -746,62 +746,62 @@
             {
                "trajectory": "M_asp__L_e_state",
                "timepoint": 10.0,
-               "lower": 0.8466675281524658,
-               "upper": 0.8466675281524658
+               "lower": 0.05176140367984772,
+               "upper": 0.05176140367984772
             },
             {
                "trajectory": "M_asp__L_e_state",
                "timepoint": 20.0,
-               "lower": 0.8239639401435852,
-               "upper": 0.8239639401435852
+               "lower": 0.051419638097286224,
+               "upper": 0.051419638097286224
             },
             {
                "trajectory": "M_asp__L_e_state",
                "timepoint": 30.0,
-               "lower": 0.7744559049606323,
-               "upper": 0.7744559049606323
+               "lower": 0.05140571668744087,
+               "upper": 0.05140571668744087
             },
             {
                "trajectory": "M_asp__L_e_state",
                "timepoint": 40.0,
-               "lower": 0.7286681532859802,
-               "upper": 0.7286681532859802
+               "lower": 0.05140487849712372,
+               "upper": 0.05140487849712372
             },
             {
                "trajectory": "M_asp__L_e_state",
                "timepoint": 50.0,
-               "lower": 0.6917616724967957,
-               "upper": 0.6917616724967957
+               "lower": 0.05140482634305954,
+               "upper": 0.05140482634305954
             },
             {
                "trajectory": "M_asp__L_e_state",
                "timepoint": 60.0,
-               "lower": 0.6631401181221008,
-               "upper": 0.6631401181221008
+               "lower": 0.05140482634305954,
+               "upper": 0.05140482634305954
             },
             {
                "trajectory": "M_asp__L_e_state",
                "timepoint": 70.0,
-               "lower": 0.641090989112854,
-               "upper": 0.641090989112854
+               "lower": 0.05140482634305954,
+               "upper": 0.05140482634305954
             },
             {
                "trajectory": "M_asp__L_e_state",
                "timepoint": 80.0,
-               "lower": 0.6239947080612183,
-               "upper": 0.6239947080612183
+               "lower": 0.05140482634305954,
+               "upper": 0.05140482634305954
             },
             {
                "trajectory": "M_asp__L_e_state",
                "timepoint": 90.0,
-               "lower": 0.6105895042419434,
-               "upper": 0.6105895042419434
+               "lower": 0.05140482634305954,
+               "upper": 0.05140482634305954
             },
             {
                "trajectory": "M_asp__L_e_state",
                "timepoint": 100.0,
-               "lower": 0.5999462604522705,
-               "upper": 0.5999462604522705
+               "lower": 0.05140482634305954,
+               "upper": 0.05140482634305954
             },
             {
                "trajectory": "M_fe3_e_state",
@@ -812,62 +812,62 @@
             {
                "trajectory": "M_fe3_e_state",
                "timepoint": 10.0,
-               "lower": 0.11435424536466599,
-               "upper": 0.11435424536466599
+               "lower": 0.7259414196014404,
+               "upper": 0.7259414196014404
             },
             {
                "trajectory": "M_fe3_e_state",
                "timepoint": 20.0,
-               "lower": 0.09693723917007446,
-               "upper": 0.09693723917007446
+               "lower": 0.7237532138824463,
+               "upper": 0.7237532138824463
             },
             {
                "trajectory": "M_fe3_e_state",
                "timepoint": 30.0,
-               "lower": 0.08979438990354538,
-               "upper": 0.08979438990354538
+               "lower": 0.7236441373825073,
+               "upper": 0.7236441373825073
             },
             {
                "trajectory": "M_fe3_e_state",
                "timepoint": 40.0,
-               "lower": 0.08575786650180817,
-               "upper": 0.08575786650180817
+               "lower": 0.7236373424530029,
+               "upper": 0.7236373424530029
             },
             {
                "trajectory": "M_fe3_e_state",
                "timepoint": 50.0,
-               "lower": 0.08307070285081863,
-               "upper": 0.08307070285081863
+               "lower": 0.7236367464065552,
+               "upper": 0.7236367464065552
             },
             {
                "trajectory": "M_fe3_e_state",
                "timepoint": 60.0,
-               "lower": 0.08110364526510239,
-               "upper": 0.08110364526510239
+               "lower": 0.7236367464065552,
+               "upper": 0.7236367464065552
             },
             {
                "trajectory": "M_fe3_e_state",
                "timepoint": 70.0,
-               "lower": 0.07958178222179413,
-               "upper": 0.07958178222179413
+               "lower": 0.7236367464065552,
+               "upper": 0.7236367464065552
             },
             {
                "trajectory": "M_fe3_e_state",
                "timepoint": 80.0,
-               "lower": 0.07836580276489258,
-               "upper": 0.07836580276489258
+               "lower": 0.7236367464065552,
+               "upper": 0.7236367464065552
             },
             {
                "trajectory": "M_fe3_e_state",
                "timepoint": 90.0,
-               "lower": 0.0773760974407196,
-               "upper": 0.0773760974407196
+               "lower": 0.7236367464065552,
+               "upper": 0.7236367464065552
             },
             {
                "trajectory": "M_fe3_e_state",
                "timepoint": 100.0,
-               "lower": 0.07656113058328629,
-               "upper": 0.07656113058328629
+               "lower": 0.7236367464065552,
+               "upper": 0.7236367464065552
             },
             {
                "trajectory": "M_fe3pyovd_kt_e_state",
@@ -878,62 +878,62 @@
             {
                "trajectory": "M_fe3pyovd_kt_e_state",
                "timepoint": 10.0,
-               "lower": 0.0976584404706955,
-               "upper": 0.0976584404706955
+               "lower": 0.6485877633094788,
+               "upper": 0.6485877633094788
             },
             {
                "trajectory": "M_fe3pyovd_kt_e_state",
                "timepoint": 20.0,
-               "lower": 0.08330632001161575,
-               "upper": 0.08330632001161575
+               "lower": 0.6464354395866394,
+               "upper": 0.6464354395866394
             },
             {
                "trajectory": "M_fe3pyovd_kt_e_state",
                "timepoint": 30.0,
-               "lower": 0.07718094438314438,
-               "upper": 0.07718094438314438
+               "lower": 0.6463192701339722,
+               "upper": 0.6463192701339722
             },
             {
                "trajectory": "M_fe3pyovd_kt_e_state",
                "timepoint": 40.0,
-               "lower": 0.07371016591787338,
-               "upper": 0.07371016591787338
+               "lower": 0.6463119387626648,
+               "upper": 0.6463119387626648
             },
             {
                "trajectory": "M_fe3pyovd_kt_e_state",
                "timepoint": 50.0,
-               "lower": 0.07141266763210297,
-               "upper": 0.07141266763210297
+               "lower": 0.6463112831115723,
+               "upper": 0.6463112831115723
             },
             {
                "trajectory": "M_fe3pyovd_kt_e_state",
                "timepoint": 60.0,
-               "lower": 0.06974021345376968,
-               "upper": 0.06974021345376968
+               "lower": 0.6463112831115723,
+               "upper": 0.6463112831115723
             },
             {
                "trajectory": "M_fe3pyovd_kt_e_state",
                "timepoint": 70.0,
-               "lower": 0.06845103204250336,
-               "upper": 0.06845103204250336
+               "lower": 0.6463112831115723,
+               "upper": 0.6463112831115723
             },
             {
                "trajectory": "M_fe3pyovd_kt_e_state",
                "timepoint": 80.0,
-               "lower": 0.06742364913225174,
-               "upper": 0.06742364913225174
+               "lower": 0.6463112831115723,
+               "upper": 0.6463112831115723
             },
             {
                "trajectory": "M_fe3pyovd_kt_e_state",
                "timepoint": 90.0,
-               "lower": 0.06658831983804703,
-               "upper": 0.06658831983804703
+               "lower": 0.6463112831115723,
+               "upper": 0.6463112831115723
             },
             {
                "trajectory": "M_fe3pyovd_kt_e_state",
                "timepoint": 100.0,
-               "lower": 0.06590081006288528,
-               "upper": 0.06590081006288528
+               "lower": 0.6463112831115723,
+               "upper": 0.6463112831115723
             },
             {
                "trajectory": "M_glu__L_e_state",
@@ -944,62 +944,62 @@
             {
                "trajectory": "M_glu__L_e_state",
                "timepoint": 10.0,
-               "lower": 0.9249672889709473,
-               "upper": 0.9249672889709473
+               "lower": 0.5990692973136902,
+               "upper": 0.5990692973136902
             },
             {
                "trajectory": "M_glu__L_e_state",
                "timepoint": 20.0,
-               "lower": 0.7845903038978577,
-               "upper": 0.7845903038978577
+               "lower": 0.5967732667922974,
+               "upper": 0.5967732667922974
             },
             {
                "trajectory": "M_glu__L_e_state",
                "timepoint": 30.0,
-               "lower": 0.6915795803070068,
-               "upper": 0.6915795803070068
+               "lower": 0.5966976881027222,
+               "upper": 0.5966976881027222
             },
             {
                "trajectory": "M_glu__L_e_state",
                "timepoint": 40.0,
-               "lower": 0.6382803320884705,
-               "upper": 0.6382803320884705
+               "lower": 0.5966949462890625,
+               "upper": 0.5966949462890625
             },
             {
                "trajectory": "M_glu__L_e_state",
                "timepoint": 50.0,
-               "lower": 0.606197714805603,
-               "upper": 0.606197714805603
+               "lower": 0.5966947674751282,
+               "upper": 0.5966947674751282
             },
             {
                "trajectory": "M_glu__L_e_state",
                "timepoint": 60.0,
-               "lower": 0.5850918889045715,
-               "upper": 0.5850918889045715
+               "lower": 0.5966947674751282,
+               "upper": 0.5966947674751282
             },
             {
                "trajectory": "M_glu__L_e_state",
                "timepoint": 70.0,
-               "lower": 0.5700153708457947,
-               "upper": 0.5700153708457947
+               "lower": 0.5966947674751282,
+               "upper": 0.5966947674751282
             },
             {
                "trajectory": "M_glu__L_e_state",
                "timepoint": 80.0,
-               "lower": 0.5585762858390808,
-               "upper": 0.5585762858390808
+               "lower": 0.5966947674751282,
+               "upper": 0.5966947674751282
             },
             {
                "trajectory": "M_glu__L_e_state",
                "timepoint": 90.0,
-               "lower": 0.5495560765266418,
-               "upper": 0.5495560765266418
+               "lower": 0.5966947674751282,
+               "upper": 0.5966947674751282
             },
             {
                "trajectory": "M_glu__L_e_state",
                "timepoint": 100.0,
-               "lower": 0.5422729253768921,
-               "upper": 0.5422729253768921
+               "lower": 0.5966947674751282,
+               "upper": 0.5966947674751282
             },
             {
                "trajectory": "M_glyald_e_state",
@@ -1010,62 +1010,62 @@
             {
                "trajectory": "M_glyald_e_state",
                "timepoint": 10.0,
-               "lower": 0.18183694779872894,
-               "upper": 0.18183694779872894
+               "lower": 0.8631963133811951,
+               "upper": 0.8631963133811951
             },
             {
                "trajectory": "M_glyald_e_state",
                "timepoint": 20.0,
-               "lower": 0.1532226949930191,
-               "upper": 0.1532226949930191
+               "lower": 0.8603233098983765,
+               "upper": 0.8603233098983765
             },
             {
                "trajectory": "M_glyald_e_state",
                "timepoint": 30.0,
-               "lower": 0.14181093871593475,
-               "upper": 0.14181093871593475
+               "lower": 0.8601858019828796,
+               "upper": 0.8601858019828796
             },
             {
                "trajectory": "M_glyald_e_state",
                "timepoint": 40.0,
-               "lower": 0.13543155789375305,
-               "upper": 0.13543155789375305
+               "lower": 0.8601776361465454,
+               "upper": 0.8601776361465454
             },
             {
                "trajectory": "M_glyald_e_state",
                "timepoint": 50.0,
-               "lower": 0.13120204210281372,
-               "upper": 0.13120204210281372
+               "lower": 0.8601768612861633,
+               "upper": 0.8601768612861633
             },
             {
                "trajectory": "M_glyald_e_state",
                "timepoint": 60.0,
-               "lower": 0.12810857594013214,
-               "upper": 0.12810857594013214
+               "lower": 0.8601768612861633,
+               "upper": 0.8601768612861633
             },
             {
                "trajectory": "M_glyald_e_state",
                "timepoint": 70.0,
-               "lower": 0.12571363151073456,
-               "upper": 0.12571363151073456
+               "lower": 0.8601768612861633,
+               "upper": 0.8601768612861633
             },
             {
                "trajectory": "M_glyald_e_state",
                "timepoint": 80.0,
-               "lower": 0.12379856407642365,
-               "upper": 0.12379856407642365
+               "lower": 0.8601768612861633,
+               "upper": 0.8601768612861633
             },
             {
                "trajectory": "M_glyald_e_state",
                "timepoint": 90.0,
-               "lower": 0.12223829329013824,
-               "upper": 0.12223829329013824
+               "lower": 0.8601768612861633,
+               "upper": 0.8601768612861633
             },
             {
                "trajectory": "M_glyald_e_state",
                "timepoint": 100.0,
-               "lower": 0.12095262855291367,
-               "upper": 0.12095262855291367
+               "lower": 0.8601768612861633,
+               "upper": 0.8601768612861633
             },
             {
                "trajectory": "M_glyc_e_state",
@@ -1076,62 +1076,62 @@
             {
                "trajectory": "M_glyc_e_state",
                "timepoint": 10.0,
-               "lower": 1.0781244039535522,
-               "upper": 1.0781244039535522
+               "lower": 0.6017755270004272,
+               "upper": 0.6017755270004272
             },
             {
                "trajectory": "M_glyc_e_state",
                "timepoint": 20.0,
-               "lower": 0.897348940372467,
-               "upper": 0.897348940372467
+               "lower": 0.5999249219894409,
+               "upper": 0.5999249219894409
             },
             {
                "trajectory": "M_glyc_e_state",
                "timepoint": 30.0,
-               "lower": 0.8286352157592773,
-               "upper": 0.8286352157592773
+               "lower": 0.5998328924179077,
+               "upper": 0.5998328924179077
             },
             {
                "trajectory": "M_glyc_e_state",
                "timepoint": 40.0,
-               "lower": 0.790448784828186,
-               "upper": 0.790448784828186
+               "lower": 0.5998274087905884,
+               "upper": 0.5998274087905884
             },
             {
                "trajectory": "M_glyc_e_state",
                "timepoint": 50.0,
-               "lower": 0.7650274634361267,
-               "upper": 0.7650274634361267
+               "lower": 0.5998268127441406,
+               "upper": 0.5998268127441406
             },
             {
                "trajectory": "M_glyc_e_state",
                "timepoint": 60.0,
-               "lower": 0.7463627457618713,
-               "upper": 0.7463627457618713
+               "lower": 0.5998268127441406,
+               "upper": 0.5998268127441406
             },
             {
                "trajectory": "M_glyc_e_state",
                "timepoint": 70.0,
-               "lower": 0.7318836450576782,
-               "upper": 0.7318836450576782
+               "lower": 0.5998268127441406,
+               "upper": 0.5998268127441406
             },
             {
                "trajectory": "M_glyc_e_state",
                "timepoint": 80.0,
-               "lower": 0.7202960252761841,
-               "upper": 0.7202960252761841
+               "lower": 0.5998268127441406,
+               "upper": 0.5998268127441406
             },
             {
                "trajectory": "M_glyc_e_state",
                "timepoint": 90.0,
-               "lower": 0.7108569741249084,
-               "upper": 0.7108569741249084
+               "lower": 0.5998268127441406,
+               "upper": 0.5998268127441406
             },
             {
                "trajectory": "M_glyc_e_state",
                "timepoint": 100.0,
-               "lower": 0.7030832767486572,
-               "upper": 0.7030832767486572
+               "lower": 0.5998268127441406,
+               "upper": 0.5998268127441406
             },
             {
                "trajectory": "M_gthrd_e_state",
@@ -1142,62 +1142,62 @@
             {
                "trajectory": "M_gthrd_e_state",
                "timepoint": 10.0,
-               "lower": 0.6527871489524841,
-               "upper": 0.6527871489524841
+               "lower": 0.22166994214057922,
+               "upper": 0.22166994214057922
             },
             {
                "trajectory": "M_gthrd_e_state",
                "timepoint": 20.0,
-               "lower": 0.7664285898208618,
-               "upper": 0.7664285898208618
+               "lower": 0.21800394356250763,
+               "upper": 0.21800394356250763
             },
             {
                "trajectory": "M_gthrd_e_state",
                "timepoint": 30.0,
-               "lower": 0.8075957298278809,
-               "upper": 0.8075957298278809
+               "lower": 0.21773822605609894,
+               "upper": 0.21773822605609894
             },
             {
                "trajectory": "M_gthrd_e_state",
                "timepoint": 40.0,
-               "lower": 0.818673849105835,
-               "upper": 0.818673849105835
+               "lower": 0.21772116422653198,
+               "upper": 0.21772116422653198
             },
             {
                "trajectory": "M_gthrd_e_state",
                "timepoint": 50.0,
-               "lower": 0.8158214688301086,
-               "upper": 0.8158214688301086
+               "lower": 0.21772009134292603,
+               "upper": 0.21772009134292603
             },
             {
                "trajectory": "M_gthrd_e_state",
                "timepoint": 60.0,
-               "lower": 0.8066099882125854,
-               "upper": 0.8066099882125854
+               "lower": 0.21772009134292603,
+               "upper": 0.21772009134292603
             },
             {
                "trajectory": "M_gthrd_e_state",
                "timepoint": 70.0,
-               "lower": 0.7948704957962036,
-               "upper": 0.7948704957962036
+               "lower": 0.21772009134292603,
+               "upper": 0.21772009134292603
             },
             {
                "trajectory": "M_gthrd_e_state",
                "timepoint": 80.0,
-               "lower": 0.7825914621353149,
-               "upper": 0.7825914621353149
+               "lower": 0.21772009134292603,
+               "upper": 0.21772009134292603
             },
             {
                "trajectory": "M_gthrd_e_state",
                "timepoint": 90.0,
-               "lower": 0.7707883715629578,
-               "upper": 0.7707883715629578
+               "lower": 0.21772009134292603,
+               "upper": 0.21772009134292603
             },
             {
                "trajectory": "M_gthrd_e_state",
                "timepoint": 100.0,
-               "lower": 0.7599454522132874,
-               "upper": 0.7599454522132874
+               "lower": 0.21772009134292603,
+               "upper": 0.21772009134292603
             },
             {
                "trajectory": "M_gua_e_state",
@@ -1208,62 +1208,62 @@
             {
                "trajectory": "M_gua_e_state",
                "timepoint": 10.0,
-               "lower": 0.5703328847885132,
-               "upper": 0.5703328847885132
+               "lower": 0.7494297027587891,
+               "upper": 0.7494297027587891
             },
             {
                "trajectory": "M_gua_e_state",
                "timepoint": 20.0,
-               "lower": 0.4780886173248291,
-               "upper": 0.4780886173248291
+               "lower": 0.7464684844017029,
+               "upper": 0.7464684844017029
             },
             {
                "trajectory": "M_gua_e_state",
                "timepoint": 30.0,
-               "lower": 0.443825900554657,
-               "upper": 0.443825900554657
+               "lower": 0.746322512626648,
+               "upper": 0.746322512626648
             },
             {
                "trajectory": "M_gua_e_state",
                "timepoint": 40.0,
-               "lower": 0.42421337962150574,
-               "upper": 0.42421337962150574
+               "lower": 0.7463135719299316,
+               "upper": 0.7463135719299316
             },
             {
                "trajectory": "M_gua_e_state",
                "timepoint": 50.0,
-               "lower": 0.41074633598327637,
-               "upper": 0.41074633598327637
+               "lower": 0.7463129162788391,
+               "upper": 0.7463129162788391
             },
             {
                "trajectory": "M_gua_e_state",
                "timepoint": 60.0,
-               "lower": 0.4006413221359253,
-               "upper": 0.4006413221359253
+               "lower": 0.7463128566741943,
+               "upper": 0.7463128566741943
             },
             {
                "trajectory": "M_gua_e_state",
                "timepoint": 70.0,
-               "lower": 0.3926998972892761,
-               "upper": 0.3926998972892761
+               "lower": 0.7463128566741943,
+               "upper": 0.7463128566741943
             },
             {
                "trajectory": "M_gua_e_state",
                "timepoint": 80.0,
-               "lower": 0.38629889488220215,
-               "upper": 0.38629889488220215
+               "lower": 0.7463128566741943,
+               "upper": 0.7463128566741943
             },
             {
                "trajectory": "M_gua_e_state",
                "timepoint": 90.0,
-               "lower": 0.38106563687324524,
-               "upper": 0.38106563687324524
+               "lower": 0.7463128566741943,
+               "upper": 0.7463128566741943
             },
             {
                "trajectory": "M_gua_e_state",
                "timepoint": 100.0,
-               "lower": 0.3767485022544861,
-               "upper": 0.3767485022544861
+               "lower": 0.7463128566741943,
+               "upper": 0.7463128566741943
             },
             {
                "trajectory": "M_h2s_e_state",
@@ -1274,62 +1274,62 @@
             {
                "trajectory": "M_h2s_e_state",
                "timepoint": 10.0,
-               "lower": 0.1420360952615738,
-               "upper": 0.1420360952615738
+               "lower": 0.8639230132102966,
+               "upper": 0.8639230132102966
             },
             {
                "trajectory": "M_h2s_e_state",
                "timepoint": 20.0,
-               "lower": 0.12216182798147202,
-               "upper": 0.12216182798147202
+               "lower": 0.8611197471618652,
+               "upper": 0.8611197471618652
             },
             {
                "trajectory": "M_h2s_e_state",
                "timepoint": 30.0,
-               "lower": 0.11387021839618683,
-               "upper": 0.11387021839618683
+               "lower": 0.8609780669212341,
+               "upper": 0.8609780669212341
             },
             {
                "trajectory": "M_h2s_e_state",
                "timepoint": 40.0,
-               "lower": 0.10901359468698502,
-               "upper": 0.10901359468698502
+               "lower": 0.8609693646430969,
+               "upper": 0.8609693646430969
             },
             {
                "trajectory": "M_h2s_e_state",
                "timepoint": 50.0,
-               "lower": 0.10567472875118256,
-               "upper": 0.10567472875118256
+               "lower": 0.8609687685966492,
+               "upper": 0.8609687685966492
             },
             {
                "trajectory": "M_h2s_e_state",
                "timepoint": 60.0,
-               "lower": 0.10317527502775192,
-               "upper": 0.10317527502775192
+               "lower": 0.8609692454338074,
+               "upper": 0.8609692454338074
             },
             {
                "trajectory": "M_h2s_e_state",
                "timepoint": 70.0,
-               "lower": 0.10121466964483261,
-               "upper": 0.10121466964483261
+               "lower": 0.8609691262245178,
+               "upper": 0.8609691262245178
             },
             {
                "trajectory": "M_h2s_e_state",
                "timepoint": 80.0,
-               "lower": 0.09963617473840714,
-               "upper": 0.09963617473840714
+               "lower": 0.8609690070152283,
+               "upper": 0.8609690070152283
             },
             {
                "trajectory": "M_h2s_e_state",
                "timepoint": 90.0,
-               "lower": 0.09834593534469604,
-               "upper": 0.09834593534469604
+               "lower": 0.8609688878059387,
+               "upper": 0.8609688878059387
             },
             {
                "trajectory": "M_h2s_e_state",
                "timepoint": 100.0,
-               "lower": 0.09728135168552399,
-               "upper": 0.09728135168552399
+               "lower": 0.860968828201294,
+               "upper": 0.860968828201294
             },
             {
                "trajectory": "M_hom__L_e_state",
@@ -1340,62 +1340,62 @@
             {
                "trajectory": "M_hom__L_e_state",
                "timepoint": 10.0,
-               "lower": 1.4194958209991455,
-               "upper": 1.4194958209991455
+               "lower": 0.6161981225013733,
+               "upper": 0.6161981225013733
             },
             {
                "trajectory": "M_hom__L_e_state",
                "timepoint": 20.0,
-               "lower": 1.2284390926361084,
-               "upper": 1.2284390926361084
+               "lower": 0.614065945148468,
+               "upper": 0.614065945148468
             },
             {
                "trajectory": "M_hom__L_e_state",
                "timepoint": 30.0,
-               "lower": 1.1212010383605957,
-               "upper": 1.1212010383605957
+               "lower": 0.6139549612998962,
+               "upper": 0.6139549612998962
             },
             {
                "trajectory": "M_hom__L_e_state",
                "timepoint": 40.0,
-               "lower": 1.0627429485321045,
-               "upper": 1.0627429485321045
+               "lower": 0.6139479875564575,
+               "upper": 0.6139479875564575
             },
             {
                "trajectory": "M_hom__L_e_state",
                "timepoint": 50.0,
-               "lower": 1.0252211093902588,
-               "upper": 1.0252211093902588
+               "lower": 0.6139472126960754,
+               "upper": 0.6139472126960754
             },
             {
                "trajectory": "M_hom__L_e_state",
                "timepoint": 60.0,
-               "lower": 0.9981461763381958,
-               "upper": 0.9981461763381958
+               "lower": 0.6139472126960754,
+               "upper": 0.6139472126960754
             },
             {
                "trajectory": "M_hom__L_e_state",
                "timepoint": 70.0,
-               "lower": 0.9772894382476807,
-               "upper": 0.9772894382476807
+               "lower": 0.6139472126960754,
+               "upper": 0.6139472126960754
             },
             {
                "trajectory": "M_hom__L_e_state",
                "timepoint": 80.0,
-               "lower": 0.9606526494026184,
-               "upper": 0.9606526494026184
+               "lower": 0.6139472126960754,
+               "upper": 0.6139472126960754
             },
             {
                "trajectory": "M_hom__L_e_state",
                "timepoint": 90.0,
-               "lower": 0.9471240639686584,
-               "upper": 0.9471240639686584
+               "lower": 0.6139472126960754,
+               "upper": 0.6139472126960754
             },
             {
                "trajectory": "M_hom__L_e_state",
                "timepoint": 100.0,
-               "lower": 0.935997724533081,
-               "upper": 0.935997724533081
+               "lower": 0.6139472126960754,
+               "upper": 0.6139472126960754
             },
             {
                "trajectory": "M_lys__L_e_state",
@@ -1406,62 +1406,62 @@
             {
                "trajectory": "M_lys__L_e_state",
                "timepoint": 10.0,
-               "lower": 0.2331249862909317,
-               "upper": 0.2331249862909317
+               "lower": 0.6993435621261597,
+               "upper": 0.6993435621261597
             },
             {
                "trajectory": "M_lys__L_e_state",
                "timepoint": 20.0,
-               "lower": 0.19960491359233856,
-               "upper": 0.19960491359233856
+               "lower": 0.6972772479057312,
+               "upper": 0.6972772479057312
             },
             {
                "trajectory": "M_lys__L_e_state",
                "timepoint": 30.0,
-               "lower": 0.18578197062015533,
-               "upper": 0.18578197062015533
+               "lower": 0.6971744894981384,
+               "upper": 0.6971744894981384
             },
             {
                "trajectory": "M_lys__L_e_state",
                "timepoint": 40.0,
-               "lower": 0.17779093980789185,
-               "upper": 0.17779093980789185
+               "lower": 0.697168231010437,
+               "upper": 0.697168231010437
             },
             {
                "trajectory": "M_lys__L_e_state",
                "timepoint": 50.0,
-               "lower": 0.1723507046699524,
-               "upper": 0.1723507046699524
+               "lower": 0.697167694568634,
+               "upper": 0.697167694568634
             },
             {
                "trajectory": "M_lys__L_e_state",
                "timepoint": 60.0,
-               "lower": 0.1683018058538437,
-               "upper": 0.1683018058538437
+               "lower": 0.697167694568634,
+               "upper": 0.697167694568634
             },
             {
                "trajectory": "M_lys__L_e_state",
                "timepoint": 70.0,
-               "lower": 0.16513511538505554,
-               "upper": 0.16513511538505554
+               "lower": 0.697167694568634,
+               "upper": 0.697167694568634
             },
             {
                "trajectory": "M_lys__L_e_state",
                "timepoint": 80.0,
-               "lower": 0.1625889390707016,
-               "upper": 0.1625889390707016
+               "lower": 0.697167694568634,
+               "upper": 0.697167694568634
             },
             {
                "trajectory": "M_lys__L_e_state",
                "timepoint": 90.0,
-               "lower": 0.16050869226455688,
-               "upper": 0.16050869226455688
+               "lower": 0.697167694568634,
+               "upper": 0.697167694568634
             },
             {
                "trajectory": "M_lys__L_e_state",
                "timepoint": 100.0,
-               "lower": 0.15879234671592712,
-               "upper": 0.15879234671592712
+               "lower": 0.697167694568634,
+               "upper": 0.697167694568634
             },
             {
                "trajectory": "M_nh4_e_state",
@@ -1472,62 +1472,62 @@
             {
                "trajectory": "M_nh4_e_state",
                "timepoint": 10.0,
-               "lower": 1.0614690780639648,
-               "upper": 1.0614690780639648
+               "lower": 0.45943328738212585,
+               "upper": 0.45943328738212585
             },
             {
                "trajectory": "M_nh4_e_state",
                "timepoint": 20.0,
-               "lower": 0.8778368234634399,
-               "upper": 0.8778368234634399
+               "lower": 0.45798754692077637,
+               "upper": 0.45798754692077637
             },
             {
                "trajectory": "M_nh4_e_state",
                "timepoint": 30.0,
-               "lower": 0.8108834624290466,
-               "upper": 0.8108834624290466
+               "lower": 0.45791614055633545,
+               "upper": 0.45791614055633545
             },
             {
                "trajectory": "M_nh4_e_state",
                "timepoint": 40.0,
-               "lower": 0.77374666929245,
-               "upper": 0.77374666929245
+               "lower": 0.4579117000102997,
+               "upper": 0.4579117000102997
             },
             {
                "trajectory": "M_nh4_e_state",
                "timepoint": 50.0,
-               "lower": 0.7488353848457336,
-               "upper": 0.7488353848457336
+               "lower": 0.4579113721847534,
+               "upper": 0.4579113721847534
             },
             {
                "trajectory": "M_nh4_e_state",
                "timepoint": 60.0,
-               "lower": 0.7304169535636902,
-               "upper": 0.7304169535636902
+               "lower": 0.4579109847545624,
+               "upper": 0.4579109847545624
             },
             {
                "trajectory": "M_nh4_e_state",
                "timepoint": 70.0,
-               "lower": 0.7160606384277344,
-               "upper": 0.7160606384277344
+               "lower": 0.45791104435920715,
+               "upper": 0.45791104435920715
             },
             {
                "trajectory": "M_nh4_e_state",
                "timepoint": 80.0,
-               "lower": 0.7045423984527588,
-               "upper": 0.7045423984527588
+               "lower": 0.45791110396385193,
+               "upper": 0.45791110396385193
             },
             {
                "trajectory": "M_nh4_e_state",
                "timepoint": 90.0,
-               "lower": 0.6951450705528259,
-               "upper": 0.6951450705528259
+               "lower": 0.4579111635684967,
+               "upper": 0.4579111635684967
             },
             {
                "trajectory": "M_nh4_e_state",
                "timepoint": 100.0,
-               "lower": 0.6874001026153564,
-               "upper": 0.6874001026153564
+               "lower": 0.4579111933708191,
+               "upper": 0.4579111933708191
             },
             {
                "trajectory": "M_o2_e_state",
@@ -1538,62 +1538,62 @@
             {
                "trajectory": "M_o2_e_state",
                "timepoint": 10.0,
-               "lower": 0.10444916039705276,
-               "upper": 0.10444916039705276
+               "lower": 1.1942942142486572,
+               "upper": 1.1942942142486572
             },
             {
                "trajectory": "M_o2_e_state",
                "timepoint": 20.0,
-               "lower": 0.08954134583473206,
-               "upper": 0.08954134583473206
+               "lower": 1.190029263496399,
+               "upper": 1.190029263496399
             },
             {
                "trajectory": "M_o2_e_state",
                "timepoint": 30.0,
-               "lower": 0.08307043462991714,
-               "upper": 0.08307043462991714
+               "lower": 1.18979811668396,
+               "upper": 1.18979811668396
             },
             {
                "trajectory": "M_o2_e_state",
                "timepoint": 40.0,
-               "lower": 0.0794374868273735,
-               "upper": 0.0794374868273735
+               "lower": 1.189782977104187,
+               "upper": 1.189782977104187
             },
             {
                "trajectory": "M_o2_e_state",
                "timepoint": 50.0,
-               "lower": 0.07705862820148468,
-               "upper": 0.07705862820148468
+               "lower": 1.189781665802002,
+               "upper": 1.189781665802002
             },
             {
                "trajectory": "M_o2_e_state",
                "timepoint": 60.0,
-               "lower": 0.07533764094114304,
-               "upper": 0.07533764094114304
+               "lower": 1.189781665802002,
+               "upper": 1.189781665802002
             },
             {
                "trajectory": "M_o2_e_state",
                "timepoint": 70.0,
-               "lower": 0.07401394098997116,
-               "upper": 0.07401394098997116
+               "lower": 1.189781665802002,
+               "upper": 1.189781665802002
             },
             {
                "trajectory": "M_o2_e_state",
                "timepoint": 80.0,
-               "lower": 0.07295874506235123,
-               "upper": 0.07295874506235123
+               "lower": 1.189781665802002,
+               "upper": 1.189781665802002
             },
             {
                "trajectory": "M_o2_e_state",
                "timepoint": 90.0,
-               "lower": 0.07209984958171844,
-               "upper": 0.07209984958171844
+               "lower": 1.189781665802002,
+               "upper": 1.189781665802002
             },
             {
                "trajectory": "M_o2_e_state",
                "timepoint": 100.0,
-               "lower": 0.07139197736978531,
-               "upper": 0.07139197736978531
+               "lower": 1.189781665802002,
+               "upper": 1.189781665802002
             },
             {
                "trajectory": "M_orn_e_state",
@@ -1604,62 +1604,62 @@
             {
                "trajectory": "M_orn_e_state",
                "timepoint": 10.0,
-               "lower": 0.6367586851119995,
-               "upper": 0.6367586851119995
+               "lower": 0.4051831066608429,
+               "upper": 0.4051831066608429
             },
             {
                "trajectory": "M_orn_e_state",
                "timepoint": 20.0,
-               "lower": 0.5326606631278992,
-               "upper": 0.5326606631278992
+               "lower": 0.40394189953804016,
+               "upper": 0.40394189953804016
             },
             {
                "trajectory": "M_orn_e_state",
                "timepoint": 30.0,
-               "lower": 0.4935217797756195,
-               "upper": 0.4935217797756195
+               "lower": 0.40388718247413635,
+               "upper": 0.40388718247413635
             },
             {
                "trajectory": "M_orn_e_state",
                "timepoint": 40.0,
-               "lower": 0.47144490480422974,
-               "upper": 0.47144490480422974
+               "lower": 0.40388423204421997,
+               "upper": 0.40388423204421997
             },
             {
                "trajectory": "M_orn_e_state",
                "timepoint": 50.0,
-               "lower": 0.4564765393733978,
-               "upper": 0.4564765393733978
+               "lower": 0.40388399362564087,
+               "upper": 0.40388399362564087
             },
             {
                "trajectory": "M_orn_e_state",
                "timepoint": 60.0,
-               "lower": 0.4453366994857788,
-               "upper": 0.4453366994857788
+               "lower": 0.4038836359977722,
+               "upper": 0.4038836359977722
             },
             {
                "trajectory": "M_orn_e_state",
                "timepoint": 70.0,
-               "lower": 0.43662187457084656,
-               "upper": 0.43662187457084656
+               "lower": 0.403883695602417,
+               "upper": 0.403883695602417
             },
             {
                "trajectory": "M_orn_e_state",
                "timepoint": 80.0,
-               "lower": 0.42961370944976807,
-               "upper": 0.42961370944976807
+               "lower": 0.40388375520706177,
+               "upper": 0.40388375520706177
             },
             {
                "trajectory": "M_orn_e_state",
                "timepoint": 90.0,
-               "lower": 0.42389020323753357,
-               "upper": 0.42389020323753357
+               "lower": 0.40388378500938416,
+               "upper": 0.40388378500938416
             },
             {
                "trajectory": "M_orn_e_state",
                "timepoint": 100.0,
-               "lower": 0.4191702902317047,
-               "upper": 0.4191702902317047
+               "lower": 0.40388381481170654,
+               "upper": 0.40388381481170654
             },
             {
                "trajectory": "M_pi_e_state",
@@ -1670,62 +1670,62 @@
             {
                "trajectory": "M_pi_e_state",
                "timepoint": 10.0,
-               "lower": 0.10493660718202591,
-               "upper": 0.10493660718202591
+               "lower": 0.2174166440963745,
+               "upper": 0.2174166440963745
             },
             {
                "trajectory": "M_pi_e_state",
                "timepoint": 20.0,
-               "lower": 0.0880507230758667,
-               "upper": 0.0880507230758667
+               "lower": 0.21649985015392303,
+               "upper": 0.21649985015392303
             },
             {
                "trajectory": "M_pi_e_state",
                "timepoint": 30.0,
-               "lower": 0.0812029242515564,
-               "upper": 0.0812029242515564
+               "lower": 0.21645298600196838,
+               "upper": 0.21645298600196838
             },
             {
                "trajectory": "M_pi_e_state",
                "timepoint": 40.0,
-               "lower": 0.07729319483041763,
-               "upper": 0.07729319483041763
+               "lower": 0.21645015478134155,
+               "upper": 0.21645015478134155
             },
             {
                "trajectory": "M_pi_e_state",
                "timepoint": 50.0,
-               "lower": 0.07466744631528854,
-               "upper": 0.07466744631528854
+               "lower": 0.21644988656044006,
+               "upper": 0.21644988656044006
             },
             {
                "trajectory": "M_pi_e_state",
                "timepoint": 60.0,
-               "lower": 0.07274066656827927,
-               "upper": 0.07274066656827927
+               "lower": 0.21644987165927887,
+               "upper": 0.21644987165927887
             },
             {
                "trajectory": "M_pi_e_state",
                "timepoint": 70.0,
-               "lower": 0.07125240564346313,
-               "upper": 0.07125240564346313
+               "lower": 0.21644987165927887,
+               "upper": 0.21644987165927887
             },
             {
                "trajectory": "M_pi_e_state",
                "timepoint": 80.0,
-               "lower": 0.07006776332855225,
-               "upper": 0.07006776332855225
+               "lower": 0.21644987165927887,
+               "upper": 0.21644987165927887
             },
             {
                "trajectory": "M_pi_e_state",
                "timepoint": 90.0,
-               "lower": 0.06910699605941772,
-               "upper": 0.06910699605941772
+               "lower": 0.21644987165927887,
+               "upper": 0.21644987165927887
             },
             {
                "trajectory": "M_pi_e_state",
                "timepoint": 100.0,
-               "lower": 0.06831856817007065,
-               "upper": 0.06831856817007065
+               "lower": 0.21644987165927887,
+               "upper": 0.21644987165927887
             },
             {
                "trajectory": "M_ppap_e_state",
@@ -1736,62 +1736,62 @@
             {
                "trajectory": "M_ppap_e_state",
                "timepoint": 10.0,
-               "lower": 0.1038762778043747,
-               "upper": 0.1038762778043747
+               "lower": 0.979565441608429,
+               "upper": 0.979565441608429
             },
             {
                "trajectory": "M_ppap_e_state",
                "timepoint": 20.0,
-               "lower": 0.08808597922325134,
-               "upper": 0.08808597922325134
+               "lower": 0.9750397801399231,
+               "upper": 0.9750397801399231
             },
             {
                "trajectory": "M_ppap_e_state",
                "timepoint": 30.0,
-               "lower": 0.08144894987344742,
-               "upper": 0.08144894987344742
+               "lower": 0.9747858047485352,
+               "upper": 0.9747858047485352
             },
             {
                "trajectory": "M_ppap_e_state",
                "timepoint": 40.0,
-               "lower": 0.07777614146471024,
-               "upper": 0.07777614146471024
+               "lower": 0.9747693538665771,
+               "upper": 0.9747693538665771
             },
             {
                "trajectory": "M_ppap_e_state",
                "timepoint": 50.0,
-               "lower": 0.07539286464452744,
-               "upper": 0.07539286464452744
+               "lower": 0.9747681021690369,
+               "upper": 0.9747681021690369
             },
             {
                "trajectory": "M_ppap_e_state",
                "timepoint": 60.0,
-               "lower": 0.07367845624685287,
-               "upper": 0.07367845624685287
+               "lower": 0.9747681021690369,
+               "upper": 0.9747681021690369
             },
             {
                "trajectory": "M_ppap_e_state",
                "timepoint": 70.0,
-               "lower": 0.07236425578594208,
-               "upper": 0.07236425578594208
+               "lower": 0.9747681021690369,
+               "upper": 0.9747681021690369
             },
             {
                "trajectory": "M_ppap_e_state",
                "timepoint": 80.0,
-               "lower": 0.07131864130496979,
-               "upper": 0.07131864130496979
+               "lower": 0.9747681021690369,
+               "upper": 0.9747681021690369
             },
             {
                "trajectory": "M_ppap_e_state",
                "timepoint": 90.0,
-               "lower": 0.07046851515769958,
-               "upper": 0.07046851515769958
+               "lower": 0.9747681021690369,
+               "upper": 0.9747681021690369
             },
             {
                "trajectory": "M_ppap_e_state",
                "timepoint": 100.0,
-               "lower": 0.06976834684610367,
-               "upper": 0.06976834684610367
+               "lower": 0.9747681021690369,
+               "upper": 0.9747681021690369
             },
             {
                "trajectory": "M_ptrc_e_state",
@@ -1802,62 +1802,62 @@
             {
                "trajectory": "M_ptrc_e_state",
                "timepoint": 10.0,
-               "lower": 1.0377179384231567,
-               "upper": 1.0377179384231567
+               "lower": 0.43880221247673035,
+               "upper": 0.43880221247673035
             },
             {
                "trajectory": "M_ptrc_e_state",
                "timepoint": 20.0,
-               "lower": 1.3202764987945557,
-               "upper": 1.3202764987945557
+               "lower": 0.43752843141555786,
+               "upper": 0.43752843141555786
             },
             {
                "trajectory": "M_ptrc_e_state",
                "timepoint": 30.0,
-               "lower": 1.534545660018921,
-               "upper": 1.534545660018921
+               "lower": 0.43754273653030396,
+               "upper": 0.43754273653030396
             },
             {
                "trajectory": "M_ptrc_e_state",
                "timepoint": 40.0,
-               "lower": 1.709079623222351,
-               "upper": 1.709079623222351
+               "lower": 0.43754708766937256,
+               "upper": 0.43754708766937256
             },
             {
                "trajectory": "M_ptrc_e_state",
                "timepoint": 50.0,
-               "lower": 1.8550188541412354,
-               "upper": 1.8550188541412354
+               "lower": 0.4375472962856293,
+               "upper": 0.4375472962856293
             },
             {
                "trajectory": "M_ptrc_e_state",
                "timepoint": 60.0,
-               "lower": 1.9785796403884888,
-               "upper": 1.9785796403884888
+               "lower": 0.4375472962856293,
+               "upper": 0.4375472962856293
             },
             {
                "trajectory": "M_ptrc_e_state",
                "timepoint": 70.0,
-               "lower": 2.0839169025421143,
-               "upper": 2.0839169025421143
+               "lower": 0.4375472962856293,
+               "upper": 0.4375472962856293
             },
             {
                "trajectory": "M_ptrc_e_state",
                "timepoint": 80.0,
-               "lower": 2.1741089820861816,
-               "upper": 2.1741089820861816
+               "lower": 0.4375472962856293,
+               "upper": 0.4375472962856293
             },
             {
                "trajectory": "M_ptrc_e_state",
                "timepoint": 90.0,
-               "lower": 2.251575469970703,
-               "upper": 2.251575469970703
+               "lower": 0.4375472962856293,
+               "upper": 0.4375472962856293
             },
             {
                "trajectory": "M_ptrc_e_state",
                "timepoint": 100.0,
-               "lower": 2.318267345428467,
-               "upper": 2.318267345428467
+               "lower": 0.4375472962856293,
+               "upper": 0.4375472962856293
             },
             {
                "trajectory": "M_pydxn_e_state",
@@ -1868,62 +1868,62 @@
             {
                "trajectory": "M_pydxn_e_state",
                "timepoint": 10.0,
-               "lower": 0.7027818560600281,
-               "upper": 0.7027818560600281
+               "lower": 1.125627875328064,
+               "upper": 1.125627875328064
             },
             {
                "trajectory": "M_pydxn_e_state",
                "timepoint": 20.0,
-               "lower": 1.010742425918579,
-               "upper": 1.010742425918579
+               "lower": 1.1547592878341675,
+               "upper": 1.1547592878341675
             },
             {
                "trajectory": "M_pydxn_e_state",
                "timepoint": 30.0,
-               "lower": 1.2169184684753418,
-               "upper": 1.2169184684753418
+               "lower": 1.1553459167480469,
+               "upper": 1.1553459167480469
             },
             {
                "trajectory": "M_pydxn_e_state",
                "timepoint": 40.0,
-               "lower": 1.3628733158111572,
-               "upper": 1.3628733158111572
+               "lower": 1.1553354263305664,
+               "upper": 1.1553354263305664
             },
             {
                "trajectory": "M_pydxn_e_state",
                "timepoint": 50.0,
-               "lower": 1.4679903984069824,
-               "upper": 1.4679903984069824
+               "lower": 1.1553332805633545,
+               "upper": 1.1553332805633545
             },
             {
                "trajectory": "M_pydxn_e_state",
                "timepoint": 60.0,
-               "lower": 1.543866753578186,
-               "upper": 1.543866753578186
+               "lower": 1.1553332805633545,
+               "upper": 1.1553332805633545
             },
             {
                "trajectory": "M_pydxn_e_state",
                "timepoint": 70.0,
-               "lower": 1.5982799530029297,
-               "upper": 1.5982799530029297
+               "lower": 1.1553332805633545,
+               "upper": 1.1553332805633545
             },
             {
                "trajectory": "M_pydxn_e_state",
                "timepoint": 80.0,
-               "lower": 1.6367645263671875,
-               "upper": 1.6367645263671875
+               "lower": 1.1553332805633545,
+               "upper": 1.1553332805633545
             },
             {
                "trajectory": "M_pydxn_e_state",
                "timepoint": 90.0,
-               "lower": 1.663390874862671,
-               "upper": 1.663390874862671
+               "lower": 1.1553332805633545,
+               "upper": 1.1553332805633545
             },
             {
                "trajectory": "M_pydxn_e_state",
                "timepoint": 100.0,
-               "lower": 1.6812039613723755,
-               "upper": 1.6812039613723755
+               "lower": 1.1553332805633545,
+               "upper": 1.1553332805633545
             },
             {
                "trajectory": "M_rib__D_e_state",
@@ -1934,62 +1934,62 @@
             {
                "trajectory": "M_rib__D_e_state",
                "timepoint": 10.0,
-               "lower": 2.513030529022217,
-               "upper": 2.513030529022217
+               "lower": 0.49415671825408936,
+               "upper": 0.49415671825408936
             },
             {
                "trajectory": "M_rib__D_e_state",
                "timepoint": 20.0,
-               "lower": 3.1290628910064697,
-               "upper": 3.1290628910064697
+               "lower": 0.492808073759079,
+               "upper": 0.492808073759079
             },
             {
                "trajectory": "M_rib__D_e_state",
                "timepoint": 30.0,
-               "lower": 3.2932517528533936,
-               "upper": 3.2932517528533936
+               "lower": 0.49275416135787964,
+               "upper": 0.49275416135787964
             },
             {
                "trajectory": "M_rib__D_e_state",
                "timepoint": 40.0,
-               "lower": 3.2976341247558594,
-               "upper": 3.2976341247558594
+               "lower": 0.4927513599395752,
+               "upper": 0.4927513599395752
             },
             {
                "trajectory": "M_rib__D_e_state",
                "timepoint": 50.0,
-               "lower": 3.246682643890381,
-               "upper": 3.246682643890381
+               "lower": 0.49275124073028564,
+               "upper": 0.49275124073028564
             },
             {
                "trajectory": "M_rib__D_e_state",
                "timepoint": 60.0,
-               "lower": 3.181067705154419,
-               "upper": 3.181067705154419
+               "lower": 0.49275124073028564,
+               "upper": 0.49275124073028564
             },
             {
                "trajectory": "M_rib__D_e_state",
                "timepoint": 70.0,
-               "lower": 3.116492748260498,
-               "upper": 3.116492748260498
+               "lower": 0.49275124073028564,
+               "upper": 0.49275124073028564
             },
             {
                "trajectory": "M_rib__D_e_state",
                "timepoint": 80.0,
-               "lower": 3.0584726333618164,
-               "upper": 3.0584726333618164
+               "lower": 0.49275124073028564,
+               "upper": 0.49275124073028564
             },
             {
                "trajectory": "M_rib__D_e_state",
                "timepoint": 90.0,
-               "lower": 3.008354425430298,
-               "upper": 3.008354425430298
+               "lower": 0.49275124073028564,
+               "upper": 0.49275124073028564
             },
             {
                "trajectory": "M_rib__D_e_state",
                "timepoint": 100.0,
-               "lower": 2.965852737426758,
-               "upper": 2.965852737426758
+               "lower": 0.49275124073028564,
+               "upper": 0.49275124073028564
             },
             {
                "trajectory": "M_s_e_state",
@@ -2000,62 +2000,62 @@
             {
                "trajectory": "M_s_e_state",
                "timepoint": 10.0,
-               "lower": 0.21042661368846893,
-               "upper": 0.21042661368846893
+               "lower": 0.31433814764022827,
+               "upper": 0.31433814764022827
             },
             {
                "trajectory": "M_s_e_state",
                "timepoint": 20.0,
-               "lower": 0.17706400156021118,
-               "upper": 0.17706400156021118
+               "lower": 0.3134334087371826,
+               "upper": 0.3134334087371826
             },
             {
                "trajectory": "M_s_e_state",
                "timepoint": 30.0,
-               "lower": 0.1638130098581314,
-               "upper": 0.1638130098581314
+               "lower": 0.31339389085769653,
+               "upper": 0.31339389085769653
             },
             {
                "trajectory": "M_s_e_state",
                "timepoint": 40.0,
-               "lower": 0.15628795325756073,
-               "upper": 0.15628795325756073
+               "lower": 0.31339171528816223,
+               "upper": 0.31339171528816223
             },
             {
                "trajectory": "M_s_e_state",
                "timepoint": 50.0,
-               "lower": 0.15122555196285248,
-               "upper": 0.15122555196285248
+               "lower": 0.3133915662765503,
+               "upper": 0.3133915662765503
             },
             {
                "trajectory": "M_s_e_state",
                "timepoint": 60.0,
-               "lower": 0.14749278128147125,
-               "upper": 0.14749278128147125
+               "lower": 0.3133915662765503,
+               "upper": 0.3133915662765503
             },
             {
                "trajectory": "M_s_e_state",
                "timepoint": 70.0,
-               "lower": 0.1445939838886261,
-               "upper": 0.1445939838886261
+               "lower": 0.3133915662765503,
+               "upper": 0.3133915662765503
             },
             {
                "trajectory": "M_s_e_state",
                "timepoint": 80.0,
-               "lower": 0.14227528870105743,
-               "upper": 0.14227528870105743
+               "lower": 0.3133915662765503,
+               "upper": 0.3133915662765503
             },
             {
                "trajectory": "M_s_e_state",
                "timepoint": 90.0,
-               "lower": 0.1403878629207611,
-               "upper": 0.1403878629207611
+               "lower": 0.3133915662765503,
+               "upper": 0.3133915662765503
             },
             {
                "trajectory": "M_s_e_state",
                "timepoint": 100.0,
-               "lower": 0.13883467018604279,
-               "upper": 0.13883467018604279
+               "lower": 0.3133915662765503,
+               "upper": 0.3133915662765503
             },
             {
                "trajectory": "M_ser__L_e_state",
@@ -2066,62 +2066,62 @@
             {
                "trajectory": "M_ser__L_e_state",
                "timepoint": 10.0,
-               "lower": 0.5271239876747131,
-               "upper": 0.5271239876747131
+               "lower": 0.28242895007133484,
+               "upper": 0.28242895007133484
             },
             {
                "trajectory": "M_ser__L_e_state",
                "timepoint": 20.0,
-               "lower": 0.43491336703300476,
-               "upper": 0.43491336703300476
+               "lower": 0.28005778789520264,
+               "upper": 0.28005778789520264
             },
             {
                "trajectory": "M_ser__L_e_state",
                "timepoint": 30.0,
-               "lower": 0.37963974475860596,
-               "upper": 0.37963974475860596
+               "lower": 0.2799593508243561,
+               "upper": 0.2799593508243561
             },
             {
                "trajectory": "M_ser__L_e_state",
                "timepoint": 40.0,
-               "lower": 0.34895059466362,
-               "upper": 0.34895059466362
+               "lower": 0.27995359897613525,
+               "upper": 0.27995359897613525
             },
             {
                "trajectory": "M_ser__L_e_state",
                "timepoint": 50.0,
-               "lower": 0.3307565152645111,
-               "upper": 0.3307565152645111
+               "lower": 0.2799532413482666,
+               "upper": 0.2799532413482666
             },
             {
                "trajectory": "M_ser__L_e_state",
                "timepoint": 60.0,
-               "lower": 0.3188924491405487,
-               "upper": 0.3188924491405487
+               "lower": 0.2799532413482666,
+               "upper": 0.2799532413482666
             },
             {
                "trajectory": "M_ser__L_e_state",
                "timepoint": 70.0,
-               "lower": 0.3104676902294159,
-               "upper": 0.3104676902294159
+               "lower": 0.2799532413482666,
+               "upper": 0.2799532413482666
             },
             {
                "trajectory": "M_ser__L_e_state",
                "timepoint": 80.0,
-               "lower": 0.30410468578338623,
-               "upper": 0.30410468578338623
+               "lower": 0.2799532413482666,
+               "upper": 0.2799532413482666
             },
             {
                "trajectory": "M_ser__L_e_state",
                "timepoint": 90.0,
-               "lower": 0.2991041839122772,
-               "upper": 0.2991041839122772
+               "lower": 0.2799532413482666,
+               "upper": 0.2799532413482666
             },
             {
                "trajectory": "M_ser__L_e_state",
                "timepoint": 100.0,
-               "lower": 0.2950768768787384,
-               "upper": 0.2950768768787384
+               "lower": 0.2799532413482666,
+               "upper": 0.2799532413482666
             },
             {
                "trajectory": "M_ura_e_state",
@@ -2132,62 +2132,62 @@
             {
                "trajectory": "M_ura_e_state",
                "timepoint": 10.0,
-               "lower": 1.3482227325439453,
-               "upper": 1.3482227325439453
+               "lower": 0.8857688903808594,
+               "upper": 0.8857688903808594
             },
             {
                "trajectory": "M_ura_e_state",
                "timepoint": 20.0,
-               "lower": 1.2488694190979004,
-               "upper": 1.2488694190979004
+               "lower": 0.8776051998138428,
+               "upper": 0.8776051998138428
             },
             {
                "trajectory": "M_ura_e_state",
                "timepoint": 30.0,
-               "lower": 1.142993688583374,
-               "upper": 1.142993688583374
+               "lower": 0.8770923614501953,
+               "upper": 0.8770923614501953
             },
             {
                "trajectory": "M_ura_e_state",
                "timepoint": 40.0,
-               "lower": 1.0623522996902466,
-               "upper": 1.0623522996902466
+               "lower": 0.8770620822906494,
+               "upper": 0.8770620822906494
             },
             {
                "trajectory": "M_ura_e_state",
                "timepoint": 50.0,
-               "lower": 1.0045709609985352,
-               "upper": 1.0045709609985352
+               "lower": 0.8770602941513062,
+               "upper": 0.8770602941513062
             },
             {
                "trajectory": "M_ura_e_state",
                "timepoint": 60.0,
-               "lower": 0.9632078409194946,
-               "upper": 0.9632078409194946
+               "lower": 0.8770602941513062,
+               "upper": 0.8770602941513062
             },
             {
                "trajectory": "M_ura_e_state",
                "timepoint": 70.0,
-               "lower": 0.9329838752746582,
-               "upper": 0.9329838752746582
+               "lower": 0.8770602941513062,
+               "upper": 0.8770602941513062
             },
             {
                "trajectory": "M_ura_e_state",
                "timepoint": 80.0,
-               "lower": 0.9102874398231506,
-               "upper": 0.9102874398231506
+               "lower": 0.8770602941513062,
+               "upper": 0.8770602941513062
             },
             {
                "trajectory": "M_ura_e_state",
                "timepoint": 90.0,
-               "lower": 0.8927839994430542,
-               "upper": 0.8927839994430542
+               "lower": 0.8770602941513062,
+               "upper": 0.8770602941513062
             },
             {
                "trajectory": "M_ura_e_state",
                "timepoint": 100.0,
-               "lower": 0.8789733648300171,
-               "upper": 0.8789733648300171
+               "lower": 0.8770602941513062,
+               "upper": 0.8770602941513062
             },
             {
                "trajectory": "M_urea_e_state",
@@ -2198,62 +2198,62 @@
             {
                "trajectory": "M_urea_e_state",
                "timepoint": 10.0,
-               "lower": 0.7340710163116455,
-               "upper": 0.7340710163116455
+               "lower": 0.5874085426330566,
+               "upper": 0.5874085426330566
             },
             {
                "trajectory": "M_urea_e_state",
                "timepoint": 20.0,
-               "lower": 0.6474641561508179,
-               "upper": 0.6474641561508179
+               "lower": 0.5861664414405823,
+               "upper": 0.5861664414405823
             },
             {
                "trajectory": "M_urea_e_state",
                "timepoint": 30.0,
-               "lower": 0.5798959732055664,
-               "upper": 0.5798959732055664
+               "lower": 0.5860756635665894,
+               "upper": 0.5860756635665894
             },
             {
                "trajectory": "M_urea_e_state",
                "timepoint": 40.0,
-               "lower": 0.5400694608688354,
-               "upper": 0.5400694608688354
+               "lower": 0.5860726833343506,
+               "upper": 0.5860726833343506
             },
             {
                "trajectory": "M_urea_e_state",
                "timepoint": 50.0,
-               "lower": 0.5155249834060669,
-               "upper": 0.5155249834060669
+               "lower": 0.5860725045204163,
+               "upper": 0.5860725045204163
             },
             {
                "trajectory": "M_urea_e_state",
                "timepoint": 60.0,
-               "lower": 0.4989476501941681,
-               "upper": 0.4989476501941681
+               "lower": 0.5860725045204163,
+               "upper": 0.5860725045204163
             },
             {
                "trajectory": "M_urea_e_state",
                "timepoint": 70.0,
-               "lower": 0.48683223128318787,
-               "upper": 0.48683223128318787
+               "lower": 0.5860725045204163,
+               "upper": 0.5860725045204163
             },
             {
                "trajectory": "M_urea_e_state",
                "timepoint": 80.0,
-               "lower": 0.47749340534210205,
-               "upper": 0.47749340534210205
+               "lower": 0.5860725045204163,
+               "upper": 0.5860725045204163
             },
             {
                "trajectory": "M_urea_e_state",
                "timepoint": 90.0,
-               "lower": 0.47005486488342285,
-               "upper": 0.47005486488342285
+               "lower": 0.5860725045204163,
+               "upper": 0.5860725045204163
             },
             {
                "trajectory": "M_urea_e_state",
                "timepoint": 100.0,
-               "lower": 0.46401339769363403,
-               "upper": 0.46401339769363403
+               "lower": 0.5860725045204163,
+               "upper": 0.5860725045204163
             },
             {
                "trajectory": "M_xyl__D_e_state",
@@ -2264,62 +2264,62 @@
             {
                "trajectory": "M_xyl__D_e_state",
                "timepoint": 10.0,
-               "lower": 0.3238987624645233,
-               "upper": 0.3238987624645233
+               "lower": 1.0053882598876953,
+               "upper": 1.0053882598876953
             },
             {
                "trajectory": "M_xyl__D_e_state",
                "timepoint": 20.0,
-               "lower": 0.2646738290786743,
-               "upper": 0.2646738290786743
+               "lower": 1.0430095195770264,
+               "upper": 1.0430095195770264
             },
             {
                "trajectory": "M_xyl__D_e_state",
                "timepoint": 30.0,
-               "lower": 0.24641501903533936,
-               "upper": 0.24641501903533936
+               "lower": 1.0457803010940552,
+               "upper": 1.0457803010940552
             },
             {
                "trajectory": "M_xyl__D_e_state",
                "timepoint": 40.0,
-               "lower": 0.23611946403980255,
-               "upper": 0.23611946403980255
+               "lower": 1.0459946393966675,
+               "upper": 1.0459946393966675
             },
             {
                "trajectory": "M_xyl__D_e_state",
                "timepoint": 50.0,
-               "lower": 0.22879275679588318,
-               "upper": 0.22879275679588318
+               "lower": 1.0460114479064941,
+               "upper": 1.0460114479064941
             },
             {
                "trajectory": "M_xyl__D_e_state",
                "timepoint": 60.0,
-               "lower": 0.22312337160110474,
-               "upper": 0.22312337160110474
+               "lower": 1.0460114479064941,
+               "upper": 1.0460114479064941
             },
             {
                "trajectory": "M_xyl__D_e_state",
                "timepoint": 70.0,
-               "lower": 0.21857808530330658,
-               "upper": 0.21857808530330658
+               "lower": 1.0460114479064941,
+               "upper": 1.0460114479064941
             },
             {
                "trajectory": "M_xyl__D_e_state",
                "timepoint": 80.0,
-               "lower": 0.2148727923631668,
-               "upper": 0.2148727923631668
+               "lower": 1.0460114479064941,
+               "upper": 1.0460114479064941
             },
             {
                "trajectory": "M_xyl__D_e_state",
                "timepoint": 90.0,
-               "lower": 0.21182389557361603,
-               "upper": 0.21182389557361603
+               "lower": 1.0460114479064941,
+               "upper": 1.0460114479064941
             },
             {
                "trajectory": "M_xyl__D_e_state",
                "timepoint": 100.0,
-               "lower": 0.20930060744285583,
-               "upper": 0.20930060744285583
+               "lower": 1.0460114479064941,
+               "upper": 1.0460114479064941
             },
             {
                "trajectory": "M_xylan4_e_state",
@@ -2330,62 +2330,62 @@
             {
                "trajectory": "M_xylan4_e_state",
                "timepoint": 10.0,
-               "lower": 0.13673433661460876,
-               "upper": 0.13673433661460876
+               "lower": 0.2151564359664917,
+               "upper": 0.2151564359664917
             },
             {
                "trajectory": "M_xylan4_e_state",
                "timepoint": 20.0,
-               "lower": 0.11570107936859131,
-               "upper": 0.11570107936859131
+               "lower": 0.21426928043365479,
+               "upper": 0.21426928043365479
             },
             {
                "trajectory": "M_xylan4_e_state",
                "timepoint": 30.0,
-               "lower": 0.1073097512125969,
-               "upper": 0.1073097512125969
+               "lower": 0.21422475576400757,
+               "upper": 0.21422475576400757
             },
             {
                "trajectory": "M_xylan4_e_state",
                "timepoint": 40.0,
-               "lower": 0.10254070162773132,
-               "upper": 0.10254070162773132
+               "lower": 0.21422205865383148,
+               "upper": 0.21422205865383148
             },
             {
                "trajectory": "M_xylan4_e_state",
                "timepoint": 50.0,
-               "lower": 0.09932739287614822,
-               "upper": 0.09932739287614822
+               "lower": 0.21422182023525238,
+               "upper": 0.21422182023525238
             },
             {
                "trajectory": "M_xylan4_e_state",
                "timepoint": 60.0,
-               "lower": 0.09695097804069519,
-               "upper": 0.09695097804069519
+               "lower": 0.21422170102596283,
+               "upper": 0.21422170102596283
             },
             {
                "trajectory": "M_xylan4_e_state",
                "timepoint": 70.0,
-               "lower": 0.09509974718093872,
-               "upper": 0.09509974718093872
+               "lower": 0.21422173082828522,
+               "upper": 0.21422173082828522
             },
             {
                "trajectory": "M_xylan4_e_state",
                "timepoint": 80.0,
-               "lower": 0.09361426532268524,
-               "upper": 0.09361426532268524
+               "lower": 0.2142217606306076,
+               "upper": 0.2142217606306076
             },
             {
                "trajectory": "M_xylan4_e_state",
                "timepoint": 90.0,
-               "lower": 0.09240242093801498,
-               "upper": 0.09240242093801498
+               "lower": 0.21422179043293,
+               "upper": 0.21422179043293
             },
             {
                "trajectory": "M_xylan4_e_state",
                "timepoint": 100.0,
-               "lower": 0.09140345454216003,
-               "upper": 0.09140345454216003
+               "lower": 0.2142218053340912,
+               "upper": 0.2142218053340912
             },
             {
                "trajectory": "csc043_state",
@@ -2396,62 +2396,62 @@
             {
                "trajectory": "csc043_state",
                "timepoint": 10.0,
-               "lower": 0.08899550139904022,
-               "upper": 0.08899550139904022
+               "lower": 0.407687783241272,
+               "upper": 0.407687783241272
             },
             {
                "trajectory": "csc043_state",
                "timepoint": 20.0,
-               "lower": 0.07596766203641891,
-               "upper": 0.07596766203641891
+               "lower": 0.40627220273017883,
+               "upper": 0.40627220273017883
             },
             {
                "trajectory": "csc043_state",
                "timepoint": 30.0,
-               "lower": 0.07062386721372604,
-               "upper": 0.07062386721372604
+               "lower": 0.4062004089355469,
+               "upper": 0.4062004089355469
             },
             {
                "trajectory": "csc043_state",
                "timepoint": 40.0,
-               "lower": 0.06754977256059647,
-               "upper": 0.06754977256059647
+               "lower": 0.40619605779647827,
+               "upper": 0.40619605779647827
             },
             {
                "trajectory": "csc043_state",
                "timepoint": 50.0,
-               "lower": 0.06546532362699509,
-               "upper": 0.06546532362699509
+               "lower": 0.406195729970932,
+               "upper": 0.406195729970932
             },
             {
                "trajectory": "csc043_state",
                "timepoint": 60.0,
-               "lower": 0.06391837447881699,
-               "upper": 0.06391837447881699
+               "lower": 0.40619608759880066,
+               "upper": 0.40619608759880066
             },
             {
                "trajectory": "csc043_state",
                "timepoint": 70.0,
-               "lower": 0.0627107247710228,
-               "upper": 0.0627107247710228
+               "lower": 0.4061957597732544,
+               "upper": 0.4061957597732544
             },
             {
                "trajectory": "csc043_state",
                "timepoint": 80.0,
-               "lower": 0.06174085661768913,
-               "upper": 0.06174085661768913
+               "lower": 0.40619590878486633,
+               "upper": 0.40619590878486633
             },
             {
                "trajectory": "csc043_state",
                "timepoint": 90.0,
-               "lower": 0.06094902381300926,
-               "upper": 0.06094902381300926
+               "lower": 0.406195729970932,
+               "upper": 0.406195729970932
             },
             {
                "trajectory": "csc043_state",
                "timepoint": 100.0,
-               "lower": 0.06029599532485008,
-               "upper": 0.06029599532485008
+               "lower": 0.40619587898254395,
+               "upper": 0.40619587898254395
             },
             {
                "trajectory": "updated_csc009_state",
@@ -2462,62 +2462,62 @@
             {
                "trajectory": "updated_csc009_state",
                "timepoint": 10.0,
-               "lower": 0.10119499266147614,
-               "upper": 0.10119499266147614
+               "lower": 0.8319303393363953,
+               "upper": 0.8319303393363953
             },
             {
                "trajectory": "updated_csc009_state",
                "timepoint": 20.0,
-               "lower": 0.08715080469846725,
-               "upper": 0.08715080469846725
+               "lower": 0.8296719193458557,
+               "upper": 0.8296719193458557
             },
             {
                "trajectory": "updated_csc009_state",
                "timepoint": 30.0,
-               "lower": 0.08097752183675766,
-               "upper": 0.08097752183675766
+               "lower": 0.8295444250106812,
+               "upper": 0.8295444250106812
             },
             {
                "trajectory": "updated_csc009_state",
                "timepoint": 40.0,
-               "lower": 0.07748862355947495,
-               "upper": 0.07748862355947495
+               "lower": 0.8295361995697021,
+               "upper": 0.8295361995697021
             },
             {
                "trajectory": "updated_csc009_state",
                "timepoint": 50.0,
-               "lower": 0.07519427686929703,
-               "upper": 0.07519427686929703
+               "lower": 0.8295355439186096,
+               "upper": 0.8295355439186096
             },
             {
                "trajectory": "updated_csc009_state",
                "timepoint": 60.0,
-               "lower": 0.07352995872497559,
-               "upper": 0.07352995872497559
+               "lower": 0.8295350074768066,
+               "upper": 0.8295350074768066
             },
             {
                "trajectory": "updated_csc009_state",
                "timepoint": 70.0,
-               "lower": 0.07224788516759872,
-               "upper": 0.07224788516759872
+               "lower": 0.8295351266860962,
+               "upper": 0.8295351266860962
             },
             {
                "trajectory": "updated_csc009_state",
                "timepoint": 80.0,
-               "lower": 0.07122477889060974,
-               "upper": 0.07122477889060974
+               "lower": 0.829535186290741,
+               "upper": 0.829535186290741
             },
             {
                "trajectory": "updated_csc009_state",
                "timepoint": 90.0,
-               "lower": 0.07039161771535873,
-               "upper": 0.07039161771535873
+               "lower": 0.8295353055000305,
+               "upper": 0.8295353055000305
             },
             {
                "trajectory": "updated_csc009_state",
                "timepoint": 100.0,
-               "lower": 0.06970471888780594,
-               "upper": 0.06970471888780594
+               "lower": 0.8295354247093201,
+               "upper": 0.8295354247093201
             },
             {
                "trajectory": "updated_csc031_state",
@@ -2528,62 +2528,62 @@
             {
                "trajectory": "updated_csc031_state",
                "timepoint": 10.0,
-               "lower": 0.20885923504829407,
-               "upper": 0.20885923504829407
+               "lower": 0.43590784072875977,
+               "upper": 0.43590784072875977
             },
             {
                "trajectory": "updated_csc031_state",
                "timepoint": 20.0,
-               "lower": 0.1851048320531845,
-               "upper": 0.1851048320531845
+               "lower": 0.4344855844974518,
+               "upper": 0.4344855844974518
             },
             {
                "trajectory": "updated_csc031_state",
                "timepoint": 30.0,
-               "lower": 0.17486824095249176,
-               "upper": 0.17486824095249176
+               "lower": 0.4344157576560974,
+               "upper": 0.4344157576560974
             },
             {
                "trajectory": "updated_csc031_state",
                "timepoint": 40.0,
-               "lower": 0.16831234097480774,
-               "upper": 0.16831234097480774
+               "lower": 0.43441155552864075,
+               "upper": 0.43441155552864075
             },
             {
                "trajectory": "updated_csc031_state",
                "timepoint": 50.0,
-               "lower": 0.16345585882663727,
-               "upper": 0.16345585882663727
+               "lower": 0.43441131711006165,
+               "upper": 0.43441131711006165
             },
             {
                "trajectory": "updated_csc031_state",
                "timepoint": 60.0,
-               "lower": 0.15963944792747498,
-               "upper": 0.15963944792747498
+               "lower": 0.4344112277030945,
+               "upper": 0.4344112277030945
             },
             {
                "trajectory": "updated_csc031_state",
                "timepoint": 70.0,
-               "lower": 0.15655842423439026,
-               "upper": 0.15655842423439026
+               "lower": 0.4344112277030945,
+               "upper": 0.4344112277030945
             },
             {
                "trajectory": "updated_csc031_state",
                "timepoint": 80.0,
-               "lower": 0.15403804183006287,
-               "upper": 0.15403804183006287
+               "lower": 0.4344112277030945,
+               "upper": 0.4344112277030945
             },
             {
                "trajectory": "updated_csc031_state",
                "timepoint": 90.0,
-               "lower": 0.15195973217487335,
-               "upper": 0.15195973217487335
+               "lower": 0.4344112277030945,
+               "upper": 0.4344112277030945
             },
             {
                "trajectory": "updated_csc031_state",
                "timepoint": 100.0,
-               "lower": 0.1502373069524765,
-               "upper": 0.1502373069524765
+               "lower": 0.4344112277030945,
+               "upper": 0.4344112277030945
             },
             {
                "trajectory": "updated_csc040_state",
@@ -2594,62 +2594,62 @@
             {
                "trajectory": "updated_csc040_state",
                "timepoint": 10.0,
-               "lower": 0.05287853255867958,
-               "upper": 0.05287853255867958
+               "lower": 0.44511064887046814,
+               "upper": 0.44511064887046814
             },
             {
                "trajectory": "updated_csc040_state",
                "timepoint": 20.0,
-               "lower": 0.04487842693924904,
-               "upper": 0.04487842693924904
+               "lower": 0.44352850317955017,
+               "upper": 0.44352850317955017
             },
             {
                "trajectory": "updated_csc040_state",
                "timepoint": 30.0,
-               "lower": 0.04151983931660652,
-               "upper": 0.04151983931660652
+               "lower": 0.4434465169906616,
+               "upper": 0.4434465169906616
             },
             {
                "trajectory": "updated_csc040_state",
                "timepoint": 40.0,
-               "lower": 0.0395730622112751,
-               "upper": 0.0395730622112751
+               "lower": 0.4434414505958557,
+               "upper": 0.4434414505958557
             },
             {
                "trajectory": "updated_csc040_state",
                "timepoint": 50.0,
-               "lower": 0.03825543075799942,
-               "upper": 0.03825543075799942
+               "lower": 0.4434409439563751,
+               "upper": 0.4434409439563751
             },
             {
                "trajectory": "updated_csc040_state",
                "timepoint": 60.0,
-               "lower": 0.03728429600596428,
-               "upper": 0.03728429600596428
+               "lower": 0.44344067573547363,
+               "upper": 0.44344067573547363
             },
             {
                "trajectory": "updated_csc040_state",
                "timepoint": 70.0,
-               "lower": 0.036532241851091385,
-               "upper": 0.036532241851091385
+               "lower": 0.4434407353401184,
+               "upper": 0.4434407353401184
             },
             {
                "trajectory": "updated_csc040_state",
                "timepoint": 80.0,
-               "lower": 0.03593270480632782,
-               "upper": 0.03593270480632782
+               "lower": 0.4434407949447632,
+               "upper": 0.4434407949447632
             },
             {
                "trajectory": "updated_csc040_state",
                "timepoint": 90.0,
-               "lower": 0.03544602915644646,
-               "upper": 0.03544602915644646
+               "lower": 0.44344085454940796,
+               "upper": 0.44344085454940796
             },
             {
                "trajectory": "updated_csc040_state",
                "timepoint": 100.0,
-               "lower": 0.03504635766148567,
-               "upper": 0.03504635766148567
+               "lower": 0.44344088435173035,
+               "upper": 0.44344088435173035
             },
             {
                "trajectory": "updated_csc052_state",
@@ -2660,62 +2660,62 @@
             {
                "trajectory": "updated_csc052_state",
                "timepoint": 10.0,
-               "lower": 0.13320443034172058,
-               "upper": 0.13320443034172058
+               "lower": 0.3000035285949707,
+               "upper": 0.3000035285949707
             },
             {
                "trajectory": "updated_csc052_state",
                "timepoint": 20.0,
-               "lower": 0.111805759370327,
-               "upper": 0.111805759370327
+               "lower": 0.29988887906074524,
+               "upper": 0.29988887906074524
             },
             {
                "trajectory": "updated_csc052_state",
                "timepoint": 30.0,
-               "lower": 0.10358969122171402,
-               "upper": 0.10358969122171402
+               "lower": 0.2999024987220764,
+               "upper": 0.2999024987220764
             },
             {
                "trajectory": "updated_csc052_state",
                "timepoint": 40.0,
-               "lower": 0.09895547479391098,
-               "upper": 0.09895547479391098
+               "lower": 0.29990434646606445,
+               "upper": 0.29990434646606445
             },
             {
                "trajectory": "updated_csc052_state",
                "timepoint": 50.0,
-               "lower": 0.09583085775375366,
-               "upper": 0.09583085775375366
+               "lower": 0.29990440607070923,
+               "upper": 0.29990440607070923
             },
             {
                "trajectory": "updated_csc052_state",
                "timepoint": 60.0,
-               "lower": 0.09351687878370285,
-               "upper": 0.09351687878370285
+               "lower": 0.29990440607070923,
+               "upper": 0.29990440607070923
             },
             {
                "trajectory": "updated_csc052_state",
                "timepoint": 70.0,
-               "lower": 0.09171216934919357,
-               "upper": 0.09171216934919357
+               "lower": 0.29990440607070923,
+               "upper": 0.29990440607070923
             },
             {
                "trajectory": "updated_csc052_state",
                "timepoint": 80.0,
-               "lower": 0.09026418626308441,
-               "upper": 0.09026418626308441
+               "lower": 0.29990440607070923,
+               "upper": 0.29990440607070923
             },
             {
                "trajectory": "updated_csc052_state",
                "timepoint": 90.0,
-               "lower": 0.08908253163099289,
-               "upper": 0.08908253163099289
+               "lower": 0.29990440607070923,
+               "upper": 0.29990440607070923
             },
             {
                "trajectory": "updated_csc052_state",
                "timepoint": 100.0,
-               "lower": 0.08810845762491226,
-               "upper": 0.08810845762491226
+               "lower": 0.29990440607070923,
+               "upper": 0.29990440607070923
             }
          ],
          "transform": [
