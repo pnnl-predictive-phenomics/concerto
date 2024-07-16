@@ -5,38 +5,38 @@
       <compartment sboTerm="SBO:0000410" id="default_compartment" spatialDimensions="3" size="1" constant="true"/>
     </listOfCompartments>
     <listOfSpecies>
-      <species id="updated_csc031" compartment="default_compartment" initialAmount="0.461479362252932" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="M_arg__L_e" compartment="default_compartment" initialAmount="0.925596638292661" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="updated_csc009" compartment="default_compartment" initialAmount="0.118274425868933" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="M_gua_e" compartment="default_compartment" initialAmount="0.77815675094985" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="M_h2s_e" compartment="default_compartment" initialAmount="0.780529176286455" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="M_hom__L_e" compartment="default_compartment" initialAmount="0.528894919752904" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="M_nh4_e" compartment="default_compartment" initialAmount="0.548813503927325" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="M_orn_e" compartment="default_compartment" initialAmount="0.639921021327524" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="updated_csc040" compartment="default_compartment" initialAmount="0.791725038082665" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="M_4abut_e" compartment="default_compartment" initialAmount="0.414661939990524" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="M_asp__L_e" compartment="default_compartment" initialAmount="0.568044561093932" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="M_fe3_e" compartment="default_compartment" initialAmount="0.832619845547938" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="M_fe3pyovd_kt_e" compartment="default_compartment" initialAmount="0.0871292997015407" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="M_glu__L_e" compartment="default_compartment" initialAmount="0.383441518825778" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="M_pi_e" compartment="default_compartment" initialAmount="0.544883182996897" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="M_pydxn_e" compartment="default_compartment" initialAmount="0.423654799338905" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="M_s_e" compartment="default_compartment" initialAmount="0.645894113066656" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="M_ser__L_e" compartment="default_compartment" initialAmount="0.143353287409046" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="M_urea_e" compartment="default_compartment" initialAmount="0.521848321750072" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="updated_csc052" compartment="default_compartment" initialAmount="0.0202183974403257" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="M_gthrd_e" compartment="default_compartment" initialAmount="0.799158564216724" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="M_ptrc_e" compartment="default_compartment" initialAmount="0.870012148246819" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="csc043" compartment="default_compartment" initialAmount="0.978618342232764" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="M_xylan4_e" compartment="default_compartment" initialAmount="0.774233689434217" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="M_glyald_e" compartment="default_compartment" initialAmount="0.437587211262693" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="M_glyc_e" compartment="default_compartment" initialAmount="0.89177300078208" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="M_rib__D_e" compartment="default_compartment" initialAmount="0.963662760501029" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="M_lys__L_e" compartment="default_compartment" initialAmount="0.0710360581978869" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="M_o2_e" compartment="default_compartment" initialAmount="0.264555612104627" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="M_ura_e" compartment="default_compartment" initialAmount="0.715189366372419" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="M_xyl__D_e" compartment="default_compartment" initialAmount="0.602763376071644" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="M_ppap_e" compartment="default_compartment" initialAmount="0.944668917049584" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="updated_csc031" compartment="default_compartment" initialAmount="0.383441518825778" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_arg__L_e" compartment="default_compartment" initialAmount="0.715189366372419" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="updated_csc009" compartment="default_compartment" initialAmount="0.639921021327524" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_gua_e" compartment="default_compartment" initialAmount="0.118274425868933" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_h2s_e" compartment="default_compartment" initialAmount="0.461479362252932" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_hom__L_e" compartment="default_compartment" initialAmount="0.645894113066656" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_nh4_e" compartment="default_compartment" initialAmount="0.799158564216724" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_orn_e" compartment="default_compartment" initialAmount="0.780529176286455" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="updated_csc040" compartment="default_compartment" initialAmount="0.870012148246819" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_4abut_e" compartment="default_compartment" initialAmount="0.0202183974403257" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_asp__L_e" compartment="default_compartment" initialAmount="0.0710360581978869" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_fe3_e" compartment="default_compartment" initialAmount="0.548813503927325" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_fe3pyovd_kt_e" compartment="default_compartment" initialAmount="0.568044561093932" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_glu__L_e" compartment="default_compartment" initialAmount="0.143353287409046" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_pi_e" compartment="default_compartment" initialAmount="0.528894919752904" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_pydxn_e" compartment="default_compartment" initialAmount="0.521848321750072" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_s_e" compartment="default_compartment" initialAmount="0.978618342232764" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_ser__L_e" compartment="default_compartment" initialAmount="0.77815675094985" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_urea_e" compartment="default_compartment" initialAmount="0.602763376071644" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="updated_csc052" compartment="default_compartment" initialAmount="0.423654799338905" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_gthrd_e" compartment="default_compartment" initialAmount="0.832619845547938" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_ptrc_e" compartment="default_compartment" initialAmount="0.414661939990524" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="csc043" compartment="default_compartment" initialAmount="0.264555612104627" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_xylan4_e" compartment="default_compartment" initialAmount="0.925596638292661" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_glyald_e" compartment="default_compartment" initialAmount="0.944668917049584" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_glyc_e" compartment="default_compartment" initialAmount="0.774233689434217" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_rib__D_e" compartment="default_compartment" initialAmount="0.0871292997015407" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_lys__L_e" compartment="default_compartment" initialAmount="0.544883182996897" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_o2_e" compartment="default_compartment" initialAmount="0.791725038082665" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_ura_e" compartment="default_compartment" initialAmount="0.963662760501029" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_xyl__D_e" compartment="default_compartment" initialAmount="0.437587211262693" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_ppap_e" compartment="default_compartment" initialAmount="0.89177300078208" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
     </listOfSpecies>
     <listOfParameters>
       <parameter id="k_d0" value="0.333333333333333" constant="true"/>
