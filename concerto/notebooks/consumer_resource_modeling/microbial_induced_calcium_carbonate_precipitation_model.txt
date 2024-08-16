@@ -3,27 +3,27 @@ model MICP
 
   const water;
 
-  // Reaction 1: Ureolysis
+  // Reaction 1: Ureolysis (irreversible)
   reaction_ureolysis: urea + $water => 2 ammonia + carbon_dioxide; (V_max_urease*urea)/(K_m_urease + urea);  // Michaelis-Menton (water in excess and fixed);
 
   // Reaction 2: Protonation of Ammonia
-  reaction_protonation_NH3: 2 ammonia + 2 water -> 2 ammonium + 2 hydroxide; k2f * ammonia^2 * water^2 - k2r * ammonium^2 * hydroxide^2;
+  reaction_protonation_NH3: 2 ammonia + 2 $water -> 2 ammonium + 2 hydroxide; k2f * ammonia^2 * water^2 - k2r * ammonium^2 * hydroxide^2;
 
-  // Reaction 3: CO2 Hydrolysis
-  reaction_CO2_hydrolysis: carbon_dioxide + water -> carbonic_acid; (K_cat_CA*CA_conc*carbon_dioxide)/(K_m_CA + carbon_dioxide);   // Michaelis-Menton;
+  // Reaction 3: CO2 Hydrolysis (irreversible)
+  reaction_CO2_hydrolysis: carbon_dioxide + $water => carbonic_acid; (K_cat_CA*CA_conc*carbon_dioxide)/(K_m_CA + carbon_dioxide);   // Michaelis-Menton;
 
   // Reaction 4: Dissociation of Carbonic Acid
-  reaction_dissociation_H2CO3: carbonic_acid + hydroxide -> bicarbonate + water; k4f * carbonic_acid * hydroxide - k4r * bicarbonate * water;
+  reaction_dissociation_H2CO3: carbonic_acid + hydroxide -> bicarbonate + $water; k4f * carbonic_acid * hydroxide - k4r * bicarbonate * water;
 
   // Reaction 5: Dissociation of Bicarbonate
-  reaction_dissociation_HCO3: bicarbonate + hydroxide -> carbonate + water; k5f * bicarbonate * hydroxide - k5r * carbonate * water;
+  reaction_dissociation_HCO3: bicarbonate + hydroxide -> carbonate + $water; k5f * bicarbonate * hydroxide - k5r * carbonate * water;
 
   // Reaction 6: CaCO3 Precipitation/Dissolution
   reaction_CaCO3_precipitation: carbonate + calcium_ion -> calcium_carbonate; k6f * carbonate * calcium_ion - k6r * calcium_carbonate;
 
   // Set initial concentrations for species
   urea = 0.33;                      // Initial concentration for urea
-  water = 55;                       // Initial concentration for water
+  water = 55.0;                       // Initial concentration for water
   ammonia = 1e-5;                      // Initial concentration for ammonia
   carbon_dioxide = 1e-5;               // Initial concentration for carbon dioxide (from atmosphere)
   ammonium = 1e-5;                     // Initial concentration for ammonium

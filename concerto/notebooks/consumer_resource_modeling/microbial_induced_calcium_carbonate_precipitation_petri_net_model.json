@@ -225,8 +225,8 @@
         },
         {
           "target": "water",
-          "expression": "nan",
-          "expression_mathml": "<notanumber/>"
+          "expression": "55.0",
+          "expression_mathml": "<cn>55.0</cn>"
         },
         {
           "target": "ammonia",
