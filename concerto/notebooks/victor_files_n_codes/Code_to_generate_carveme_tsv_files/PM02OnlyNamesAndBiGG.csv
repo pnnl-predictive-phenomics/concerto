@@ -1,0 +1,60 @@
+﻿REAGENT,BiGG
+Chondroitin Sulfate C,EX_cs_c_e
+Dextrin,EX_dextrin_e
+Glycogen,EX_glycogen_e
+Mannan,EX_mannan_e
+Pectin,EX_pectin_e
+N-Acetyl-D-Galactosamine,EX_acgal_e
+N-Acetyl-Neuraminic Acid,EX_acnam_e
+D-Arabinose,EX_arab__D_e
+D-Arabitol,EX_abt__D_e
+L-Arabitol,EX_abt__L_e
+Arbutin,EX_arbt_e
+2-Deoxy-D- Ribose,EX_drib_e
+_-Methyl-D-Glucoside,EX_madg_e
+Palatinose,EX_pala_e
+D-Raffinose,EX_raffin_e
+Salicin,EX_salcn_e
+L-Sorbose,EX_srb__L_e
+Stachyose,EX_stys_e
+D-Tagatose,EX_tag__D_e
+Xylitol,EX_xylt_e
+Butyric Acid,EX_but_e
+Capric Acid,EX_dca_e
+Caproic Acid,EX_hxa_e
+Citraconic Acid,EX_citac_e
+Citramalic Acid,EX_citm_e
+D-Glucosamine,EX_gam_e
+2-Hydroxy Benzoic Acid,EX_salc_e
+4-Hydroxy Benzoic Acid,EX_4hbz_e
+Glycolic Acid,EX_glyclt_e
+Itaconic Acid,EX_itacon_e
+5-Keto-D-Gluconic Acid,EX_5dglcn_e
+Malonic Acid,EX_malon_e
+Oxalic Acid,EX_oxa_e
+Quinic Acid,EX_quin_e
+"D-Ribono-1,4-Lactone",EX_Dara14lac_e
+Sebacic Acid,EX_sebacid_e
+D-Tartaric Acid,EX_tartr__D_e
+L-Tartaric Acid,EX_tartr__L_e
+Acetamide,EX_ad_e
+N-Acetyl-L-Glutamic Acid,EX_acglu_e
+L-Arginine,EX_arg__L_e
+Glycine,EX_gly_e
+L-Histidine,EX_his__L_e
+L-Homoserine,EX_hom__L_e
+Hydroxy-LProline,EX_4hpro_DC_e
+L-Isoleucine,EX_ile__L_e
+L-Leucine,EX_leu__L_e
+L-Lysine,EX_lys__L_e
+L-Methionine,EX_met__L_e
+L-Ornithine,EX_orn__L_e
+L-Phenylalanine,EX_phe__L_e
+L-Pyroglutamic Acid,EX_5oxpro_e
+L-Valine,EX_val__L_e
+"D,L-Carnitine",EX_crn_e
+Putrescine,EX_ptrc_e
+Dihydroxy Acetone,EX_dha_e
+"2,3-Butanediol",EX_btd_RR_e
+"2,3-Butanedione",EX_diact_e
+3-Hydroxy-2-Butanone,EX_R_actn_e
