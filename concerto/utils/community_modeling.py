@@ -53,17 +53,46 @@ def save_SBML_from_smetana_df(smetana_df, seed=0, initial_bounds=(0,1), smbl_fil
     rr_model.exportToSBML(smbl_file)
 
 
+# def update_SBML_for_MIRA(original_sbml_file, updated_sbml_file):
+#     """Updates the SBML file to ensure that the species name, initial concentrations, and has_only_substance_units are set."""
+#     d = libsbml.readSBMLFromFile(original_sbml_file)
+#     m = d.getModel()
+#     for species in m.getListOfSpecies():
+#         print(f"species name: {species.name}, id: {species.id}, initial_concentration: {species.initial_concentration}, initial_amount: {species.initial_amount}, has_only_substance_units: {species.has_only_substance_units}")
+        
+#         species.name = species.id
+#         species.initial_concentration = species.initial_amount
+#         species.has_only_substance_units = False
+#         print(f"species name: {species.name}, id: {species.id}, initial_concentration: {species.initial_concentration}, initial_amount: {species.initial_amount}, has_only_substance_units: {species.has_only_substance_units}")
+#     libsbml.writeSBMLToFile(d,updated_sbml_file)
 def update_SBML_for_MIRA(original_sbml_file, updated_sbml_file):
     """Updates the SBML file to ensure that the species name, initial concentrations, and has_only_substance_units are set."""
-    d = libsbml.readSBMLFromFile(original_sbml_file)
-    m = d.getModel()
-    for species in m.getListOfSpecies():
-        species.name = species.id
-        species.initial_concentration = species.initial_amount
-        species.has_only_substance_units = False
-
-    libsbml.writeSBMLToFile(d,updated_sbml_file)
-
+    
+    # Read the SBML file
+    document = libsbml.readSBMLFromFile(original_sbml_file)
+    model = document.getModel()
+    
+    for species in model.getListOfSpecies():
+        # Check if species has a valid ID
+        if not species.isSetId() or not species.getId():
+            raise ValueError("A species found without a valid ID.")
+        
+        # Set the species name to the ID if the name is not valid
+        if not species.isSetName() or not species.getName():
+            species.setName(species.getId())
+        
+        # Set initial concentration using initial amount if not already valid
+        if not species.isSetInitialConcentration() or species.getInitialConcentration() <= 0:
+            if species.isSetInitialAmount() and species.getInitialAmount() >= 0:
+                species.setInitialConcentration(species.getInitialAmount())
+            else:
+                raise ValueError(f"Species '{species.getId()}' does not have a valid initial concentration or amount.")
+        
+        # Set has_only_substance_units to False
+        species.setHasOnlySubstanceUnits(False)
+    
+    # Write the updated SBML file
+    libsbml.writeSBMLToFile(document, updated_sbml_file)
 
 def set_uniform_priors_for_MIRA_model_rate_constants(mira_model, min=1e-3, max=1):
     "Assigns a uniform(min,max) distribution for rate constants (parameters starting with 'k')."

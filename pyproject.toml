@@ -10,6 +10,8 @@ dependencies = [
     'cobra',
     'pandas',
     'memote',
+    'tellurium',
+    'pyarrow'
 ]
 requires-python = ">=3.8"
 
