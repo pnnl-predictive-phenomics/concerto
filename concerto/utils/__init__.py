@@ -1,3 +1,5 @@
+from .utils import parse_carbsource_growth
+
 import pathlib
 import logging
 
