@@ -3,7 +3,6 @@ from typing import Union, List
 from pathlib import Path
 
 
-#function that inputs carbon source .csv file and returns list of metabolite names (without EX_ and _e)
 def parse_carbsource_growth(fname: Union[str, Path]) -> List[str]:
     """
     Parse the carbon source growth names from a given .csv file.
@@ -32,3 +31,8 @@ def parse_carbsource_growth(fname: Union[str, Path]) -> List[str]:
                 metab_name = metab_name[:-2]
             metab_growth_names.append(metab_name)
     return metab_growth_names
+
+
+
+def create_carveme_mediadb_df():
+    pass

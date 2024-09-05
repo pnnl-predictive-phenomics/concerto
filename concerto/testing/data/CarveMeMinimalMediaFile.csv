@@ -1,0 +1,131 @@
+﻿medium,description,compound,name
+MM,Minimal Media,ca2,Calcium
+MM,Minimal Media,cl,Chloride
+MM,Minimal Media,cobalt2,Co2+
+MM,Minimal Media,cu2,Copper
+MM,Minimal Media,fe2,Fe2+ mitochondria
+MM,Minimal Media,k,Potassium
+MM,Minimal Media,mg2,Magnesium
+MM,Minimal Media,mn2,Manganese
+MM,Minimal Media,no3,Nitrate
+MM,Minimal Media,o2,O2 O2
+MM,Minimal Media,so4,Sulfate
+MM,Minimal Media,tsul,Thiosulfate
+MM,Minimal Media,zn2,Zinc
+BL[dextrin],Biolog Dextrin Media,cl,Chloride
+BL[dextrin],Biolog Dextrin Media,na1,Sodium
+BL[dextrin],Biolog Dextrin Media,nh4,Ammonium
+BL[dextrin],Biolog Dextrin Media,pi,Phosphate
+BL[dextrin],Biolog Dextrin Media,k,Potassium
+BL[dextrin],Biolog Dextrin Media,so4,Sulfate
+BL[dextrin],Biolog Dextrin Media,mg2,Magnesium
+BL[dextrin],Biolog Dextrin Media,fe3,Iron
+BL[dextrin],Biolog Dextrin Media,dextrin,Dextrin
+BL[pectin],Biolog Pectin Media,cl,Chloride
+BL[pectin],Biolog Pectin Media,na1,Sodium
+BL[pectin],Biolog Pectin Media,nh4,Ammonium
+BL[pectin],Biolog Pectin Media,pi,Phosphate
+BL[pectin],Biolog Pectin Media,k,Potassium
+BL[pectin],Biolog Pectin Media,so4,Sulfate
+BL[pectin],Biolog Pectin Media,mg2,Magnesium
+BL[pectin],Biolog Pectin Media,fe3,Iron
+BL[pectin],Biolog Pectin Media,pectin,Pectin
+BL[acgal],Biolog N-Acetyl-D-galactosamine Media,cl,Chloride
+BL[acgal],Biolog N-Acetyl-D-galactosamine Media,na1,Sodium
+BL[acgal],Biolog N-Acetyl-D-galactosamine Media,nh4,Ammonium
+BL[acgal],Biolog N-Acetyl-D-galactosamine Media,pi,Phosphate
+BL[acgal],Biolog N-Acetyl-D-galactosamine Media,k,Potassium
+BL[acgal],Biolog N-Acetyl-D-galactosamine Media,so4,Sulfate
+BL[acgal],Biolog N-Acetyl-D-galactosamine Media,mg2,Magnesium
+BL[acgal],Biolog N-Acetyl-D-galactosamine Media,fe3,Iron
+BL[acgal],Biolog N-Acetyl-D-galactosamine Media,acgal,N-Acetyl-D-galactosamine
+BL[abt__D],Biolog D-Arabitol Media,cl,Chloride
+BL[abt__D],Biolog D-Arabitol Media,na1,Sodium
+BL[abt__D],Biolog D-Arabitol Media,nh4,Ammonium
+BL[abt__D],Biolog D-Arabitol Media,pi,Phosphate
+BL[abt__D],Biolog D-Arabitol Media,k,Potassium
+BL[abt__D],Biolog D-Arabitol Media,so4,Sulfate
+BL[abt__D],Biolog D-Arabitol Media,mg2,Magnesium
+BL[abt__D],Biolog D-Arabitol Media,fe3,Iron
+BL[abt__D],Biolog D-Arabitol Media,abt__D,D-Arabitol
+BL[arbt],Biolog Arbutin Media,cl,Chloride
+BL[arbt],Biolog Arbutin Media,na1,Sodium
+BL[arbt],Biolog Arbutin Media,nh4,Ammonium
+BL[arbt],Biolog Arbutin Media,pi,Phosphate
+BL[arbt],Biolog Arbutin Media,k,Potassium
+BL[arbt],Biolog Arbutin Media,so4,Sulfate
+BL[arbt],Biolog Arbutin Media,mg2,Magnesium
+BL[arbt],Biolog Arbutin Media,fe3,Iron
+BL[arbt],Biolog Arbutin Media,arbt,Arbutin C12H16O7
+BL[madg],Biolog Alpha Methyl D glucoside C7H14O6 Media,cl,Chloride
+BL[madg],Biolog Alpha Methyl D glucoside C7H14O6 Media,na1,Sodium
+BL[madg],Biolog Alpha Methyl D glucoside C7H14O6 Media,nh4,Ammonium
+BL[madg],Biolog Alpha Methyl D glucoside C7H14O6 Media,pi,Phosphate
+BL[madg],Biolog Alpha Methyl D glucoside C7H14O6 Media,k,Potassium
+BL[madg],Biolog Alpha Methyl D glucoside C7H14O6 Media,so4,Sulfate
+BL[madg],Biolog Alpha Methyl D glucoside C7H14O6 Media,mg2,Magnesium
+BL[madg],Biolog Alpha Methyl D glucoside C7H14O6 Media,fe3,Iron
+BL[madg],Biolog Alpha Methyl D glucoside C7H14O6 Media,madg,Alpha Methyl D glucoside C7H14O6
+BL[pala],Biolog Palatinose Media,cl,Chloride
+BL[pala],Biolog Palatinose Media,na1,Sodium
+BL[pala],Biolog Palatinose Media,nh4,Ammonium
+BL[pala],Biolog Palatinose Media,pi,Phosphate
+BL[pala],Biolog Palatinose Media,k,Potassium
+BL[pala],Biolog Palatinose Media,so4,Sulfate
+BL[pala],Biolog Palatinose Media,mg2,Magnesium
+BL[pala],Biolog Palatinose Media,fe3,Iron
+BL[pala],Biolog Palatinose Media,pala,Palatinose C12H22O11
+BL[raffin],Biolog Raffinose Media,cl,Chloride
+BL[raffin],Biolog Raffinose Media,na1,Sodium
+BL[raffin],Biolog Raffinose Media,nh4,Ammonium
+BL[raffin],Biolog Raffinose Media,pi,Phosphate
+BL[raffin],Biolog Raffinose Media,k,Potassium
+BL[raffin],Biolog Raffinose Media,so4,Sulfate
+BL[raffin],Biolog Raffinose Media,mg2,Magnesium
+BL[raffin],Biolog Raffinose Media,fe3,Iron
+BL[raffin],Biolog Raffinose Media,raffin,Raffinose C18H32O16
+BL[salcn],Biolog Salicin Media,cl,Chloride
+BL[salcn],Biolog Salicin Media,na1,Sodium
+BL[salcn],Biolog Salicin Media,nh4,Ammonium
+BL[salcn],Biolog Salicin Media,pi,Phosphate
+BL[salcn],Biolog Salicin Media,k,Potassium
+BL[salcn],Biolog Salicin Media,so4,Sulfate
+BL[salcn],Biolog Salicin Media,mg2,Magnesium
+BL[salcn],Biolog Salicin Media,fe3,Iron
+BL[salcn],Biolog Salicin Media,salcn,Salicin C13H18O7
+BL[stys],Biolog Stachyose Media,cl,Chloride
+BL[stys],Biolog Stachyose Media,na1,Sodium
+BL[stys],Biolog Stachyose Media,nh4,Ammonium
+BL[stys],Biolog Stachyose Media,pi,Phosphate
+BL[stys],Biolog Stachyose Media,k,Potassium
+BL[stys],Biolog Stachyose Media,so4,Sulfate
+BL[stys],Biolog Stachyose Media,mg2,Magnesium
+BL[stys],Biolog Stachyose Media,fe3,Iron
+BL[stys],Biolog Stachyose Media,stys,Stachyose
+BL[xylt],Biolog Xylitol Media,cl,Chloride
+BL[xylt],Biolog Xylitol Media,na1,Sodium
+BL[xylt],Biolog Xylitol Media,nh4,Ammonium
+BL[xylt],Biolog Xylitol Media,pi,Phosphate
+BL[xylt],Biolog Xylitol Media,k,Potassium
+BL[xylt],Biolog Xylitol Media,so4,Sulfate
+BL[xylt],Biolog Xylitol Media,mg2,Magnesium
+BL[xylt],Biolog Xylitol Media,fe3,Iron
+BL[xylt],Biolog Xylitol Media,xylt,Xylitol C5H12O5
+BL[gam],Biolog D-Glucosamine Media,cl,Chloride
+BL[gam],Biolog D-Glucosamine Media,na1,Sodium
+BL[gam],Biolog D-Glucosamine Media,nh4,Ammonium
+BL[gam],Biolog D-Glucosamine Media,pi,Phosphate
+BL[gam],Biolog D-Glucosamine Media,k,Potassium
+BL[gam],Biolog D-Glucosamine Media,so4,Sulfate
+BL[gam],Biolog D-Glucosamine Media,mg2,Magnesium
+BL[gam],Biolog D-Glucosamine Media,fe3,Iron
+BL[gam],Biolog D-Glucosamine Media,gam,D-Glucosamine
+BL[Dara14lac],Biolog D-Arabinono-1-4-lactone Media,cl,Chloride
+BL[Dara14lac],Biolog D-Arabinono-1-4-lactone Media,na1,Sodium
+BL[Dara14lac],Biolog D-Arabinono-1-4-lactone Media,nh4,Ammonium
+BL[Dara14lac],Biolog D-Arabinono-1-4-lactone Media,pi,Phosphate
+BL[Dara14lac],Biolog D-Arabinono-1-4-lactone Media,k,Potassium
+BL[Dara14lac],Biolog D-Arabinono-1-4-lactone Media,so4,Sulfate
+BL[Dara14lac],Biolog D-Arabinono-1-4-lactone Media,mg2,Magnesium
+BL[Dara14lac],Biolog D-Arabinono-1-4-lactone Media,fe3,Iron
+BL[Dara14lac],Biolog D-Arabinono-1-4-lactone Media,Dara14lac,D-Arabinono-1-4-lactone C5H8O5
