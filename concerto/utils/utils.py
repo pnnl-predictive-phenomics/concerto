@@ -10,7 +10,8 @@ def parse_carbsource_growth(fname: Union[str, Path]) -> List[str]:
     Parse the carbon source growth names from a given .csv file.
 
     Args:
-        fname (Union[str, Path]): A string or Path object representing the file path. The data is expected to have 'growth' and 'exchange' columns.
+        fname (Union[str, Path]): A string or Path object representing the file path. The data is expected 
+        to have 'growth' and 'exchange' columns.
 
     Returns:
         List[str]: A list of strings containing the parsed carbon source growth names.
@@ -81,14 +82,43 @@ def create_carveme_mediadb_df(carbless_min_media_file,
         carbon sources, per minimal media source
     """
     #import biolog carbon file, assuming from utils.py?
-    carb_source_growth_names = parse_carbsource_growth(biolog_growth_file)
-    #   TO DO: create a new list and append to list
+    carb_source_growth_names = parse_carbsource_growth(biolog_growth_file) #picks out where carbonsource growth 
+    #= true
+    #goes through each name in this list and iterates through to update media and description per 
+    #carbsource name on that list
     
     #create a pandas dataframe of carbonless minimal media in carveme format
     carbonless_min_media_df = parse_carbonless_min_media(carbless_min_media_file)
-#TO DO: 1. iterate through each exchanged carbon source growth in biolog
-#   2. for each one, make a copy of the carbonless_min_media dataframe
-#   3. rename 'media' and 'description' columns
+    #1. iterate through each exchanged carbon source growth in biolog
+    all_dataframes_for_concating = []
+    all_dataframes_for_concating.append(carbonless_min_media_df)
+#   2. for each name, make a copy of the carbonless_min_media dataframe with the same length
+    num_rows = carbonless_min_media_df.shape[0]
+    for carb_name in carb_source_growth_names:
+        temp_carb_name_df = carbonless_min_media_df.copy(deep = True)
+        #change media and description names to match carbon source
+        temp_media_list = [f"BL[{carb_name}]"] * num_rows
+        temp_description_list = [f"Biolog [{carb_name}] Media"] * num_rows
+        temp_carb_name_df["media"] = temp_media_list
+        temp_carb_name_df["description"] = temp_description_list
+        #add new row for carbon source growth
+        carb_source_data_dictionary = {
+            "media" : f"BL[{carb_name}]", 
+            "description" : f"Biolog [{carb_name}] Media",
+            "compound" : carb_name,
+            "name": carb_name,
+        }
+    # 3. append list to temp_carb_name_df
+    carb_source_growth_names_df = temp_carb_name_df.append(carb_source_data_dictionary)
+    all_dataframes_for_concating.append(carb_source_growth_names)
+#Do I need to return this?
+#return carb_source_growth_names
+    #4. create list for all dataframes that will become concated together at end
+    all_dataframes_for_concating = [carb_source_growth_names, carbonless_min_media_df]
+    #not sure I'll need the concat function if we've been appending? still:
+    # carve_me_mediadb_final = pd.concat(all_dataframes_for_concating)
+
+
 #   4. append carbon source row if growth = TRUE
 #   5. end:  add to list of dataframes, 
 #       concat all dataframes together
@@ -98,7 +128,8 @@ def create_carveme_mediadb_df(carbless_min_media_file,
             #Here we add create a new row with the information found on the previous dataframes.
             #new_row = {
                 #"medium": "MM_[" + carb_name + "]", #Here we create the name of the medium. Ex: MM_[R_actn]
-                #"description": "Minimal medium (" + biolog_names["REAGENT"][j] + ")", #Here we specify a description of the minimal media.
+                #"description": "Minimal medium (" + biolog_names["REAGENT"][j] + ")", 
+                # #Here we specify a description of the minimal media.
                 #NEED TO GET THESE TWO FROM SOMEWHERE--universal model
                 #"compound": dfbg["compound"].iloc[i], #Here we add each of the compounds found on the minimal media of the model.
     #             "name": dfbg["name"].iloc[i] #Here we add each name of the compounds from the minimal media.
