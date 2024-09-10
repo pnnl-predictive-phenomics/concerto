@@ -2,8 +2,6 @@ import pandas as pd
 import re
 from typing import Union, List
 from pathlib import Path
-from cobra.core import Model
-
 
 def parse_carbsource_growth(fname: Union[str, Path]) -> List[str]:
     """
@@ -36,8 +34,7 @@ def parse_carbsource_growth(fname: Union[str, Path]) -> List[str]:
     return metab_growth_names
 
 #transform carbonless media into dataframe
-def parse_carbonless_min_media(carbless_min_media_file,
-                               universal):
+def parse_carbonless_min_media(carbless_min_media_file):
     #lists with name of data that corresponds
     compound_list = []
     name_list = []
@@ -72,8 +69,7 @@ def parse_carbonless_min_media(carbless_min_media_file,
 
 
 def create_carveme_mediadb_df(carbless_min_media_file, 
-                              biolog_growth_file,
-                              universal):
+                              biolog_growth_file):
     """
     Creates carveme media dataframe by combining carbon source 
         + minimal media file with biolog growth file.
@@ -108,38 +104,18 @@ def create_carveme_mediadb_df(carbless_min_media_file,
             "compound" : carb_name,
             "name": carb_name,
         }
-    # 3. append list to temp_carb_name_df
-    carb_source_growth_names_df = temp_carb_name_df.append(carb_source_data_dictionary)
-    all_dataframes_for_concating.append(carb_source_growth_names)
-#Do I need to return this?
-#return carb_source_growth_names
-    #4. create list for all dataframes that will become concated together at end
-    all_dataframes_for_concating = [carb_source_growth_names, carbonless_min_media_df]
-    #not sure I'll need the concat function if we've been appending? still:
-    # carve_me_mediadb_final = pd.concat(all_dataframes_for_concating)
+        print(carb_source_data_dictionary)
+        
+         #3. add a new row top temp dataframe for carbon to include in media of dictionary
+        temp_carbon_source_df = pd.DataFrame(carb_source_data_dictionary)
+        fin_carbon_source_df = pd.concat([temp_carbon_source_df, temp_carb_name_df], 
+                                         ignore_index = True)
+        # 4. append fin_carbon_source_df to all_dataframes_for_concating
+        all_dataframes_for_concating.append(fin_carbon_source_df)
+    return pd.concat(all_dataframes_for_concating, ignore_index= True)
 
-
-#   4. append carbon source row if growth = TRUE
-#   5. end:  add to list of dataframes, 
-#       concat all dataframes together
-
-        # We iterate through each of the compounds found on the biolog file.
-        #for i in range(len(dfbg["exchange"])):
-            #Here we add create a new row with the information found on the previous dataframes.
-            #new_row = {
-                #"medium": "MM_[" + carb_name + "]", #Here we create the name of the medium. Ex: MM_[R_actn]
-                #"description": "Minimal medium (" + biolog_names["REAGENT"][j] + ")", 
-                # #Here we specify a description of the minimal media.
-                #NEED TO GET THESE TWO FROM SOMEWHERE--universal model
-                #"compound": dfbg["compound"].iloc[i], #Here we add each of the compounds found on the minimal media of the model.
-    #             "name": dfbg["name"].iloc[i] #Here we add each name of the compounds from the minimal media.
-    #         }
-    #         c_min_med_dat.append(new_row) # We append these new rows to the empty list. 
-    # return c_min_med_dat
-
-#merge frames with extracted metab_growth_names?
-# allframes = [c_min_med_dat, metab_growth_names]
-
-# #create new dataframe from this merge?
-# mediadb_df = pd.concat(allframes)
-    pass
+#for testing: 
+carveme_mediadb_df = create_carveme_mediadb_df("C:\\Users\\lint730\\concerto\\concerto\\testing\\data\\csc009C-less_media.csv",
+                          "C:\\Users\\lint730\\concerto\\concerto\\testing\\data\\biolog_carbon_curtobacterium1.csv",
+                          )
+carveme_mediadb_df.to_csv("C:\\Users\\lint730\\concerto\\concerto\\testing\\data\\carveme_media_db.csv")
