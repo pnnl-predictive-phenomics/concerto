@@ -1,10 +1,17 @@
 import pandas as pd
 import re
+from pathlib import Path
+
+#set variables to filepaths
+HERE = Path(__file__).parent.resolve()
+hilpos = HERE.joinpath("successful_hilpos.csv")
+hilneg = HERE.joinpath("successful_hilneg.csv")
+
 # Open the file that we generated previously.
-Generated_File = pd.read_csv("BioCycID_Processed_Metabolomic_Data_NoRhodOutlier_6_14_24.tsv", delimiter="\t")
+Generated_File = pd.read_csv("BioCycID_Processed_Metabolomic_Data_NoRhodOutlier_6_14_24.tsv", delimiter = "\t")
 #Here we read the "Succesful" files.
-file_hilpos = open("successful_hilpos.csv", "r")
-file_hilneg = open("successful_hilneg.csv", "r")
+file_hilpos = open(hilpos, "r")
+file_hilneg = open(hilneg, "r")
 #This function extracts the Metabolite Names and their corresponding BioCycIDs in the form of a dictionary
 # from the "Succesful" files.
 def extract_BioCycIDs(file, string):
