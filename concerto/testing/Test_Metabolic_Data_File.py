@@ -3,10 +3,10 @@ import pandas as pd
 import re
 from ProgramToTestMetaboliteData_HILPosAndHILNeg import extract_BioCycIDs, Confirm_All_BioCycIDs, Confirm_BioCycIDs_n_Values
 
-Generated_File = pd.read_csv("BioCycID_Processed_Metabolomic_Data_NoRhodOutlier_6_14_24.tsv", delimiter="\t")
-file_hilpos = open("successful_hilpos.csv", "r")
-file_hilneg = open("successful_hilneg.csv", "r")
-Transposed_File = pd.read_csv("Transposed_Processed_Metabolomics_Data_NoRhodOutlier_6_14_24.csv")
+Generated_File = pd.read_csv("../Metabolic_Data_Files/BioCycID_Processed_Metabolomic_Data_NoRhodOutlier_6_14_24.tsv", delimiter="\t")
+file_hilpos = open("../Metabolic_Data_Files/successful_hilpos.csv", "r")
+file_hilneg = open("../Metabolic_Data_Files/successful_hilneg.csv", "r")
+Transposed_File = pd.read_csv("../Metabolic_Data_Files/Transposed_Processed_Metabolomics_Data_NoRhodOutlier_6_14_24.csv")
 
 def test_Confirm_All_BioCycIDs():
     Metabolite_n_ID_HILPos, Metabolite_n_ID_Ambiguous_HILPos = extract_BioCycIDs(file_hilpos, "_HILPos")
