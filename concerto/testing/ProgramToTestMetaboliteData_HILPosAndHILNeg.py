@@ -3,10 +3,10 @@ import re
 from pathlib import Path
 
 #set variables to filepaths
-HERE = Path(__file__).parent.resolve()
-hilpos = HERE.joinpath("../Metabolic_Data_Files/successful_hilpos.csv")
-hilneg = HERE.joinpath("../Metabolic_Data_Files/successful_hilneg.csv")
-biocyc_file = HERE.joinpath("../Metabolic_Data_Files/BioCycID_Processed_Metabolomic_Data_NoRhodOutlier_6_14_24.tsv")
+HERE = Path("concerto/Metabolic_Data_Files/")
+hilpos = HERE.joinpath("successful_hilpos.csv")
+hilneg = HERE.joinpath("successful_hilneg.csv")
+biocyc_file = HERE.joinpath("BioCycID_Processed_Metabolomic_Data_NoRhodOutlier_6_14_24.tsv")
 
 # Open the file that we generated previously.
 Generated_File = pd.read_csv(biocyc_file, delimiter = "\t")
