@@ -3,7 +3,7 @@ import pandas as pd
 import re
 from pathlib import Path
 
-from ProgramToTestMetaboliteData_HILPosAndHILNeg import extract_BioCycIDs, Confirm_All_BioCycIDs, Confirm_BioCycIDs_n_Values
+from concerto.Metabolic_Data_Files.Metabolite_Data import extract_BioCycIDs, Confirm_All_BioCycIDs, Confirm_BioCycIDs_n_Values
 
 HERE = Path("concerto/Metabolic_Data_Files/")
 Generated_File = pd.read_csv("BioCycID_Processed_Metabolomic_Data_NoRhodOutlier_6_14_24.tsv", delimiter="\t")
