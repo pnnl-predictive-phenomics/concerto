@@ -1,0 +1,5031 @@
+{
+  "header": {
+    "name": "smetana_carbstor_mira_model",
+    "schema": "https://raw.githubusercontent.com/DARPA-ASKEM/Model-Representations/petrinet_v0.6/petrinet/petrinet_schema.json",
+    "schema_name": "petrinet",
+    "description": "smetana_carbstor_mira_model",
+    "model_version": "0.1"
+  },
+  "properties": {},
+  "model": {
+    "states": [
+      {
+        "id": "updated_csc031",
+        "name": "updated_csc031",
+        "grounding": {
+          "identifiers": {},
+          "modifiers": {}
+        }
+      },
+      {
+        "id": "M_arg__L_e",
+        "name": "M_arg__L_e",
+        "grounding": {
+          "identifiers": {},
+          "modifiers": {}
+        }
+      },
+      {
+        "id": "updated_csc009",
+        "name": "updated_csc009",
+        "grounding": {
+          "identifiers": {},
+          "modifiers": {}
+        }
+      },
+      {
+        "id": "M_gua_e",
+        "name": "M_gua_e",
+        "grounding": {
+          "identifiers": {},
+          "modifiers": {}
+        }
+      },
+      {
+        "id": "M_h2s_e",
+        "name": "M_h2s_e",
+        "grounding": {
+          "identifiers": {},
+          "modifiers": {}
+        }
+      },
+      {
+        "id": "M_hom__L_e",
+        "name": "M_hom__L_e",
+        "grounding": {
+          "identifiers": {},
+          "modifiers": {}
+        }
+      },
+      {
+        "id": "M_nh4_e",
+        "name": "M_nh4_e",
+        "grounding": {
+          "identifiers": {},
+          "modifiers": {}
+        }
+      },
+      {
+        "id": "M_orn_e",
+        "name": "M_orn_e",
+        "grounding": {
+          "identifiers": {},
+          "modifiers": {}
+        }
+      },
+      {
+        "id": "updated_csc040",
+        "name": "updated_csc040",
+        "grounding": {
+          "identifiers": {},
+          "modifiers": {}
+        }
+      },
+      {
+        "id": "M_4abut_e",
+        "name": "M_4abut_e",
+        "grounding": {
+          "identifiers": {},
+          "modifiers": {}
+        }
+      },
+      {
+        "id": "M_asp__L_e",
+        "name": "M_asp__L_e",
+        "grounding": {
+          "identifiers": {},
+          "modifiers": {}
+        }
+      },
+      {
+        "id": "M_fe3_e",
+        "name": "M_fe3_e",
+        "grounding": {
+          "identifiers": {},
+          "modifiers": {}
+        }
+      },
+      {
+        "id": "M_fe3pyovd_kt_e",
+        "name": "M_fe3pyovd_kt_e",
+        "grounding": {
+          "identifiers": {},
+          "modifiers": {}
+        }
+      },
+      {
+        "id": "M_glu__L_e",
+        "name": "M_glu__L_e",
+        "grounding": {
+          "identifiers": {},
+          "modifiers": {}
+        }
+      },
+      {
+        "id": "M_pi_e",
+        "name": "M_pi_e",
+        "grounding": {
+          "identifiers": {},
+          "modifiers": {}
+        }
+      },
+      {
+        "id": "M_pydxn_e",
+        "name": "M_pydxn_e",
+        "grounding": {
+          "identifiers": {},
+          "modifiers": {}
+        }
+      },
+      {
+        "id": "M_s_e",
+        "name": "M_s_e",
+        "grounding": {
+          "identifiers": {},
+          "modifiers": {}
+        }
+      },
+      {
+        "id": "M_ser__L_e",
+        "name": "M_ser__L_e",
+        "grounding": {
+          "identifiers": {},
+          "modifiers": {}
+        }
+      },
+      {
+        "id": "M_urea_e",
+        "name": "M_urea_e",
+        "grounding": {
+          "identifiers": {},
+          "modifiers": {}
+        }
+      },
+      {
+        "id": "updated_csc052",
+        "name": "updated_csc052",
+        "grounding": {
+          "identifiers": {},
+          "modifiers": {}
+        }
+      },
+      {
+        "id": "M_gthrd_e",
+        "name": "M_gthrd_e",
+        "grounding": {
+          "identifiers": {},
+          "modifiers": {}
+        }
+      },
+      {
+        "id": "M_ptrc_e",
+        "name": "M_ptrc_e",
+        "grounding": {
+          "identifiers": {},
+          "modifiers": {}
+        }
+      },
+      {
+        "id": "csc043",
+        "name": "csc043",
+        "grounding": {
+          "identifiers": {},
+          "modifiers": {}
+        }
+      },
+      {
+        "id": "M_xylan4_e",
+        "name": "M_xylan4_e",
+        "grounding": {
+          "identifiers": {},
+          "modifiers": {}
+        }
+      },
+      {
+        "id": "M_glyald_e",
+        "name": "M_glyald_e",
+        "grounding": {
+          "identifiers": {},
+          "modifiers": {}
+        }
+      },
+      {
+        "id": "M_glyc_e",
+        "name": "M_glyc_e",
+        "grounding": {
+          "identifiers": {},
+          "modifiers": {}
+        }
+      },
+      {
+        "id": "M_rib__D_e",
+        "name": "M_rib__D_e",
+        "grounding": {
+          "identifiers": {},
+          "modifiers": {}
+        }
+      },
+      {
+        "id": "M_lys__L_e",
+        "name": "M_lys__L_e",
+        "grounding": {
+          "identifiers": {},
+          "modifiers": {}
+        }
+      },
+      {
+        "id": "M_o2_e",
+        "name": "M_o2_e",
+        "grounding": {
+          "identifiers": {},
+          "modifiers": {}
+        }
+      },
+      {
+        "id": "M_ura_e",
+        "name": "M_ura_e",
+        "grounding": {
+          "identifiers": {},
+          "modifiers": {}
+        }
+      },
+      {
+        "id": "M_xyl__D_e",
+        "name": "M_xyl__D_e",
+        "grounding": {
+          "identifiers": {},
+          "modifiers": {}
+        }
+      },
+      {
+        "id": "M_ppap_e",
+        "name": "M_ppap_e",
+        "grounding": {
+          "identifiers": {},
+          "modifiers": {}
+        }
+      }
+    ],
+    "transitions": [
+      {
+        "id": "t1",
+        "input": [
+          "updated_csc031"
+        ],
+        "output": [
+          "M_arg__L_e"
+        ],
+        "properties": {
+          "name": "t1"
+        }
+      },
+      {
+        "id": "t2",
+        "input": [
+          "M_arg__L_e"
+        ],
+        "output": [
+          "updated_csc009"
+        ],
+        "properties": {
+          "name": "t2"
+        }
+      },
+      {
+        "id": "t3",
+        "input": [
+          "updated_csc031"
+        ],
+        "output": [
+          "M_gua_e"
+        ],
+        "properties": {
+          "name": "t3"
+        }
+      },
+      {
+        "id": "t4",
+        "input": [
+          "M_gua_e"
+        ],
+        "output": [
+          "updated_csc009"
+        ],
+        "properties": {
+          "name": "t4"
+        }
+      },
+      {
+        "id": "t5",
+        "input": [
+          "updated_csc031"
+        ],
+        "output": [
+          "M_h2s_e"
+        ],
+        "properties": {
+          "name": "t5"
+        }
+      },
+      {
+        "id": "t6",
+        "input": [
+          "M_h2s_e"
+        ],
+        "output": [
+          "updated_csc009"
+        ],
+        "properties": {
+          "name": "t6"
+        }
+      },
+      {
+        "id": "t7",
+        "input": [
+          "updated_csc031"
+        ],
+        "output": [
+          "M_hom__L_e"
+        ],
+        "properties": {
+          "name": "t7"
+        }
+      },
+      {
+        "id": "t8",
+        "input": [
+          "M_hom__L_e"
+        ],
+        "output": [
+          "updated_csc009"
+        ],
+        "properties": {
+          "name": "t8"
+        }
+      },
+      {
+        "id": "t9",
+        "input": [
+          "updated_csc031"
+        ],
+        "output": [
+          "M_nh4_e"
+        ],
+        "properties": {
+          "name": "t9"
+        }
+      },
+      {
+        "id": "t10",
+        "input": [
+          "M_nh4_e"
+        ],
+        "output": [
+          "updated_csc009"
+        ],
+        "properties": {
+          "name": "t10"
+        }
+      },
+      {
+        "id": "t11",
+        "input": [
+          "updated_csc031"
+        ],
+        "output": [
+          "M_orn_e"
+        ],
+        "properties": {
+          "name": "t11"
+        }
+      },
+      {
+        "id": "t12",
+        "input": [
+          "M_orn_e"
+        ],
+        "output": [
+          "updated_csc009"
+        ],
+        "properties": {
+          "name": "t12"
+        }
+      },
+      {
+        "id": "t13",
+        "input": [
+          "updated_csc040"
+        ],
+        "output": [
+          "M_4abut_e"
+        ],
+        "properties": {
+          "name": "t13"
+        }
+      },
+      {
+        "id": "t14",
+        "input": [
+          "M_4abut_e"
+        ],
+        "output": [
+          "updated_csc009"
+        ],
+        "properties": {
+          "name": "t14"
+        }
+      },
+      {
+        "id": "t15",
+        "input": [
+          "updated_csc040"
+        ],
+        "output": [
+          "M_arg__L_e"
+        ],
+        "properties": {
+          "name": "t15"
+        }
+      },
+      {
+        "id": "t16",
+        "input": [
+          "M_arg__L_e"
+        ],
+        "output": [
+          "updated_csc009"
+        ],
+        "properties": {
+          "name": "t16"
+        }
+      },
+      {
+        "id": "t17",
+        "input": [
+          "updated_csc040"
+        ],
+        "output": [
+          "M_asp__L_e"
+        ],
+        "properties": {
+          "name": "t17"
+        }
+      },
+      {
+        "id": "t18",
+        "input": [
+          "M_asp__L_e"
+        ],
+        "output": [
+          "updated_csc009"
+        ],
+        "properties": {
+          "name": "t18"
+        }
+      },
+      {
+        "id": "t19",
+        "input": [
+          "updated_csc040"
+        ],
+        "output": [
+          "M_fe3_e"
+        ],
+        "properties": {
+          "name": "t19"
+        }
+      },
+      {
+        "id": "t20",
+        "input": [
+          "M_fe3_e"
+        ],
+        "output": [
+          "updated_csc009"
+        ],
+        "properties": {
+          "name": "t20"
+        }
+      },
+      {
+        "id": "t21",
+        "input": [
+          "updated_csc040"
+        ],
+        "output": [
+          "M_fe3pyovd_kt_e"
+        ],
+        "properties": {
+          "name": "t21"
+        }
+      },
+      {
+        "id": "t22",
+        "input": [
+          "M_fe3pyovd_kt_e"
+        ],
+        "output": [
+          "updated_csc009"
+        ],
+        "properties": {
+          "name": "t22"
+        }
+      },
+      {
+        "id": "t23",
+        "input": [
+          "updated_csc040"
+        ],
+        "output": [
+          "M_glu__L_e"
+        ],
+        "properties": {
+          "name": "t23"
+        }
+      },
+      {
+        "id": "t24",
+        "input": [
+          "M_glu__L_e"
+        ],
+        "output": [
+          "updated_csc009"
+        ],
+        "properties": {
+          "name": "t24"
+        }
+      },
+      {
+        "id": "t25",
+        "input": [
+          "updated_csc040"
+        ],
+        "output": [
+          "M_gua_e"
+        ],
+        "properties": {
+          "name": "t25"
+        }
+      },
+      {
+        "id": "t26",
+        "input": [
+          "M_gua_e"
+        ],
+        "output": [
+          "updated_csc009"
+        ],
+        "properties": {
+          "name": "t26"
+        }
+      },
+      {
+        "id": "t27",
+        "input": [
+          "updated_csc040"
+        ],
+        "output": [
+          "M_h2s_e"
+        ],
+        "properties": {
+          "name": "t27"
+        }
+      },
+      {
+        "id": "t28",
+        "input": [
+          "M_h2s_e"
+        ],
+        "output": [
+          "updated_csc009"
+        ],
+        "properties": {
+          "name": "t28"
+        }
+      },
+      {
+        "id": "t29",
+        "input": [
+          "updated_csc040"
+        ],
+        "output": [
+          "M_hom__L_e"
+        ],
+        "properties": {
+          "name": "t29"
+        }
+      },
+      {
+        "id": "t30",
+        "input": [
+          "M_hom__L_e"
+        ],
+        "output": [
+          "updated_csc009"
+        ],
+        "properties": {
+          "name": "t30"
+        }
+      },
+      {
+        "id": "t31",
+        "input": [
+          "updated_csc040"
+        ],
+        "output": [
+          "M_nh4_e"
+        ],
+        "properties": {
+          "name": "t31"
+        }
+      },
+      {
+        "id": "t32",
+        "input": [
+          "M_nh4_e"
+        ],
+        "output": [
+          "updated_csc009"
+        ],
+        "properties": {
+          "name": "t32"
+        }
+      },
+      {
+        "id": "t33",
+        "input": [
+          "updated_csc040"
+        ],
+        "output": [
+          "M_orn_e"
+        ],
+        "properties": {
+          "name": "t33"
+        }
+      },
+      {
+        "id": "t34",
+        "input": [
+          "M_orn_e"
+        ],
+        "output": [
+          "updated_csc009"
+        ],
+        "properties": {
+          "name": "t34"
+        }
+      },
+      {
+        "id": "t35",
+        "input": [
+          "updated_csc040"
+        ],
+        "output": [
+          "M_pi_e"
+        ],
+        "properties": {
+          "name": "t35"
+        }
+      },
+      {
+        "id": "t36",
+        "input": [
+          "M_pi_e"
+        ],
+        "output": [
+          "updated_csc009"
+        ],
+        "properties": {
+          "name": "t36"
+        }
+      },
+      {
+        "id": "t37",
+        "input": [
+          "updated_csc040"
+        ],
+        "output": [
+          "M_pydxn_e"
+        ],
+        "properties": {
+          "name": "t37"
+        }
+      },
+      {
+        "id": "t38",
+        "input": [
+          "M_pydxn_e"
+        ],
+        "output": [
+          "updated_csc009"
+        ],
+        "properties": {
+          "name": "t38"
+        }
+      },
+      {
+        "id": "t39",
+        "input": [
+          "updated_csc040"
+        ],
+        "output": [
+          "M_s_e"
+        ],
+        "properties": {
+          "name": "t39"
+        }
+      },
+      {
+        "id": "t40",
+        "input": [
+          "M_s_e"
+        ],
+        "output": [
+          "updated_csc009"
+        ],
+        "properties": {
+          "name": "t40"
+        }
+      },
+      {
+        "id": "t41",
+        "input": [
+          "updated_csc040"
+        ],
+        "output": [
+          "M_ser__L_e"
+        ],
+        "properties": {
+          "name": "t41"
+        }
+      },
+      {
+        "id": "t42",
+        "input": [
+          "M_ser__L_e"
+        ],
+        "output": [
+          "updated_csc009"
+        ],
+        "properties": {
+          "name": "t42"
+        }
+      },
+      {
+        "id": "t43",
+        "input": [
+          "updated_csc040"
+        ],
+        "output": [
+          "M_urea_e"
+        ],
+        "properties": {
+          "name": "t43"
+        }
+      },
+      {
+        "id": "t44",
+        "input": [
+          "M_urea_e"
+        ],
+        "output": [
+          "updated_csc009"
+        ],
+        "properties": {
+          "name": "t44"
+        }
+      },
+      {
+        "id": "t45",
+        "input": [
+          "updated_csc052"
+        ],
+        "output": [
+          "M_arg__L_e"
+        ],
+        "properties": {
+          "name": "t45"
+        }
+      },
+      {
+        "id": "t46",
+        "input": [
+          "M_arg__L_e"
+        ],
+        "output": [
+          "updated_csc009"
+        ],
+        "properties": {
+          "name": "t46"
+        }
+      },
+      {
+        "id": "t47",
+        "input": [
+          "updated_csc052"
+        ],
+        "output": [
+          "M_fe3_e"
+        ],
+        "properties": {
+          "name": "t47"
+        }
+      },
+      {
+        "id": "t48",
+        "input": [
+          "M_fe3_e"
+        ],
+        "output": [
+          "updated_csc009"
+        ],
+        "properties": {
+          "name": "t48"
+        }
+      },
+      {
+        "id": "t49",
+        "input": [
+          "updated_csc052"
+        ],
+        "output": [
+          "M_glu__L_e"
+        ],
+        "properties": {
+          "name": "t49"
+        }
+      },
+      {
+        "id": "t50",
+        "input": [
+          "M_glu__L_e"
+        ],
+        "output": [
+          "updated_csc009"
+        ],
+        "properties": {
+          "name": "t50"
+        }
+      },
+      {
+        "id": "t51",
+        "input": [
+          "updated_csc052"
+        ],
+        "output": [
+          "M_gthrd_e"
+        ],
+        "properties": {
+          "name": "t51"
+        }
+      },
+      {
+        "id": "t52",
+        "input": [
+          "M_gthrd_e"
+        ],
+        "output": [
+          "updated_csc009"
+        ],
+        "properties": {
+          "name": "t52"
+        }
+      },
+      {
+        "id": "t53",
+        "input": [
+          "updated_csc052"
+        ],
+        "output": [
+          "M_h2s_e"
+        ],
+        "properties": {
+          "name": "t53"
+        }
+      },
+      {
+        "id": "t54",
+        "input": [
+          "M_h2s_e"
+        ],
+        "output": [
+          "updated_csc009"
+        ],
+        "properties": {
+          "name": "t54"
+        }
+      },
+      {
+        "id": "t55",
+        "input": [
+          "updated_csc052"
+        ],
+        "output": [
+          "M_nh4_e"
+        ],
+        "properties": {
+          "name": "t55"
+        }
+      },
+      {
+        "id": "t56",
+        "input": [
+          "M_nh4_e"
+        ],
+        "output": [
+          "updated_csc009"
+        ],
+        "properties": {
+          "name": "t56"
+        }
+      },
+      {
+        "id": "t57",
+        "input": [
+          "updated_csc052"
+        ],
+        "output": [
+          "M_orn_e"
+        ],
+        "properties": {
+          "name": "t57"
+        }
+      },
+      {
+        "id": "t58",
+        "input": [
+          "M_orn_e"
+        ],
+        "output": [
+          "updated_csc009"
+        ],
+        "properties": {
+          "name": "t58"
+        }
+      },
+      {
+        "id": "t59",
+        "input": [
+          "updated_csc052"
+        ],
+        "output": [
+          "M_ptrc_e"
+        ],
+        "properties": {
+          "name": "t59"
+        }
+      },
+      {
+        "id": "t60",
+        "input": [
+          "M_ptrc_e"
+        ],
+        "output": [
+          "updated_csc009"
+        ],
+        "properties": {
+          "name": "t60"
+        }
+      },
+      {
+        "id": "t61",
+        "input": [
+          "updated_csc052"
+        ],
+        "output": [
+          "M_s_e"
+        ],
+        "properties": {
+          "name": "t61"
+        }
+      },
+      {
+        "id": "t62",
+        "input": [
+          "M_s_e"
+        ],
+        "output": [
+          "updated_csc009"
+        ],
+        "properties": {
+          "name": "t62"
+        }
+      },
+      {
+        "id": "t63",
+        "input": [
+          "updated_csc052"
+        ],
+        "output": [
+          "M_urea_e"
+        ],
+        "properties": {
+          "name": "t63"
+        }
+      },
+      {
+        "id": "t64",
+        "input": [
+          "M_urea_e"
+        ],
+        "output": [
+          "updated_csc009"
+        ],
+        "properties": {
+          "name": "t64"
+        }
+      },
+      {
+        "id": "t65",
+        "input": [
+          "csc043"
+        ],
+        "output": [
+          "M_arg__L_e"
+        ],
+        "properties": {
+          "name": "t65"
+        }
+      },
+      {
+        "id": "t66",
+        "input": [
+          "M_arg__L_e"
+        ],
+        "output": [
+          "updated_csc009"
+        ],
+        "properties": {
+          "name": "t66"
+        }
+      },
+      {
+        "id": "t67",
+        "input": [
+          "csc043"
+        ],
+        "output": [
+          "M_gua_e"
+        ],
+        "properties": {
+          "name": "t67"
+        }
+      },
+      {
+        "id": "t68",
+        "input": [
+          "M_gua_e"
+        ],
+        "output": [
+          "updated_csc009"
+        ],
+        "properties": {
+          "name": "t68"
+        }
+      },
+      {
+        "id": "t69",
+        "input": [
+          "csc043"
+        ],
+        "output": [
+          "M_h2s_e"
+        ],
+        "properties": {
+          "name": "t69"
+        }
+      },
+      {
+        "id": "t70",
+        "input": [
+          "M_h2s_e"
+        ],
+        "output": [
+          "updated_csc009"
+        ],
+        "properties": {
+          "name": "t70"
+        }
+      },
+      {
+        "id": "t71",
+        "input": [
+          "csc043"
+        ],
+        "output": [
+          "M_nh4_e"
+        ],
+        "properties": {
+          "name": "t71"
+        }
+      },
+      {
+        "id": "t72",
+        "input": [
+          "M_nh4_e"
+        ],
+        "output": [
+          "updated_csc009"
+        ],
+        "properties": {
+          "name": "t72"
+        }
+      },
+      {
+        "id": "t73",
+        "input": [
+          "csc043"
+        ],
+        "output": [
+          "M_s_e"
+        ],
+        "properties": {
+          "name": "t73"
+        }
+      },
+      {
+        "id": "t74",
+        "input": [
+          "M_s_e"
+        ],
+        "output": [
+          "updated_csc009"
+        ],
+        "properties": {
+          "name": "t74"
+        }
+      },
+      {
+        "id": "t75",
+        "input": [
+          "csc043"
+        ],
+        "output": [
+          "M_xylan4_e"
+        ],
+        "properties": {
+          "name": "t75"
+        }
+      },
+      {
+        "id": "t76",
+        "input": [
+          "M_xylan4_e"
+        ],
+        "output": [
+          "updated_csc009"
+        ],
+        "properties": {
+          "name": "t76"
+        }
+      },
+      {
+        "id": "t77",
+        "input": [
+          "updated_csc009"
+        ],
+        "output": [
+          "M_fe3_e"
+        ],
+        "properties": {
+          "name": "t77"
+        }
+      },
+      {
+        "id": "t78",
+        "input": [
+          "M_fe3_e"
+        ],
+        "output": [
+          "updated_csc031"
+        ],
+        "properties": {
+          "name": "t78"
+        }
+      },
+      {
+        "id": "t79",
+        "input": [
+          "updated_csc009"
+        ],
+        "output": [
+          "M_fe3pyovd_kt_e"
+        ],
+        "properties": {
+          "name": "t79"
+        }
+      },
+      {
+        "id": "t80",
+        "input": [
+          "M_fe3pyovd_kt_e"
+        ],
+        "output": [
+          "updated_csc031"
+        ],
+        "properties": {
+          "name": "t80"
+        }
+      },
+      {
+        "id": "t81",
+        "input": [
+          "updated_csc009"
+        ],
+        "output": [
+          "M_glyald_e"
+        ],
+        "properties": {
+          "name": "t81"
+        }
+      },
+      {
+        "id": "t82",
+        "input": [
+          "M_glyald_e"
+        ],
+        "output": [
+          "updated_csc031"
+        ],
+        "properties": {
+          "name": "t82"
+        }
+      },
+      {
+        "id": "t83",
+        "input": [
+          "updated_csc009"
+        ],
+        "output": [
+          "M_glyc_e"
+        ],
+        "properties": {
+          "name": "t83"
+        }
+      },
+      {
+        "id": "t84",
+        "input": [
+          "M_glyc_e"
+        ],
+        "output": [
+          "updated_csc031"
+        ],
+        "properties": {
+          "name": "t84"
+        }
+      },
+      {
+        "id": "t85",
+        "input": [
+          "updated_csc009"
+        ],
+        "output": [
+          "M_rib__D_e"
+        ],
+        "properties": {
+          "name": "t85"
+        }
+      },
+      {
+        "id": "t86",
+        "input": [
+          "M_rib__D_e"
+        ],
+        "output": [
+          "updated_csc031"
+        ],
+        "properties": {
+          "name": "t86"
+        }
+      },
+      {
+        "id": "t87",
+        "input": [
+          "updated_csc040"
+        ],
+        "output": [
+          "M_fe3_e"
+        ],
+        "properties": {
+          "name": "t87"
+        }
+      },
+      {
+        "id": "t88",
+        "input": [
+          "M_fe3_e"
+        ],
+        "output": [
+          "updated_csc031"
+        ],
+        "properties": {
+          "name": "t88"
+        }
+      },
+      {
+        "id": "t89",
+        "input": [
+          "updated_csc040"
+        ],
+        "output": [
+          "M_fe3pyovd_kt_e"
+        ],
+        "properties": {
+          "name": "t89"
+        }
+      },
+      {
+        "id": "t90",
+        "input": [
+          "M_fe3pyovd_kt_e"
+        ],
+        "output": [
+          "updated_csc031"
+        ],
+        "properties": {
+          "name": "t90"
+        }
+      },
+      {
+        "id": "t91",
+        "input": [
+          "updated_csc040"
+        ],
+        "output": [
+          "M_glyc_e"
+        ],
+        "properties": {
+          "name": "t91"
+        }
+      },
+      {
+        "id": "t92",
+        "input": [
+          "M_glyc_e"
+        ],
+        "output": [
+          "updated_csc031"
+        ],
+        "properties": {
+          "name": "t92"
+        }
+      },
+      {
+        "id": "t93",
+        "input": [
+          "updated_csc040"
+        ],
+        "output": [
+          "M_pi_e"
+        ],
+        "properties": {
+          "name": "t93"
+        }
+      },
+      {
+        "id": "t94",
+        "input": [
+          "M_pi_e"
+        ],
+        "output": [
+          "updated_csc031"
+        ],
+        "properties": {
+          "name": "t94"
+        }
+      },
+      {
+        "id": "t95",
+        "input": [
+          "updated_csc052"
+        ],
+        "output": [
+          "M_fe3_e"
+        ],
+        "properties": {
+          "name": "t95"
+        }
+      },
+      {
+        "id": "t96",
+        "input": [
+          "M_fe3_e"
+        ],
+        "output": [
+          "updated_csc031"
+        ],
+        "properties": {
+          "name": "t96"
+        }
+      },
+      {
+        "id": "t97",
+        "input": [
+          "updated_csc052"
+        ],
+        "output": [
+          "M_glyald_e"
+        ],
+        "properties": {
+          "name": "t97"
+        }
+      },
+      {
+        "id": "t98",
+        "input": [
+          "M_glyald_e"
+        ],
+        "output": [
+          "updated_csc031"
+        ],
+        "properties": {
+          "name": "t98"
+        }
+      },
+      {
+        "id": "t99",
+        "input": [
+          "updated_csc052"
+        ],
+        "output": [
+          "M_glyc_e"
+        ],
+        "properties": {
+          "name": "t99"
+        }
+      },
+      {
+        "id": "t100",
+        "input": [
+          "M_glyc_e"
+        ],
+        "output": [
+          "updated_csc031"
+        ],
+        "properties": {
+          "name": "t100"
+        }
+      },
+      {
+        "id": "t101",
+        "input": [
+          "updated_csc052"
+        ],
+        "output": [
+          "M_rib__D_e"
+        ],
+        "properties": {
+          "name": "t101"
+        }
+      },
+      {
+        "id": "t102",
+        "input": [
+          "M_rib__D_e"
+        ],
+        "output": [
+          "updated_csc031"
+        ],
+        "properties": {
+          "name": "t102"
+        }
+      },
+      {
+        "id": "t103",
+        "input": [
+          "csc043"
+        ],
+        "output": [
+          "M_glyald_e"
+        ],
+        "properties": {
+          "name": "t103"
+        }
+      },
+      {
+        "id": "t104",
+        "input": [
+          "M_glyald_e"
+        ],
+        "output": [
+          "updated_csc031"
+        ],
+        "properties": {
+          "name": "t104"
+        }
+      },
+      {
+        "id": "t105",
+        "input": [
+          "csc043"
+        ],
+        "output": [
+          "M_glyc_e"
+        ],
+        "properties": {
+          "name": "t105"
+        }
+      },
+      {
+        "id": "t106",
+        "input": [
+          "M_glyc_e"
+        ],
+        "output": [
+          "updated_csc031"
+        ],
+        "properties": {
+          "name": "t106"
+        }
+      },
+      {
+        "id": "t107",
+        "input": [
+          "csc043"
+        ],
+        "output": [
+          "M_rib__D_e"
+        ],
+        "properties": {
+          "name": "t107"
+        }
+      },
+      {
+        "id": "t108",
+        "input": [
+          "M_rib__D_e"
+        ],
+        "output": [
+          "updated_csc031"
+        ],
+        "properties": {
+          "name": "t108"
+        }
+      },
+      {
+        "id": "t109",
+        "input": [
+          "csc043"
+        ],
+        "output": [
+          "M_xylan4_e"
+        ],
+        "properties": {
+          "name": "t109"
+        }
+      },
+      {
+        "id": "t110",
+        "input": [
+          "M_xylan4_e"
+        ],
+        "output": [
+          "updated_csc031"
+        ],
+        "properties": {
+          "name": "t110"
+        }
+      },
+      {
+        "id": "t111",
+        "input": [
+          "updated_csc009"
+        ],
+        "output": [
+          "M_arg__L_e"
+        ],
+        "properties": {
+          "name": "t111"
+        }
+      },
+      {
+        "id": "t112",
+        "input": [
+          "M_arg__L_e"
+        ],
+        "output": [
+          "updated_csc040"
+        ],
+        "properties": {
+          "name": "t112"
+        }
+      },
+      {
+        "id": "t113",
+        "input": [
+          "updated_csc009"
+        ],
+        "output": [
+          "M_fe3_e"
+        ],
+        "properties": {
+          "name": "t113"
+        }
+      },
+      {
+        "id": "t114",
+        "input": [
+          "M_fe3_e"
+        ],
+        "output": [
+          "updated_csc040"
+        ],
+        "properties": {
+          "name": "t114"
+        }
+      },
+      {
+        "id": "t115",
+        "input": [
+          "updated_csc009"
+        ],
+        "output": [
+          "M_fe3pyovd_kt_e"
+        ],
+        "properties": {
+          "name": "t115"
+        }
+      },
+      {
+        "id": "t116",
+        "input": [
+          "M_fe3pyovd_kt_e"
+        ],
+        "output": [
+          "updated_csc040"
+        ],
+        "properties": {
+          "name": "t116"
+        }
+      },
+      {
+        "id": "t117",
+        "input": [
+          "updated_csc009"
+        ],
+        "output": [
+          "M_hom__L_e"
+        ],
+        "properties": {
+          "name": "t117"
+        }
+      },
+      {
+        "id": "t118",
+        "input": [
+          "M_hom__L_e"
+        ],
+        "output": [
+          "updated_csc040"
+        ],
+        "properties": {
+          "name": "t118"
+        }
+      },
+      {
+        "id": "t119",
+        "input": [
+          "updated_csc009"
+        ],
+        "output": [
+          "M_lys__L_e"
+        ],
+        "properties": {
+          "name": "t119"
+        }
+      },
+      {
+        "id": "t120",
+        "input": [
+          "M_lys__L_e"
+        ],
+        "output": [
+          "updated_csc040"
+        ],
+        "properties": {
+          "name": "t120"
+        }
+      },
+      {
+        "id": "t121",
+        "input": [
+          "updated_csc009"
+        ],
+        "output": [
+          "M_nh4_e"
+        ],
+        "properties": {
+          "name": "t121"
+        }
+      },
+      {
+        "id": "t122",
+        "input": [
+          "M_nh4_e"
+        ],
+        "output": [
+          "updated_csc040"
+        ],
+        "properties": {
+          "name": "t122"
+        }
+      },
+      {
+        "id": "t123",
+        "input": [
+          "updated_csc009"
+        ],
+        "output": [
+          "M_o2_e"
+        ],
+        "properties": {
+          "name": "t123"
+        }
+      },
+      {
+        "id": "t124",
+        "input": [
+          "M_o2_e"
+        ],
+        "output": [
+          "updated_csc040"
+        ],
+        "properties": {
+          "name": "t124"
+        }
+      },
+      {
+        "id": "t125",
+        "input": [
+          "updated_csc009"
+        ],
+        "output": [
+          "M_orn_e"
+        ],
+        "properties": {
+          "name": "t125"
+        }
+      },
+      {
+        "id": "t126",
+        "input": [
+          "M_orn_e"
+        ],
+        "output": [
+          "updated_csc040"
+        ],
+        "properties": {
+          "name": "t126"
+        }
+      },
+      {
+        "id": "t127",
+        "input": [
+          "updated_csc031"
+        ],
+        "output": [
+          "M_arg__L_e"
+        ],
+        "properties": {
+          "name": "t127"
+        }
+      },
+      {
+        "id": "t128",
+        "input": [
+          "M_arg__L_e"
+        ],
+        "output": [
+          "updated_csc040"
+        ],
+        "properties": {
+          "name": "t128"
+        }
+      },
+      {
+        "id": "t129",
+        "input": [
+          "updated_csc031"
+        ],
+        "output": [
+          "M_gua_e"
+        ],
+        "properties": {
+          "name": "t129"
+        }
+      },
+      {
+        "id": "t130",
+        "input": [
+          "M_gua_e"
+        ],
+        "output": [
+          "updated_csc040"
+        ],
+        "properties": {
+          "name": "t130"
+        }
+      },
+      {
+        "id": "t131",
+        "input": [
+          "updated_csc031"
+        ],
+        "output": [
+          "M_hom__L_e"
+        ],
+        "properties": {
+          "name": "t131"
+        }
+      },
+      {
+        "id": "t132",
+        "input": [
+          "M_hom__L_e"
+        ],
+        "output": [
+          "updated_csc040"
+        ],
+        "properties": {
+          "name": "t132"
+        }
+      },
+      {
+        "id": "t133",
+        "input": [
+          "updated_csc031"
+        ],
+        "output": [
+          "M_lys__L_e"
+        ],
+        "properties": {
+          "name": "t133"
+        }
+      },
+      {
+        "id": "t134",
+        "input": [
+          "M_lys__L_e"
+        ],
+        "output": [
+          "updated_csc040"
+        ],
+        "properties": {
+          "name": "t134"
+        }
+      },
+      {
+        "id": "t135",
+        "input": [
+          "updated_csc031"
+        ],
+        "output": [
+          "M_nh4_e"
+        ],
+        "properties": {
+          "name": "t135"
+        }
+      },
+      {
+        "id": "t136",
+        "input": [
+          "M_nh4_e"
+        ],
+        "output": [
+          "updated_csc040"
+        ],
+        "properties": {
+          "name": "t136"
+        }
+      },
+      {
+        "id": "t137",
+        "input": [
+          "updated_csc031"
+        ],
+        "output": [
+          "M_orn_e"
+        ],
+        "properties": {
+          "name": "t137"
+        }
+      },
+      {
+        "id": "t138",
+        "input": [
+          "M_orn_e"
+        ],
+        "output": [
+          "updated_csc040"
+        ],
+        "properties": {
+          "name": "t138"
+        }
+      },
+      {
+        "id": "t139",
+        "input": [
+          "updated_csc052"
+        ],
+        "output": [
+          "M_arg__L_e"
+        ],
+        "properties": {
+          "name": "t139"
+        }
+      },
+      {
+        "id": "t140",
+        "input": [
+          "M_arg__L_e"
+        ],
+        "output": [
+          "updated_csc040"
+        ],
+        "properties": {
+          "name": "t140"
+        }
+      },
+      {
+        "id": "t141",
+        "input": [
+          "updated_csc052"
+        ],
+        "output": [
+          "M_fe3_e"
+        ],
+        "properties": {
+          "name": "t141"
+        }
+      },
+      {
+        "id": "t142",
+        "input": [
+          "M_fe3_e"
+        ],
+        "output": [
+          "updated_csc040"
+        ],
+        "properties": {
+          "name": "t142"
+        }
+      },
+      {
+        "id": "t143",
+        "input": [
+          "updated_csc052"
+        ],
+        "output": [
+          "M_lys__L_e"
+        ],
+        "properties": {
+          "name": "t143"
+        }
+      },
+      {
+        "id": "t144",
+        "input": [
+          "M_lys__L_e"
+        ],
+        "output": [
+          "updated_csc040"
+        ],
+        "properties": {
+          "name": "t144"
+        }
+      },
+      {
+        "id": "t145",
+        "input": [
+          "updated_csc052"
+        ],
+        "output": [
+          "M_nh4_e"
+        ],
+        "properties": {
+          "name": "t145"
+        }
+      },
+      {
+        "id": "t146",
+        "input": [
+          "M_nh4_e"
+        ],
+        "output": [
+          "updated_csc040"
+        ],
+        "properties": {
+          "name": "t146"
+        }
+      },
+      {
+        "id": "t147",
+        "input": [
+          "updated_csc052"
+        ],
+        "output": [
+          "M_orn_e"
+        ],
+        "properties": {
+          "name": "t147"
+        }
+      },
+      {
+        "id": "t148",
+        "input": [
+          "M_orn_e"
+        ],
+        "output": [
+          "updated_csc040"
+        ],
+        "properties": {
+          "name": "t148"
+        }
+      },
+      {
+        "id": "t149",
+        "input": [
+          "csc043"
+        ],
+        "output": [
+          "M_arg__L_e"
+        ],
+        "properties": {
+          "name": "t149"
+        }
+      },
+      {
+        "id": "t150",
+        "input": [
+          "M_arg__L_e"
+        ],
+        "output": [
+          "updated_csc040"
+        ],
+        "properties": {
+          "name": "t150"
+        }
+      },
+      {
+        "id": "t151",
+        "input": [
+          "csc043"
+        ],
+        "output": [
+          "M_gua_e"
+        ],
+        "properties": {
+          "name": "t151"
+        }
+      },
+      {
+        "id": "t152",
+        "input": [
+          "M_gua_e"
+        ],
+        "output": [
+          "updated_csc040"
+        ],
+        "properties": {
+          "name": "t152"
+        }
+      },
+      {
+        "id": "t153",
+        "input": [
+          "csc043"
+        ],
+        "output": [
+          "M_lys__L_e"
+        ],
+        "properties": {
+          "name": "t153"
+        }
+      },
+      {
+        "id": "t154",
+        "input": [
+          "M_lys__L_e"
+        ],
+        "output": [
+          "updated_csc040"
+        ],
+        "properties": {
+          "name": "t154"
+        }
+      },
+      {
+        "id": "t155",
+        "input": [
+          "csc043"
+        ],
+        "output": [
+          "M_nh4_e"
+        ],
+        "properties": {
+          "name": "t155"
+        }
+      },
+      {
+        "id": "t156",
+        "input": [
+          "M_nh4_e"
+        ],
+        "output": [
+          "updated_csc040"
+        ],
+        "properties": {
+          "name": "t156"
+        }
+      },
+      {
+        "id": "t157",
+        "input": [
+          "csc043"
+        ],
+        "output": [
+          "M_ura_e"
+        ],
+        "properties": {
+          "name": "t157"
+        }
+      },
+      {
+        "id": "t158",
+        "input": [
+          "M_ura_e"
+        ],
+        "output": [
+          "updated_csc040"
+        ],
+        "properties": {
+          "name": "t158"
+        }
+      },
+      {
+        "id": "t159",
+        "input": [
+          "updated_csc009"
+        ],
+        "output": [
+          "M_glyc_e"
+        ],
+        "properties": {
+          "name": "t159"
+        }
+      },
+      {
+        "id": "t160",
+        "input": [
+          "M_glyc_e"
+        ],
+        "output": [
+          "updated_csc052"
+        ],
+        "properties": {
+          "name": "t160"
+        }
+      },
+      {
+        "id": "t161",
+        "input": [
+          "updated_csc009"
+        ],
+        "output": [
+          "M_h2s_e"
+        ],
+        "properties": {
+          "name": "t161"
+        }
+      },
+      {
+        "id": "t162",
+        "input": [
+          "M_h2s_e"
+        ],
+        "output": [
+          "updated_csc052"
+        ],
+        "properties": {
+          "name": "t162"
+        }
+      },
+      {
+        "id": "t163",
+        "input": [
+          "updated_csc009"
+        ],
+        "output": [
+          "M_o2_e"
+        ],
+        "properties": {
+          "name": "t163"
+        }
+      },
+      {
+        "id": "t164",
+        "input": [
+          "M_o2_e"
+        ],
+        "output": [
+          "updated_csc052"
+        ],
+        "properties": {
+          "name": "t164"
+        }
+      },
+      {
+        "id": "t165",
+        "input": [
+          "updated_csc031"
+        ],
+        "output": [
+          "M_glyc_e"
+        ],
+        "properties": {
+          "name": "t165"
+        }
+      },
+      {
+        "id": "t166",
+        "input": [
+          "M_glyc_e"
+        ],
+        "output": [
+          "updated_csc052"
+        ],
+        "properties": {
+          "name": "t166"
+        }
+      },
+      {
+        "id": "t167",
+        "input": [
+          "updated_csc031"
+        ],
+        "output": [
+          "M_h2s_e"
+        ],
+        "properties": {
+          "name": "t167"
+        }
+      },
+      {
+        "id": "t168",
+        "input": [
+          "M_h2s_e"
+        ],
+        "output": [
+          "updated_csc052"
+        ],
+        "properties": {
+          "name": "t168"
+        }
+      },
+      {
+        "id": "t169",
+        "input": [
+          "updated_csc031"
+        ],
+        "output": [
+          "M_xyl__D_e"
+        ],
+        "properties": {
+          "name": "t169"
+        }
+      },
+      {
+        "id": "t170",
+        "input": [
+          "M_xyl__D_e"
+        ],
+        "output": [
+          "updated_csc052"
+        ],
+        "properties": {
+          "name": "t170"
+        }
+      },
+      {
+        "id": "t171",
+        "input": [
+          "updated_csc040"
+        ],
+        "output": [
+          "M_glyc_e"
+        ],
+        "properties": {
+          "name": "t171"
+        }
+      },
+      {
+        "id": "t172",
+        "input": [
+          "M_glyc_e"
+        ],
+        "output": [
+          "updated_csc052"
+        ],
+        "properties": {
+          "name": "t172"
+        }
+      },
+      {
+        "id": "t173",
+        "input": [
+          "updated_csc040"
+        ],
+        "output": [
+          "M_h2s_e"
+        ],
+        "properties": {
+          "name": "t173"
+        }
+      },
+      {
+        "id": "t174",
+        "input": [
+          "M_h2s_e"
+        ],
+        "output": [
+          "updated_csc052"
+        ],
+        "properties": {
+          "name": "t174"
+        }
+      },
+      {
+        "id": "t175",
+        "input": [
+          "updated_csc040"
+        ],
+        "output": [
+          "M_pi_e"
+        ],
+        "properties": {
+          "name": "t175"
+        }
+      },
+      {
+        "id": "t176",
+        "input": [
+          "M_pi_e"
+        ],
+        "output": [
+          "updated_csc052"
+        ],
+        "properties": {
+          "name": "t176"
+        }
+      },
+      {
+        "id": "t177",
+        "input": [
+          "updated_csc040"
+        ],
+        "output": [
+          "M_s_e"
+        ],
+        "properties": {
+          "name": "t177"
+        }
+      },
+      {
+        "id": "t178",
+        "input": [
+          "M_s_e"
+        ],
+        "output": [
+          "updated_csc052"
+        ],
+        "properties": {
+          "name": "t178"
+        }
+      },
+      {
+        "id": "t179",
+        "input": [
+          "csc043"
+        ],
+        "output": [
+          "M_glyc_e"
+        ],
+        "properties": {
+          "name": "t179"
+        }
+      },
+      {
+        "id": "t180",
+        "input": [
+          "M_glyc_e"
+        ],
+        "output": [
+          "updated_csc052"
+        ],
+        "properties": {
+          "name": "t180"
+        }
+      },
+      {
+        "id": "t181",
+        "input": [
+          "csc043"
+        ],
+        "output": [
+          "M_h2s_e"
+        ],
+        "properties": {
+          "name": "t181"
+        }
+      },
+      {
+        "id": "t182",
+        "input": [
+          "M_h2s_e"
+        ],
+        "output": [
+          "updated_csc052"
+        ],
+        "properties": {
+          "name": "t182"
+        }
+      },
+      {
+        "id": "t183",
+        "input": [
+          "csc043"
+        ],
+        "output": [
+          "M_s_e"
+        ],
+        "properties": {
+          "name": "t183"
+        }
+      },
+      {
+        "id": "t184",
+        "input": [
+          "M_s_e"
+        ],
+        "output": [
+          "updated_csc052"
+        ],
+        "properties": {
+          "name": "t184"
+        }
+      },
+      {
+        "id": "t185",
+        "input": [
+          "csc043"
+        ],
+        "output": [
+          "M_xylan4_e"
+        ],
+        "properties": {
+          "name": "t185"
+        }
+      },
+      {
+        "id": "t186",
+        "input": [
+          "M_xylan4_e"
+        ],
+        "output": [
+          "updated_csc052"
+        ],
+        "properties": {
+          "name": "t186"
+        }
+      },
+      {
+        "id": "t187",
+        "input": [
+          "updated_csc009"
+        ],
+        "output": [
+          "M_arg__L_e"
+        ],
+        "properties": {
+          "name": "t187"
+        }
+      },
+      {
+        "id": "t188",
+        "input": [
+          "M_arg__L_e"
+        ],
+        "output": [
+          "csc043"
+        ],
+        "properties": {
+          "name": "t188"
+        }
+      },
+      {
+        "id": "t189",
+        "input": [
+          "updated_csc009"
+        ],
+        "output": [
+          "M_h2s_e"
+        ],
+        "properties": {
+          "name": "t189"
+        }
+      },
+      {
+        "id": "t190",
+        "input": [
+          "M_h2s_e"
+        ],
+        "output": [
+          "csc043"
+        ],
+        "properties": {
+          "name": "t190"
+        }
+      },
+      {
+        "id": "t191",
+        "input": [
+          "updated_csc009"
+        ],
+        "output": [
+          "M_lys__L_e"
+        ],
+        "properties": {
+          "name": "t191"
+        }
+      },
+      {
+        "id": "t192",
+        "input": [
+          "M_lys__L_e"
+        ],
+        "output": [
+          "csc043"
+        ],
+        "properties": {
+          "name": "t192"
+        }
+      },
+      {
+        "id": "t193",
+        "input": [
+          "updated_csc009"
+        ],
+        "output": [
+          "M_o2_e"
+        ],
+        "properties": {
+          "name": "t193"
+        }
+      },
+      {
+        "id": "t194",
+        "input": [
+          "M_o2_e"
+        ],
+        "output": [
+          "csc043"
+        ],
+        "properties": {
+          "name": "t194"
+        }
+      },
+      {
+        "id": "t195",
+        "input": [
+          "updated_csc009"
+        ],
+        "output": [
+          "M_ppap_e"
+        ],
+        "properties": {
+          "name": "t195"
+        }
+      },
+      {
+        "id": "t196",
+        "input": [
+          "M_ppap_e"
+        ],
+        "output": [
+          "csc043"
+        ],
+        "properties": {
+          "name": "t196"
+        }
+      },
+      {
+        "id": "t197",
+        "input": [
+          "updated_csc031"
+        ],
+        "output": [
+          "M_arg__L_e"
+        ],
+        "properties": {
+          "name": "t197"
+        }
+      },
+      {
+        "id": "t198",
+        "input": [
+          "M_arg__L_e"
+        ],
+        "output": [
+          "csc043"
+        ],
+        "properties": {
+          "name": "t198"
+        }
+      },
+      {
+        "id": "t199",
+        "input": [
+          "updated_csc031"
+        ],
+        "output": [
+          "M_h2s_e"
+        ],
+        "properties": {
+          "name": "t199"
+        }
+      },
+      {
+        "id": "t200",
+        "input": [
+          "M_h2s_e"
+        ],
+        "output": [
+          "csc043"
+        ],
+        "properties": {
+          "name": "t200"
+        }
+      },
+      {
+        "id": "t201",
+        "input": [
+          "updated_csc031"
+        ],
+        "output": [
+          "M_lys__L_e"
+        ],
+        "properties": {
+          "name": "t201"
+        }
+      },
+      {
+        "id": "t202",
+        "input": [
+          "M_lys__L_e"
+        ],
+        "output": [
+          "csc043"
+        ],
+        "properties": {
+          "name": "t202"
+        }
+      },
+      {
+        "id": "t203",
+        "input": [
+          "updated_csc040"
+        ],
+        "output": [
+          "M_arg__L_e"
+        ],
+        "properties": {
+          "name": "t203"
+        }
+      },
+      {
+        "id": "t204",
+        "input": [
+          "M_arg__L_e"
+        ],
+        "output": [
+          "csc043"
+        ],
+        "properties": {
+          "name": "t204"
+        }
+      },
+      {
+        "id": "t205",
+        "input": [
+          "updated_csc040"
+        ],
+        "output": [
+          "M_h2s_e"
+        ],
+        "properties": {
+          "name": "t205"
+        }
+      },
+      {
+        "id": "t206",
+        "input": [
+          "M_h2s_e"
+        ],
+        "output": [
+          "csc043"
+        ],
+        "properties": {
+          "name": "t206"
+        }
+      },
+      {
+        "id": "t207",
+        "input": [
+          "updated_csc040"
+        ],
+        "output": [
+          "M_lys__L_e"
+        ],
+        "properties": {
+          "name": "t207"
+        }
+      },
+      {
+        "id": "t208",
+        "input": [
+          "M_lys__L_e"
+        ],
+        "output": [
+          "csc043"
+        ],
+        "properties": {
+          "name": "t208"
+        }
+      },
+      {
+        "id": "t209",
+        "input": [
+          "updated_csc040"
+        ],
+        "output": [
+          "M_s_e"
+        ],
+        "properties": {
+          "name": "t209"
+        }
+      },
+      {
+        "id": "t210",
+        "input": [
+          "M_s_e"
+        ],
+        "output": [
+          "csc043"
+        ],
+        "properties": {
+          "name": "t210"
+        }
+      },
+      {
+        "id": "t211",
+        "input": [
+          "updated_csc052"
+        ],
+        "output": [
+          "M_arg__L_e"
+        ],
+        "properties": {
+          "name": "t211"
+        }
+      },
+      {
+        "id": "t212",
+        "input": [
+          "M_arg__L_e"
+        ],
+        "output": [
+          "csc043"
+        ],
+        "properties": {
+          "name": "t212"
+        }
+      },
+      {
+        "id": "t213",
+        "input": [
+          "updated_csc052"
+        ],
+        "output": [
+          "M_h2s_e"
+        ],
+        "properties": {
+          "name": "t213"
+        }
+      },
+      {
+        "id": "t214",
+        "input": [
+          "M_h2s_e"
+        ],
+        "output": [
+          "csc043"
+        ],
+        "properties": {
+          "name": "t214"
+        }
+      },
+      {
+        "id": "t215",
+        "input": [
+          "updated_csc052"
+        ],
+        "output": [
+          "M_lys__L_e"
+        ],
+        "properties": {
+          "name": "t215"
+        }
+      },
+      {
+        "id": "t216",
+        "input": [
+          "M_lys__L_e"
+        ],
+        "output": [
+          "csc043"
+        ],
+        "properties": {
+          "name": "t216"
+        }
+      },
+      {
+        "id": "t217",
+        "input": [
+          "updated_csc052"
+        ],
+        "output": [
+          "M_s_e"
+        ],
+        "properties": {
+          "name": "t217"
+        }
+      },
+      {
+        "id": "t218",
+        "input": [
+          "M_s_e"
+        ],
+        "output": [
+          "csc043"
+        ],
+        "properties": {
+          "name": "t218"
+        }
+      }
+    ]
+  },
+  "semantics": {
+    "ode": {
+      "rates": [
+        {
+          "target": "t1",
+          "expression": "k_d0*updated_csc031",
+          "expression_mathml": "<apply><times/><ci>k_d0</ci><ci>updated_csc031</ci></apply>"
+        },
+        {
+          "target": "t2",
+          "expression": "M_arg__L_e*k_r0",
+          "expression_mathml": "<apply><times/><ci>M_arg__L_e</ci><ci>k_r0</ci></apply>"
+        },
+        {
+          "target": "t3",
+          "expression": "k_d1*updated_csc031",
+          "expression_mathml": "<apply><times/><ci>k_d1</ci><ci>updated_csc031</ci></apply>"
+        },
+        {
+          "target": "t4",
+          "expression": "M_gua_e*k_r1",
+          "expression_mathml": "<apply><times/><ci>M_gua_e</ci><ci>k_r1</ci></apply>"
+        },
+        {
+          "target": "t5",
+          "expression": "k_d2*updated_csc031",
+          "expression_mathml": "<apply><times/><ci>k_d2</ci><ci>updated_csc031</ci></apply>"
+        },
+        {
+          "target": "t6",
+          "expression": "M_h2s_e*k_r2",
+          "expression_mathml": "<apply><times/><ci>M_h2s_e</ci><ci>k_r2</ci></apply>"
+        },
+        {
+          "target": "t7",
+          "expression": "k_d3*updated_csc031",
+          "expression_mathml": "<apply><times/><ci>k_d3</ci><ci>updated_csc031</ci></apply>"
+        },
+        {
+          "target": "t8",
+          "expression": "M_hom__L_e*k_r3",
+          "expression_mathml": "<apply><times/><ci>M_hom__L_e</ci><ci>k_r3</ci></apply>"
+        },
+        {
+          "target": "t9",
+          "expression": "k_d4*updated_csc031",
+          "expression_mathml": "<apply><times/><ci>k_d4</ci><ci>updated_csc031</ci></apply>"
+        },
+        {
+          "target": "t10",
+          "expression": "M_nh4_e*k_r4",
+          "expression_mathml": "<apply><times/><ci>M_nh4_e</ci><ci>k_r4</ci></apply>"
+        },
+        {
+          "target": "t11",
+          "expression": "k_d5*updated_csc031",
+          "expression_mathml": "<apply><times/><ci>k_d5</ci><ci>updated_csc031</ci></apply>"
+        },
+        {
+          "target": "t12",
+          "expression": "M_orn_e*k_r5",
+          "expression_mathml": "<apply><times/><ci>M_orn_e</ci><ci>k_r5</ci></apply>"
+        },
+        {
+          "target": "t13",
+          "expression": "k_d6*updated_csc040",
+          "expression_mathml": "<apply><times/><ci>k_d6</ci><ci>updated_csc040</ci></apply>"
+        },
+        {
+          "target": "t14",
+          "expression": "M_4abut_e*k_r6",
+          "expression_mathml": "<apply><times/><ci>M_4abut_e</ci><ci>k_r6</ci></apply>"
+        },
+        {
+          "target": "t15",
+          "expression": "k_d7*updated_csc040",
+          "expression_mathml": "<apply><times/><ci>k_d7</ci><ci>updated_csc040</ci></apply>"
+        },
+        {
+          "target": "t16",
+          "expression": "M_arg__L_e*k_r7",
+          "expression_mathml": "<apply><times/><ci>M_arg__L_e</ci><ci>k_r7</ci></apply>"
+        },
+        {
+          "target": "t17",
+          "expression": "k_d8*updated_csc040",
+          "expression_mathml": "<apply><times/><ci>k_d8</ci><ci>updated_csc040</ci></apply>"
+        },
+        {
+          "target": "t18",
+          "expression": "M_asp__L_e*k_r8",
+          "expression_mathml": "<apply><times/><ci>M_asp__L_e</ci><ci>k_r8</ci></apply>"
+        },
+        {
+          "target": "t19",
+          "expression": "k_d9*updated_csc040",
+          "expression_mathml": "<apply><times/><ci>k_d9</ci><ci>updated_csc040</ci></apply>"
+        },
+        {
+          "target": "t20",
+          "expression": "M_fe3_e*k_r9",
+          "expression_mathml": "<apply><times/><ci>M_fe3_e</ci><ci>k_r9</ci></apply>"
+        },
+        {
+          "target": "t21",
+          "expression": "k_d10*updated_csc040",
+          "expression_mathml": "<apply><times/><ci>k_d10</ci><ci>updated_csc040</ci></apply>"
+        },
+        {
+          "target": "t22",
+          "expression": "M_fe3pyovd_kt_e*k_r10",
+          "expression_mathml": "<apply><times/><ci>M_fe3pyovd_kt_e</ci><ci>k_r10</ci></apply>"
+        },
+        {
+          "target": "t23",
+          "expression": "k_d11*updated_csc040",
+          "expression_mathml": "<apply><times/><ci>k_d11</ci><ci>updated_csc040</ci></apply>"
+        },
+        {
+          "target": "t24",
+          "expression": "M_glu__L_e*k_r11",
+          "expression_mathml": "<apply><times/><ci>M_glu__L_e</ci><ci>k_r11</ci></apply>"
+        },
+        {
+          "target": "t25",
+          "expression": "k_d12*updated_csc040",
+          "expression_mathml": "<apply><times/><ci>k_d12</ci><ci>updated_csc040</ci></apply>"
+        },
+        {
+          "target": "t26",
+          "expression": "M_gua_e*k_r12",
+          "expression_mathml": "<apply><times/><ci>M_gua_e</ci><ci>k_r12</ci></apply>"
+        },
+        {
+          "target": "t27",
+          "expression": "k_d13*updated_csc040",
+          "expression_mathml": "<apply><times/><ci>k_d13</ci><ci>updated_csc040</ci></apply>"
+        },
+        {
+          "target": "t28",
+          "expression": "M_h2s_e*k_r13",
+          "expression_mathml": "<apply><times/><ci>M_h2s_e</ci><ci>k_r13</ci></apply>"
+        },
+        {
+          "target": "t29",
+          "expression": "k_d14*updated_csc040",
+          "expression_mathml": "<apply><times/><ci>k_d14</ci><ci>updated_csc040</ci></apply>"
+        },
+        {
+          "target": "t30",
+          "expression": "M_hom__L_e*k_r14",
+          "expression_mathml": "<apply><times/><ci>M_hom__L_e</ci><ci>k_r14</ci></apply>"
+        },
+        {
+          "target": "t31",
+          "expression": "k_d15*updated_csc040",
+          "expression_mathml": "<apply><times/><ci>k_d15</ci><ci>updated_csc040</ci></apply>"
+        },
+        {
+          "target": "t32",
+          "expression": "M_nh4_e*k_r15",
+          "expression_mathml": "<apply><times/><ci>M_nh4_e</ci><ci>k_r15</ci></apply>"
+        },
+        {
+          "target": "t33",
+          "expression": "k_d16*updated_csc040",
+          "expression_mathml": "<apply><times/><ci>k_d16</ci><ci>updated_csc040</ci></apply>"
+        },
+        {
+          "target": "t34",
+          "expression": "M_orn_e*k_r16",
+          "expression_mathml": "<apply><times/><ci>M_orn_e</ci><ci>k_r16</ci></apply>"
+        },
+        {
+          "target": "t35",
+          "expression": "k_d17*updated_csc040",
+          "expression_mathml": "<apply><times/><ci>k_d17</ci><ci>updated_csc040</ci></apply>"
+        },
+        {
+          "target": "t36",
+          "expression": "M_pi_e*k_r17",
+          "expression_mathml": "<apply><times/><ci>M_pi_e</ci><ci>k_r17</ci></apply>"
+        },
+        {
+          "target": "t37",
+          "expression": "k_d18*updated_csc040",
+          "expression_mathml": "<apply><times/><ci>k_d18</ci><ci>updated_csc040</ci></apply>"
+        },
+        {
+          "target": "t38",
+          "expression": "M_pydxn_e*k_r18",
+          "expression_mathml": "<apply><times/><ci>M_pydxn_e</ci><ci>k_r18</ci></apply>"
+        },
+        {
+          "target": "t39",
+          "expression": "k_d19*updated_csc040",
+          "expression_mathml": "<apply><times/><ci>k_d19</ci><ci>updated_csc040</ci></apply>"
+        },
+        {
+          "target": "t40",
+          "expression": "M_s_e*k_r19",
+          "expression_mathml": "<apply><times/><ci>M_s_e</ci><ci>k_r19</ci></apply>"
+        },
+        {
+          "target": "t41",
+          "expression": "k_d20*updated_csc040",
+          "expression_mathml": "<apply><times/><ci>k_d20</ci><ci>updated_csc040</ci></apply>"
+        },
+        {
+          "target": "t42",
+          "expression": "M_ser__L_e*k_r20",
+          "expression_mathml": "<apply><times/><ci>M_ser__L_e</ci><ci>k_r20</ci></apply>"
+        },
+        {
+          "target": "t43",
+          "expression": "k_d21*updated_csc040",
+          "expression_mathml": "<apply><times/><ci>k_d21</ci><ci>updated_csc040</ci></apply>"
+        },
+        {
+          "target": "t44",
+          "expression": "M_urea_e*k_r21",
+          "expression_mathml": "<apply><times/><ci>M_urea_e</ci><ci>k_r21</ci></apply>"
+        },
+        {
+          "target": "t45",
+          "expression": "k_d22*updated_csc052",
+          "expression_mathml": "<apply><times/><ci>k_d22</ci><ci>updated_csc052</ci></apply>"
+        },
+        {
+          "target": "t46",
+          "expression": "M_arg__L_e*k_r22",
+          "expression_mathml": "<apply><times/><ci>M_arg__L_e</ci><ci>k_r22</ci></apply>"
+        },
+        {
+          "target": "t47",
+          "expression": "k_d23*updated_csc052",
+          "expression_mathml": "<apply><times/><ci>k_d23</ci><ci>updated_csc052</ci></apply>"
+        },
+        {
+          "target": "t48",
+          "expression": "M_fe3_e*k_r23",
+          "expression_mathml": "<apply><times/><ci>M_fe3_e</ci><ci>k_r23</ci></apply>"
+        },
+        {
+          "target": "t49",
+          "expression": "k_d24*updated_csc052",
+          "expression_mathml": "<apply><times/><ci>k_d24</ci><ci>updated_csc052</ci></apply>"
+        },
+        {
+          "target": "t50",
+          "expression": "M_glu__L_e*k_r24",
+          "expression_mathml": "<apply><times/><ci>M_glu__L_e</ci><ci>k_r24</ci></apply>"
+        },
+        {
+          "target": "t51",
+          "expression": "k_d25*updated_csc052",
+          "expression_mathml": "<apply><times/><ci>k_d25</ci><ci>updated_csc052</ci></apply>"
+        },
+        {
+          "target": "t52",
+          "expression": "M_gthrd_e*k_r25",
+          "expression_mathml": "<apply><times/><ci>M_gthrd_e</ci><ci>k_r25</ci></apply>"
+        },
+        {
+          "target": "t53",
+          "expression": "k_d26*updated_csc052",
+          "expression_mathml": "<apply><times/><ci>k_d26</ci><ci>updated_csc052</ci></apply>"
+        },
+        {
+          "target": "t54",
+          "expression": "M_h2s_e*k_r26",
+          "expression_mathml": "<apply><times/><ci>M_h2s_e</ci><ci>k_r26</ci></apply>"
+        },
+        {
+          "target": "t55",
+          "expression": "k_d27*updated_csc052",
+          "expression_mathml": "<apply><times/><ci>k_d27</ci><ci>updated_csc052</ci></apply>"
+        },
+        {
+          "target": "t56",
+          "expression": "M_nh4_e*k_r27",
+          "expression_mathml": "<apply><times/><ci>M_nh4_e</ci><ci>k_r27</ci></apply>"
+        },
+        {
+          "target": "t57",
+          "expression": "k_d28*updated_csc052",
+          "expression_mathml": "<apply><times/><ci>k_d28</ci><ci>updated_csc052</ci></apply>"
+        },
+        {
+          "target": "t58",
+          "expression": "M_orn_e*k_r28",
+          "expression_mathml": "<apply><times/><ci>M_orn_e</ci><ci>k_r28</ci></apply>"
+        },
+        {
+          "target": "t59",
+          "expression": "k_d29*updated_csc052",
+          "expression_mathml": "<apply><times/><ci>k_d29</ci><ci>updated_csc052</ci></apply>"
+        },
+        {
+          "target": "t60",
+          "expression": "M_ptrc_e*k_r29",
+          "expression_mathml": "<apply><times/><ci>M_ptrc_e</ci><ci>k_r29</ci></apply>"
+        },
+        {
+          "target": "t61",
+          "expression": "k_d30*updated_csc052",
+          "expression_mathml": "<apply><times/><ci>k_d30</ci><ci>updated_csc052</ci></apply>"
+        },
+        {
+          "target": "t62",
+          "expression": "M_s_e*k_r30",
+          "expression_mathml": "<apply><times/><ci>M_s_e</ci><ci>k_r30</ci></apply>"
+        },
+        {
+          "target": "t63",
+          "expression": "k_d31*updated_csc052",
+          "expression_mathml": "<apply><times/><ci>k_d31</ci><ci>updated_csc052</ci></apply>"
+        },
+        {
+          "target": "t64",
+          "expression": "M_urea_e*k_r31",
+          "expression_mathml": "<apply><times/><ci>M_urea_e</ci><ci>k_r31</ci></apply>"
+        },
+        {
+          "target": "t65",
+          "expression": "csc043*k_d32",
+          "expression_mathml": "<apply><times/><ci>csc043</ci><ci>k_d32</ci></apply>"
+        },
+        {
+          "target": "t66",
+          "expression": "M_arg__L_e*k_r32",
+          "expression_mathml": "<apply><times/><ci>M_arg__L_e</ci><ci>k_r32</ci></apply>"
+        },
+        {
+          "target": "t67",
+          "expression": "csc043*k_d33",
+          "expression_mathml": "<apply><times/><ci>csc043</ci><ci>k_d33</ci></apply>"
+        },
+        {
+          "target": "t68",
+          "expression": "M_gua_e*k_r33",
+          "expression_mathml": "<apply><times/><ci>M_gua_e</ci><ci>k_r33</ci></apply>"
+        },
+        {
+          "target": "t69",
+          "expression": "csc043*k_d34",
+          "expression_mathml": "<apply><times/><ci>csc043</ci><ci>k_d34</ci></apply>"
+        },
+        {
+          "target": "t70",
+          "expression": "M_h2s_e*k_r34",
+          "expression_mathml": "<apply><times/><ci>M_h2s_e</ci><ci>k_r34</ci></apply>"
+        },
+        {
+          "target": "t71",
+          "expression": "csc043*k_d35",
+          "expression_mathml": "<apply><times/><ci>csc043</ci><ci>k_d35</ci></apply>"
+        },
+        {
+          "target": "t72",
+          "expression": "M_nh4_e*k_r35",
+          "expression_mathml": "<apply><times/><ci>M_nh4_e</ci><ci>k_r35</ci></apply>"
+        },
+        {
+          "target": "t73",
+          "expression": "csc043*k_d36",
+          "expression_mathml": "<apply><times/><ci>csc043</ci><ci>k_d36</ci></apply>"
+        },
+        {
+          "target": "t74",
+          "expression": "M_s_e*k_r36",
+          "expression_mathml": "<apply><times/><ci>M_s_e</ci><ci>k_r36</ci></apply>"
+        },
+        {
+          "target": "t75",
+          "expression": "csc043*k_d37",
+          "expression_mathml": "<apply><times/><ci>csc043</ci><ci>k_d37</ci></apply>"
+        },
+        {
+          "target": "t76",
+          "expression": "M_xylan4_e*k_r37",
+          "expression_mathml": "<apply><times/><ci>M_xylan4_e</ci><ci>k_r37</ci></apply>"
+        },
+        {
+          "target": "t77",
+          "expression": "k_d38*updated_csc009",
+          "expression_mathml": "<apply><times/><ci>k_d38</ci><ci>updated_csc009</ci></apply>"
+        },
+        {
+          "target": "t78",
+          "expression": "M_fe3_e*k_r38",
+          "expression_mathml": "<apply><times/><ci>M_fe3_e</ci><ci>k_r38</ci></apply>"
+        },
+        {
+          "target": "t79",
+          "expression": "k_d39*updated_csc009",
+          "expression_mathml": "<apply><times/><ci>k_d39</ci><ci>updated_csc009</ci></apply>"
+        },
+        {
+          "target": "t80",
+          "expression": "M_fe3pyovd_kt_e*k_r39",
+          "expression_mathml": "<apply><times/><ci>M_fe3pyovd_kt_e</ci><ci>k_r39</ci></apply>"
+        },
+        {
+          "target": "t81",
+          "expression": "k_d40*updated_csc009",
+          "expression_mathml": "<apply><times/><ci>k_d40</ci><ci>updated_csc009</ci></apply>"
+        },
+        {
+          "target": "t82",
+          "expression": "M_glyald_e*k_r40",
+          "expression_mathml": "<apply><times/><ci>M_glyald_e</ci><ci>k_r40</ci></apply>"
+        },
+        {
+          "target": "t83",
+          "expression": "k_d41*updated_csc009",
+          "expression_mathml": "<apply><times/><ci>k_d41</ci><ci>updated_csc009</ci></apply>"
+        },
+        {
+          "target": "t84",
+          "expression": "M_glyc_e*k_r41",
+          "expression_mathml": "<apply><times/><ci>M_glyc_e</ci><ci>k_r41</ci></apply>"
+        },
+        {
+          "target": "t85",
+          "expression": "k_d42*updated_csc009",
+          "expression_mathml": "<apply><times/><ci>k_d42</ci><ci>updated_csc009</ci></apply>"
+        },
+        {
+          "target": "t86",
+          "expression": "M_rib__D_e*k_r42",
+          "expression_mathml": "<apply><times/><ci>M_rib__D_e</ci><ci>k_r42</ci></apply>"
+        },
+        {
+          "target": "t87",
+          "expression": "k_d43*updated_csc040",
+          "expression_mathml": "<apply><times/><ci>k_d43</ci><ci>updated_csc040</ci></apply>"
+        },
+        {
+          "target": "t88",
+          "expression": "M_fe3_e*k_r43",
+          "expression_mathml": "<apply><times/><ci>M_fe3_e</ci><ci>k_r43</ci></apply>"
+        },
+        {
+          "target": "t89",
+          "expression": "k_d44*updated_csc040",
+          "expression_mathml": "<apply><times/><ci>k_d44</ci><ci>updated_csc040</ci></apply>"
+        },
+        {
+          "target": "t90",
+          "expression": "M_fe3pyovd_kt_e*k_r44",
+          "expression_mathml": "<apply><times/><ci>M_fe3pyovd_kt_e</ci><ci>k_r44</ci></apply>"
+        },
+        {
+          "target": "t91",
+          "expression": "k_d45*updated_csc040",
+          "expression_mathml": "<apply><times/><ci>k_d45</ci><ci>updated_csc040</ci></apply>"
+        },
+        {
+          "target": "t92",
+          "expression": "M_glyc_e*k_r45",
+          "expression_mathml": "<apply><times/><ci>M_glyc_e</ci><ci>k_r45</ci></apply>"
+        },
+        {
+          "target": "t93",
+          "expression": "k_d46*updated_csc040",
+          "expression_mathml": "<apply><times/><ci>k_d46</ci><ci>updated_csc040</ci></apply>"
+        },
+        {
+          "target": "t94",
+          "expression": "M_pi_e*k_r46",
+          "expression_mathml": "<apply><times/><ci>M_pi_e</ci><ci>k_r46</ci></apply>"
+        },
+        {
+          "target": "t95",
+          "expression": "k_d47*updated_csc052",
+          "expression_mathml": "<apply><times/><ci>k_d47</ci><ci>updated_csc052</ci></apply>"
+        },
+        {
+          "target": "t96",
+          "expression": "M_fe3_e*k_r47",
+          "expression_mathml": "<apply><times/><ci>M_fe3_e</ci><ci>k_r47</ci></apply>"
+        },
+        {
+          "target": "t97",
+          "expression": "k_d48*updated_csc052",
+          "expression_mathml": "<apply><times/><ci>k_d48</ci><ci>updated_csc052</ci></apply>"
+        },
+        {
+          "target": "t98",
+          "expression": "M_glyald_e*k_r48",
+          "expression_mathml": "<apply><times/><ci>M_glyald_e</ci><ci>k_r48</ci></apply>"
+        },
+        {
+          "target": "t99",
+          "expression": "k_d49*updated_csc052",
+          "expression_mathml": "<apply><times/><ci>k_d49</ci><ci>updated_csc052</ci></apply>"
+        },
+        {
+          "target": "t100",
+          "expression": "M_glyc_e*k_r49",
+          "expression_mathml": "<apply><times/><ci>M_glyc_e</ci><ci>k_r49</ci></apply>"
+        },
+        {
+          "target": "t101",
+          "expression": "k_d50*updated_csc052",
+          "expression_mathml": "<apply><times/><ci>k_d50</ci><ci>updated_csc052</ci></apply>"
+        },
+        {
+          "target": "t102",
+          "expression": "M_rib__D_e*k_r50",
+          "expression_mathml": "<apply><times/><ci>M_rib__D_e</ci><ci>k_r50</ci></apply>"
+        },
+        {
+          "target": "t103",
+          "expression": "csc043*k_d51",
+          "expression_mathml": "<apply><times/><ci>csc043</ci><ci>k_d51</ci></apply>"
+        },
+        {
+          "target": "t104",
+          "expression": "M_glyald_e*k_r51",
+          "expression_mathml": "<apply><times/><ci>M_glyald_e</ci><ci>k_r51</ci></apply>"
+        },
+        {
+          "target": "t105",
+          "expression": "csc043*k_d52",
+          "expression_mathml": "<apply><times/><ci>csc043</ci><ci>k_d52</ci></apply>"
+        },
+        {
+          "target": "t106",
+          "expression": "M_glyc_e*k_r52",
+          "expression_mathml": "<apply><times/><ci>M_glyc_e</ci><ci>k_r52</ci></apply>"
+        },
+        {
+          "target": "t107",
+          "expression": "csc043*k_d53",
+          "expression_mathml": "<apply><times/><ci>csc043</ci><ci>k_d53</ci></apply>"
+        },
+        {
+          "target": "t108",
+          "expression": "M_rib__D_e*k_r53",
+          "expression_mathml": "<apply><times/><ci>M_rib__D_e</ci><ci>k_r53</ci></apply>"
+        },
+        {
+          "target": "t109",
+          "expression": "csc043*k_d54",
+          "expression_mathml": "<apply><times/><ci>csc043</ci><ci>k_d54</ci></apply>"
+        },
+        {
+          "target": "t110",
+          "expression": "M_xylan4_e*k_r54",
+          "expression_mathml": "<apply><times/><ci>M_xylan4_e</ci><ci>k_r54</ci></apply>"
+        },
+        {
+          "target": "t111",
+          "expression": "k_d55*updated_csc009",
+          "expression_mathml": "<apply><times/><ci>k_d55</ci><ci>updated_csc009</ci></apply>"
+        },
+        {
+          "target": "t112",
+          "expression": "M_arg__L_e*k_r55",
+          "expression_mathml": "<apply><times/><ci>M_arg__L_e</ci><ci>k_r55</ci></apply>"
+        },
+        {
+          "target": "t113",
+          "expression": "k_d56*updated_csc009",
+          "expression_mathml": "<apply><times/><ci>k_d56</ci><ci>updated_csc009</ci></apply>"
+        },
+        {
+          "target": "t114",
+          "expression": "M_fe3_e*k_r56",
+          "expression_mathml": "<apply><times/><ci>M_fe3_e</ci><ci>k_r56</ci></apply>"
+        },
+        {
+          "target": "t115",
+          "expression": "k_d57*updated_csc009",
+          "expression_mathml": "<apply><times/><ci>k_d57</ci><ci>updated_csc009</ci></apply>"
+        },
+        {
+          "target": "t116",
+          "expression": "M_fe3pyovd_kt_e*k_r57",
+          "expression_mathml": "<apply><times/><ci>M_fe3pyovd_kt_e</ci><ci>k_r57</ci></apply>"
+        },
+        {
+          "target": "t117",
+          "expression": "k_d58*updated_csc009",
+          "expression_mathml": "<apply><times/><ci>k_d58</ci><ci>updated_csc009</ci></apply>"
+        },
+        {
+          "target": "t118",
+          "expression": "M_hom__L_e*k_r58",
+          "expression_mathml": "<apply><times/><ci>M_hom__L_e</ci><ci>k_r58</ci></apply>"
+        },
+        {
+          "target": "t119",
+          "expression": "k_d59*updated_csc009",
+          "expression_mathml": "<apply><times/><ci>k_d59</ci><ci>updated_csc009</ci></apply>"
+        },
+        {
+          "target": "t120",
+          "expression": "M_lys__L_e*k_r59",
+          "expression_mathml": "<apply><times/><ci>M_lys__L_e</ci><ci>k_r59</ci></apply>"
+        },
+        {
+          "target": "t121",
+          "expression": "k_d60*updated_csc009",
+          "expression_mathml": "<apply><times/><ci>k_d60</ci><ci>updated_csc009</ci></apply>"
+        },
+        {
+          "target": "t122",
+          "expression": "M_nh4_e*k_r60",
+          "expression_mathml": "<apply><times/><ci>M_nh4_e</ci><ci>k_r60</ci></apply>"
+        },
+        {
+          "target": "t123",
+          "expression": "k_d61*updated_csc009",
+          "expression_mathml": "<apply><times/><ci>k_d61</ci><ci>updated_csc009</ci></apply>"
+        },
+        {
+          "target": "t124",
+          "expression": "M_o2_e*k_r61",
+          "expression_mathml": "<apply><times/><ci>M_o2_e</ci><ci>k_r61</ci></apply>"
+        },
+        {
+          "target": "t125",
+          "expression": "k_d62*updated_csc009",
+          "expression_mathml": "<apply><times/><ci>k_d62</ci><ci>updated_csc009</ci></apply>"
+        },
+        {
+          "target": "t126",
+          "expression": "M_orn_e*k_r62",
+          "expression_mathml": "<apply><times/><ci>M_orn_e</ci><ci>k_r62</ci></apply>"
+        },
+        {
+          "target": "t127",
+          "expression": "k_d63*updated_csc031",
+          "expression_mathml": "<apply><times/><ci>k_d63</ci><ci>updated_csc031</ci></apply>"
+        },
+        {
+          "target": "t128",
+          "expression": "M_arg__L_e*k_r63",
+          "expression_mathml": "<apply><times/><ci>M_arg__L_e</ci><ci>k_r63</ci></apply>"
+        },
+        {
+          "target": "t129",
+          "expression": "k_d64*updated_csc031",
+          "expression_mathml": "<apply><times/><ci>k_d64</ci><ci>updated_csc031</ci></apply>"
+        },
+        {
+          "target": "t130",
+          "expression": "M_gua_e*k_r64",
+          "expression_mathml": "<apply><times/><ci>M_gua_e</ci><ci>k_r64</ci></apply>"
+        },
+        {
+          "target": "t131",
+          "expression": "k_d65*updated_csc031",
+          "expression_mathml": "<apply><times/><ci>k_d65</ci><ci>updated_csc031</ci></apply>"
+        },
+        {
+          "target": "t132",
+          "expression": "M_hom__L_e*k_r65",
+          "expression_mathml": "<apply><times/><ci>M_hom__L_e</ci><ci>k_r65</ci></apply>"
+        },
+        {
+          "target": "t133",
+          "expression": "k_d66*updated_csc031",
+          "expression_mathml": "<apply><times/><ci>k_d66</ci><ci>updated_csc031</ci></apply>"
+        },
+        {
+          "target": "t134",
+          "expression": "M_lys__L_e*k_r66",
+          "expression_mathml": "<apply><times/><ci>M_lys__L_e</ci><ci>k_r66</ci></apply>"
+        },
+        {
+          "target": "t135",
+          "expression": "k_d67*updated_csc031",
+          "expression_mathml": "<apply><times/><ci>k_d67</ci><ci>updated_csc031</ci></apply>"
+        },
+        {
+          "target": "t136",
+          "expression": "M_nh4_e*k_r67",
+          "expression_mathml": "<apply><times/><ci>M_nh4_e</ci><ci>k_r67</ci></apply>"
+        },
+        {
+          "target": "t137",
+          "expression": "k_d68*updated_csc031",
+          "expression_mathml": "<apply><times/><ci>k_d68</ci><ci>updated_csc031</ci></apply>"
+        },
+        {
+          "target": "t138",
+          "expression": "M_orn_e*k_r68",
+          "expression_mathml": "<apply><times/><ci>M_orn_e</ci><ci>k_r68</ci></apply>"
+        },
+        {
+          "target": "t139",
+          "expression": "k_d69*updated_csc052",
+          "expression_mathml": "<apply><times/><ci>k_d69</ci><ci>updated_csc052</ci></apply>"
+        },
+        {
+          "target": "t140",
+          "expression": "M_arg__L_e*k_r69",
+          "expression_mathml": "<apply><times/><ci>M_arg__L_e</ci><ci>k_r69</ci></apply>"
+        },
+        {
+          "target": "t141",
+          "expression": "k_d70*updated_csc052",
+          "expression_mathml": "<apply><times/><ci>k_d70</ci><ci>updated_csc052</ci></apply>"
+        },
+        {
+          "target": "t142",
+          "expression": "M_fe3_e*k_r70",
+          "expression_mathml": "<apply><times/><ci>M_fe3_e</ci><ci>k_r70</ci></apply>"
+        },
+        {
+          "target": "t143",
+          "expression": "k_d71*updated_csc052",
+          "expression_mathml": "<apply><times/><ci>k_d71</ci><ci>updated_csc052</ci></apply>"
+        },
+        {
+          "target": "t144",
+          "expression": "M_lys__L_e*k_r71",
+          "expression_mathml": "<apply><times/><ci>M_lys__L_e</ci><ci>k_r71</ci></apply>"
+        },
+        {
+          "target": "t145",
+          "expression": "k_d72*updated_csc052",
+          "expression_mathml": "<apply><times/><ci>k_d72</ci><ci>updated_csc052</ci></apply>"
+        },
+        {
+          "target": "t146",
+          "expression": "M_nh4_e*k_r72",
+          "expression_mathml": "<apply><times/><ci>M_nh4_e</ci><ci>k_r72</ci></apply>"
+        },
+        {
+          "target": "t147",
+          "expression": "k_d73*updated_csc052",
+          "expression_mathml": "<apply><times/><ci>k_d73</ci><ci>updated_csc052</ci></apply>"
+        },
+        {
+          "target": "t148",
+          "expression": "M_orn_e*k_r73",
+          "expression_mathml": "<apply><times/><ci>M_orn_e</ci><ci>k_r73</ci></apply>"
+        },
+        {
+          "target": "t149",
+          "expression": "csc043*k_d74",
+          "expression_mathml": "<apply><times/><ci>csc043</ci><ci>k_d74</ci></apply>"
+        },
+        {
+          "target": "t150",
+          "expression": "M_arg__L_e*k_r74",
+          "expression_mathml": "<apply><times/><ci>M_arg__L_e</ci><ci>k_r74</ci></apply>"
+        },
+        {
+          "target": "t151",
+          "expression": "csc043*k_d75",
+          "expression_mathml": "<apply><times/><ci>csc043</ci><ci>k_d75</ci></apply>"
+        },
+        {
+          "target": "t152",
+          "expression": "M_gua_e*k_r75",
+          "expression_mathml": "<apply><times/><ci>M_gua_e</ci><ci>k_r75</ci></apply>"
+        },
+        {
+          "target": "t153",
+          "expression": "csc043*k_d76",
+          "expression_mathml": "<apply><times/><ci>csc043</ci><ci>k_d76</ci></apply>"
+        },
+        {
+          "target": "t154",
+          "expression": "M_lys__L_e*k_r76",
+          "expression_mathml": "<apply><times/><ci>M_lys__L_e</ci><ci>k_r76</ci></apply>"
+        },
+        {
+          "target": "t155",
+          "expression": "csc043*k_d77",
+          "expression_mathml": "<apply><times/><ci>csc043</ci><ci>k_d77</ci></apply>"
+        },
+        {
+          "target": "t156",
+          "expression": "M_nh4_e*k_r77",
+          "expression_mathml": "<apply><times/><ci>M_nh4_e</ci><ci>k_r77</ci></apply>"
+        },
+        {
+          "target": "t157",
+          "expression": "csc043*k_d78",
+          "expression_mathml": "<apply><times/><ci>csc043</ci><ci>k_d78</ci></apply>"
+        },
+        {
+          "target": "t158",
+          "expression": "M_ura_e*k_r78",
+          "expression_mathml": "<apply><times/><ci>M_ura_e</ci><ci>k_r78</ci></apply>"
+        },
+        {
+          "target": "t159",
+          "expression": "k_d79*updated_csc009",
+          "expression_mathml": "<apply><times/><ci>k_d79</ci><ci>updated_csc009</ci></apply>"
+        },
+        {
+          "target": "t160",
+          "expression": "M_glyc_e*k_r79",
+          "expression_mathml": "<apply><times/><ci>M_glyc_e</ci><ci>k_r79</ci></apply>"
+        },
+        {
+          "target": "t161",
+          "expression": "k_d80*updated_csc009",
+          "expression_mathml": "<apply><times/><ci>k_d80</ci><ci>updated_csc009</ci></apply>"
+        },
+        {
+          "target": "t162",
+          "expression": "M_h2s_e*k_r80",
+          "expression_mathml": "<apply><times/><ci>M_h2s_e</ci><ci>k_r80</ci></apply>"
+        },
+        {
+          "target": "t163",
+          "expression": "k_d81*updated_csc009",
+          "expression_mathml": "<apply><times/><ci>k_d81</ci><ci>updated_csc009</ci></apply>"
+        },
+        {
+          "target": "t164",
+          "expression": "M_o2_e*k_r81",
+          "expression_mathml": "<apply><times/><ci>M_o2_e</ci><ci>k_r81</ci></apply>"
+        },
+        {
+          "target": "t165",
+          "expression": "k_d82*updated_csc031",
+          "expression_mathml": "<apply><times/><ci>k_d82</ci><ci>updated_csc031</ci></apply>"
+        },
+        {
+          "target": "t166",
+          "expression": "M_glyc_e*k_r82",
+          "expression_mathml": "<apply><times/><ci>M_glyc_e</ci><ci>k_r82</ci></apply>"
+        },
+        {
+          "target": "t167",
+          "expression": "k_d83*updated_csc031",
+          "expression_mathml": "<apply><times/><ci>k_d83</ci><ci>updated_csc031</ci></apply>"
+        },
+        {
+          "target": "t168",
+          "expression": "M_h2s_e*k_r83",
+          "expression_mathml": "<apply><times/><ci>M_h2s_e</ci><ci>k_r83</ci></apply>"
+        },
+        {
+          "target": "t169",
+          "expression": "k_d84*updated_csc031",
+          "expression_mathml": "<apply><times/><ci>k_d84</ci><ci>updated_csc031</ci></apply>"
+        },
+        {
+          "target": "t170",
+          "expression": "M_xyl__D_e*k_r84",
+          "expression_mathml": "<apply><times/><ci>M_xyl__D_e</ci><ci>k_r84</ci></apply>"
+        },
+        {
+          "target": "t171",
+          "expression": "k_d85*updated_csc040",
+          "expression_mathml": "<apply><times/><ci>k_d85</ci><ci>updated_csc040</ci></apply>"
+        },
+        {
+          "target": "t172",
+          "expression": "M_glyc_e*k_r85",
+          "expression_mathml": "<apply><times/><ci>M_glyc_e</ci><ci>k_r85</ci></apply>"
+        },
+        {
+          "target": "t173",
+          "expression": "k_d86*updated_csc040",
+          "expression_mathml": "<apply><times/><ci>k_d86</ci><ci>updated_csc040</ci></apply>"
+        },
+        {
+          "target": "t174",
+          "expression": "M_h2s_e*k_r86",
+          "expression_mathml": "<apply><times/><ci>M_h2s_e</ci><ci>k_r86</ci></apply>"
+        },
+        {
+          "target": "t175",
+          "expression": "k_d87*updated_csc040",
+          "expression_mathml": "<apply><times/><ci>k_d87</ci><ci>updated_csc040</ci></apply>"
+        },
+        {
+          "target": "t176",
+          "expression": "M_pi_e*k_r87",
+          "expression_mathml": "<apply><times/><ci>M_pi_e</ci><ci>k_r87</ci></apply>"
+        },
+        {
+          "target": "t177",
+          "expression": "k_d88*updated_csc040",
+          "expression_mathml": "<apply><times/><ci>k_d88</ci><ci>updated_csc040</ci></apply>"
+        },
+        {
+          "target": "t178",
+          "expression": "M_s_e*k_r88",
+          "expression_mathml": "<apply><times/><ci>M_s_e</ci><ci>k_r88</ci></apply>"
+        },
+        {
+          "target": "t179",
+          "expression": "csc043*k_d89",
+          "expression_mathml": "<apply><times/><ci>csc043</ci><ci>k_d89</ci></apply>"
+        },
+        {
+          "target": "t180",
+          "expression": "M_glyc_e*k_r89",
+          "expression_mathml": "<apply><times/><ci>M_glyc_e</ci><ci>k_r89</ci></apply>"
+        },
+        {
+          "target": "t181",
+          "expression": "csc043*k_d90",
+          "expression_mathml": "<apply><times/><ci>csc043</ci><ci>k_d90</ci></apply>"
+        },
+        {
+          "target": "t182",
+          "expression": "M_h2s_e*k_r90",
+          "expression_mathml": "<apply><times/><ci>M_h2s_e</ci><ci>k_r90</ci></apply>"
+        },
+        {
+          "target": "t183",
+          "expression": "csc043*k_d91",
+          "expression_mathml": "<apply><times/><ci>csc043</ci><ci>k_d91</ci></apply>"
+        },
+        {
+          "target": "t184",
+          "expression": "M_s_e*k_r91",
+          "expression_mathml": "<apply><times/><ci>M_s_e</ci><ci>k_r91</ci></apply>"
+        },
+        {
+          "target": "t185",
+          "expression": "csc043*k_d92",
+          "expression_mathml": "<apply><times/><ci>csc043</ci><ci>k_d92</ci></apply>"
+        },
+        {
+          "target": "t186",
+          "expression": "M_xylan4_e*k_r92",
+          "expression_mathml": "<apply><times/><ci>M_xylan4_e</ci><ci>k_r92</ci></apply>"
+        },
+        {
+          "target": "t187",
+          "expression": "k_d93*updated_csc009",
+          "expression_mathml": "<apply><times/><ci>k_d93</ci><ci>updated_csc009</ci></apply>"
+        },
+        {
+          "target": "t188",
+          "expression": "M_arg__L_e*k_r93",
+          "expression_mathml": "<apply><times/><ci>M_arg__L_e</ci><ci>k_r93</ci></apply>"
+        },
+        {
+          "target": "t189",
+          "expression": "k_d94*updated_csc009",
+          "expression_mathml": "<apply><times/><ci>k_d94</ci><ci>updated_csc009</ci></apply>"
+        },
+        {
+          "target": "t190",
+          "expression": "M_h2s_e*k_r94",
+          "expression_mathml": "<apply><times/><ci>M_h2s_e</ci><ci>k_r94</ci></apply>"
+        },
+        {
+          "target": "t191",
+          "expression": "k_d95*updated_csc009",
+          "expression_mathml": "<apply><times/><ci>k_d95</ci><ci>updated_csc009</ci></apply>"
+        },
+        {
+          "target": "t192",
+          "expression": "M_lys__L_e*k_r95",
+          "expression_mathml": "<apply><times/><ci>M_lys__L_e</ci><ci>k_r95</ci></apply>"
+        },
+        {
+          "target": "t193",
+          "expression": "k_d96*updated_csc009",
+          "expression_mathml": "<apply><times/><ci>k_d96</ci><ci>updated_csc009</ci></apply>"
+        },
+        {
+          "target": "t194",
+          "expression": "M_o2_e*k_r96",
+          "expression_mathml": "<apply><times/><ci>M_o2_e</ci><ci>k_r96</ci></apply>"
+        },
+        {
+          "target": "t195",
+          "expression": "k_d97*updated_csc009",
+          "expression_mathml": "<apply><times/><ci>k_d97</ci><ci>updated_csc009</ci></apply>"
+        },
+        {
+          "target": "t196",
+          "expression": "M_ppap_e*k_r97",
+          "expression_mathml": "<apply><times/><ci>M_ppap_e</ci><ci>k_r97</ci></apply>"
+        },
+        {
+          "target": "t197",
+          "expression": "k_d98*updated_csc031",
+          "expression_mathml": "<apply><times/><ci>k_d98</ci><ci>updated_csc031</ci></apply>"
+        },
+        {
+          "target": "t198",
+          "expression": "M_arg__L_e*k_r98",
+          "expression_mathml": "<apply><times/><ci>M_arg__L_e</ci><ci>k_r98</ci></apply>"
+        },
+        {
+          "target": "t199",
+          "expression": "k_d99*updated_csc031",
+          "expression_mathml": "<apply><times/><ci>k_d99</ci><ci>updated_csc031</ci></apply>"
+        },
+        {
+          "target": "t200",
+          "expression": "M_h2s_e*k_r99",
+          "expression_mathml": "<apply><times/><ci>M_h2s_e</ci><ci>k_r99</ci></apply>"
+        },
+        {
+          "target": "t201",
+          "expression": "k_d100*updated_csc031",
+          "expression_mathml": "<apply><times/><ci>k_d100</ci><ci>updated_csc031</ci></apply>"
+        },
+        {
+          "target": "t202",
+          "expression": "M_lys__L_e*k_r100",
+          "expression_mathml": "<apply><times/><ci>M_lys__L_e</ci><ci>k_r100</ci></apply>"
+        },
+        {
+          "target": "t203",
+          "expression": "k_d101*updated_csc040",
+          "expression_mathml": "<apply><times/><ci>k_d101</ci><ci>updated_csc040</ci></apply>"
+        },
+        {
+          "target": "t204",
+          "expression": "M_arg__L_e*k_r101",
+          "expression_mathml": "<apply><times/><ci>M_arg__L_e</ci><ci>k_r101</ci></apply>"
+        },
+        {
+          "target": "t205",
+          "expression": "k_d102*updated_csc040",
+          "expression_mathml": "<apply><times/><ci>k_d102</ci><ci>updated_csc040</ci></apply>"
+        },
+        {
+          "target": "t206",
+          "expression": "M_h2s_e*k_r102",
+          "expression_mathml": "<apply><times/><ci>M_h2s_e</ci><ci>k_r102</ci></apply>"
+        },
+        {
+          "target": "t207",
+          "expression": "k_d103*updated_csc040",
+          "expression_mathml": "<apply><times/><ci>k_d103</ci><ci>updated_csc040</ci></apply>"
+        },
+        {
+          "target": "t208",
+          "expression": "M_lys__L_e*k_r103",
+          "expression_mathml": "<apply><times/><ci>M_lys__L_e</ci><ci>k_r103</ci></apply>"
+        },
+        {
+          "target": "t209",
+          "expression": "k_d104*updated_csc040",
+          "expression_mathml": "<apply><times/><ci>k_d104</ci><ci>updated_csc040</ci></apply>"
+        },
+        {
+          "target": "t210",
+          "expression": "M_s_e*k_r104",
+          "expression_mathml": "<apply><times/><ci>M_s_e</ci><ci>k_r104</ci></apply>"
+        },
+        {
+          "target": "t211",
+          "expression": "k_d105*updated_csc052",
+          "expression_mathml": "<apply><times/><ci>k_d105</ci><ci>updated_csc052</ci></apply>"
+        },
+        {
+          "target": "t212",
+          "expression": "M_arg__L_e*k_r105",
+          "expression_mathml": "<apply><times/><ci>M_arg__L_e</ci><ci>k_r105</ci></apply>"
+        },
+        {
+          "target": "t213",
+          "expression": "k_d106*updated_csc052",
+          "expression_mathml": "<apply><times/><ci>k_d106</ci><ci>updated_csc052</ci></apply>"
+        },
+        {
+          "target": "t214",
+          "expression": "M_h2s_e*k_r106",
+          "expression_mathml": "<apply><times/><ci>M_h2s_e</ci><ci>k_r106</ci></apply>"
+        },
+        {
+          "target": "t215",
+          "expression": "k_d107*updated_csc052",
+          "expression_mathml": "<apply><times/><ci>k_d107</ci><ci>updated_csc052</ci></apply>"
+        },
+        {
+          "target": "t216",
+          "expression": "M_lys__L_e*k_r107",
+          "expression_mathml": "<apply><times/><ci>M_lys__L_e</ci><ci>k_r107</ci></apply>"
+        },
+        {
+          "target": "t217",
+          "expression": "k_d108*updated_csc052",
+          "expression_mathml": "<apply><times/><ci>k_d108</ci><ci>updated_csc052</ci></apply>"
+        },
+        {
+          "target": "t218",
+          "expression": "M_s_e*k_r108",
+          "expression_mathml": "<apply><times/><ci>M_s_e</ci><ci>k_r108</ci></apply>"
+        }
+      ],
+      "initials": [
+        {
+          "target": "updated_csc031",
+          "expression": "0.383441518825778",
+          "expression_mathml": "<cn>0.38344151882577798</cn>"
+        },
+        {
+          "target": "M_arg__L_e",
+          "expression": "0.715189366372419",
+          "expression_mathml": "<cn>0.71518936637241903</cn>"
+        },
+        {
+          "target": "updated_csc009",
+          "expression": "0.639921021327524",
+          "expression_mathml": "<cn>0.63992102132752404</cn>"
+        },
+        {
+          "target": "M_gua_e",
+          "expression": "0.118274425868933",
+          "expression_mathml": "<cn>0.118274425868933</cn>"
+        },
+        {
+          "target": "M_h2s_e",
+          "expression": "0.461479362252932",
+          "expression_mathml": "<cn>0.46147936225293201</cn>"
+        },
+        {
+          "target": "M_hom__L_e",
+          "expression": "0.645894113066656",
+          "expression_mathml": "<cn>0.64589411306665601</cn>"
+        },
+        {
+          "target": "M_nh4_e",
+          "expression": "0.799158564216724",
+          "expression_mathml": "<cn>0.79915856421672404</cn>"
+        },
+        {
+          "target": "M_orn_e",
+          "expression": "0.780529176286455",
+          "expression_mathml": "<cn>0.78052917628645502</cn>"
+        },
+        {
+          "target": "updated_csc040",
+          "expression": "0.870012148246819",
+          "expression_mathml": "<cn>0.87001214824681905</cn>"
+        },
+        {
+          "target": "M_4abut_e",
+          "expression": "0.0202183974403257",
+          "expression_mathml": "<cn>0.020218397440325699</cn>"
+        },
+        {
+          "target": "M_asp__L_e",
+          "expression": "0.0710360581978869",
+          "expression_mathml": "<cn>0.0710360581978869</cn>"
+        },
+        {
+          "target": "M_fe3_e",
+          "expression": "0.548813503927325",
+          "expression_mathml": "<cn>0.54881350392732497</cn>"
+        },
+        {
+          "target": "M_fe3pyovd_kt_e",
+          "expression": "0.568044561093932",
+          "expression_mathml": "<cn>0.56804456109393198</cn>"
+        },
+        {
+          "target": "M_glu__L_e",
+          "expression": "0.143353287409046",
+          "expression_mathml": "<cn>0.14335328740904599</cn>"
+        },
+        {
+          "target": "M_pi_e",
+          "expression": "0.528894919752904",
+          "expression_mathml": "<cn>0.52889491975290404</cn>"
+        },
+        {
+          "target": "M_pydxn_e",
+          "expression": "0.521848321750072",
+          "expression_mathml": "<cn>0.52184832175007201</cn>"
+        },
+        {
+          "target": "M_s_e",
+          "expression": "0.978618342232764",
+          "expression_mathml": "<cn>0.978618342232764</cn>"
+        },
+        {
+          "target": "M_ser__L_e",
+          "expression": "0.77815675094985",
+          "expression_mathml": "<cn>0.77815675094985004</cn>"
+        },
+        {
+          "target": "M_urea_e",
+          "expression": "0.602763376071644",
+          "expression_mathml": "<cn>0.60276337607164399</cn>"
+        },
+        {
+          "target": "updated_csc052",
+          "expression": "0.423654799338905",
+          "expression_mathml": "<cn>0.42365479933890499</cn>"
+        },
+        {
+          "target": "M_gthrd_e",
+          "expression": "0.832619845547938",
+          "expression_mathml": "<cn>0.832619845547938</cn>"
+        },
+        {
+          "target": "M_ptrc_e",
+          "expression": "0.414661939990524",
+          "expression_mathml": "<cn>0.41466193999052398</cn>"
+        },
+        {
+          "target": "csc043",
+          "expression": "0.264555612104627",
+          "expression_mathml": "<cn>0.26455561210462702</cn>"
+        },
+        {
+          "target": "M_xylan4_e",
+          "expression": "0.925596638292661",
+          "expression_mathml": "<cn>0.92559663829266103</cn>"
+        },
+        {
+          "target": "M_glyald_e",
+          "expression": "0.944668917049584",
+          "expression_mathml": "<cn>0.944668917049584</cn>"
+        },
+        {
+          "target": "M_glyc_e",
+          "expression": "0.774233689434217",
+          "expression_mathml": "<cn>0.774233689434217</cn>"
+        },
+        {
+          "target": "M_rib__D_e",
+          "expression": "0.0871292997015407",
+          "expression_mathml": "<cn>0.087129299701540694</cn>"
+        },
+        {
+          "target": "M_lys__L_e",
+          "expression": "0.544883182996897",
+          "expression_mathml": "<cn>0.54488318299689698</cn>"
+        },
+        {
+          "target": "M_o2_e",
+          "expression": "0.791725038082665",
+          "expression_mathml": "<cn>0.79172503808266503</cn>"
+        },
+        {
+          "target": "M_ura_e",
+          "expression": "0.963662760501029",
+          "expression_mathml": "<cn>0.96366276050102895</cn>"
+        },
+        {
+          "target": "M_xyl__D_e",
+          "expression": "0.437587211262693",
+          "expression_mathml": "<cn>0.43758721126269301</cn>"
+        },
+        {
+          "target": "M_ppap_e",
+          "expression": "0.89177300078208",
+          "expression_mathml": "<cn>0.89177300078207999</cn>"
+        }
+      ],
+      "parameters": [
+        {
+          "id": "k_d0",
+          "value": 0.333333333333333
+        },
+        {
+          "id": "k_r0",
+          "value": 0.08
+        },
+        {
+          "id": "k_d1",
+          "value": 0.333333333333333
+        },
+        {
+          "id": "k_r1",
+          "value": 0.1
+        },
+        {
+          "id": "k_d2",
+          "value": 0.333333333333333
+        },
+        {
+          "id": "k_r2",
+          "value": 0.33
+        },
+        {
+          "id": "k_d3",
+          "value": 0.333333333333333
+        },
+        {
+          "id": "k_r3",
+          "value": 0.07
+        },
+        {
+          "id": "k_d4",
+          "value": 0.333333333333333
+        },
+        {
+          "id": "k_r4",
+          "value": 0.09
+        },
+        {
+          "id": "k_d5",
+          "value": 0.333333333333333
+        },
+        {
+          "id": "k_r5",
+          "value": 0.03
+        },
+        {
+          "id": "k_d6",
+          "value": 1.0
+        },
+        {
+          "id": "k_r6",
+          "value": 0.01
+        },
+        {
+          "id": "k_d7",
+          "value": 1.0
+        },
+        {
+          "id": "k_r7",
+          "value": 0.08
+        },
+        {
+          "id": "k_d8",
+          "value": 1.0
+        },
+        {
+          "id": "k_r8",
+          "value": 0.06
+        },
+        {
+          "id": "k_d9",
+          "value": 1.0
+        },
+        {
+          "id": "k_r9",
+          "value": 0.39
+        },
+        {
+          "id": "k_d10",
+          "value": 1.0
+        },
+        {
+          "id": "k_r10",
+          "value": 0.61
+        },
+        {
+          "id": "k_d11",
+          "value": 1.0
+        },
+        {
+          "id": "k_r11",
+          "value": 0.06
+        },
+        {
+          "id": "k_d12",
+          "value": 1.0
+        },
+        {
+          "id": "k_r12",
+          "value": 0.1
+        },
+        {
+          "id": "k_d13",
+          "value": 1.0
+        },
+        {
+          "id": "k_r13",
+          "value": 0.33
+        },
+        {
+          "id": "k_d14",
+          "value": 1.0
+        },
+        {
+          "id": "k_r14",
+          "value": 0.07
+        },
+        {
+          "id": "k_d15",
+          "value": 1.0
+        },
+        {
+          "id": "k_r15",
+          "value": 0.09
+        },
+        {
+          "id": "k_d16",
+          "value": 1.0
+        },
+        {
+          "id": "k_r16",
+          "value": 0.03
+        },
+        {
+          "id": "k_d17",
+          "value": 1.0
+        },
+        {
+          "id": "k_r17",
+          "value": 0.49
+        },
+        {
+          "id": "k_d18",
+          "value": 1.0
+        },
+        {
+          "id": "k_r18",
+          "value": 0.02
+        },
+        {
+          "id": "k_d19",
+          "value": 1.0
+        },
+        {
+          "id": "k_r19",
+          "value": 0.33
+        },
+        {
+          "id": "k_d20",
+          "value": 1.0
+        },
+        {
+          "id": "k_r20",
+          "value": 0.12
+        },
+        {
+          "id": "k_d21",
+          "value": 1.0
+        },
+        {
+          "id": "k_r21",
+          "value": 0.07
+        },
+        {
+          "id": "k_d22",
+          "value": 0.333333333333333
+        },
+        {
+          "id": "k_r22",
+          "value": 0.08
+        },
+        {
+          "id": "k_d23",
+          "value": 0.333333333333333
+        },
+        {
+          "id": "k_r23",
+          "value": 0.39
+        },
+        {
+          "id": "k_d24",
+          "value": 0.333333333333333
+        },
+        {
+          "id": "k_r24",
+          "value": 0.06
+        },
+        {
+          "id": "k_d25",
+          "value": 0.333333333333333
+        },
+        {
+          "id": "k_r25",
+          "value": 0.04
+        },
+        {
+          "id": "k_d26",
+          "value": 0.333333333333333
+        },
+        {
+          "id": "k_r26",
+          "value": 0.33
+        },
+        {
+          "id": "k_d27",
+          "value": 0.333333333333333
+        },
+        {
+          "id": "k_r27",
+          "value": 0.09
+        },
+        {
+          "id": "k_d28",
+          "value": 0.333333333333333
+        },
+        {
+          "id": "k_r28",
+          "value": 0.03
+        },
+        {
+          "id": "k_d29",
+          "value": 0.333333333333333
+        },
+        {
+          "id": "k_r29",
+          "value": 0.01
+        },
+        {
+          "id": "k_d30",
+          "value": 0.333333333333333
+        },
+        {
+          "id": "k_r30",
+          "value": 0.33
+        },
+        {
+          "id": "k_d31",
+          "value": 0.333333333333333
+        },
+        {
+          "id": "k_r31",
+          "value": 0.07
+        },
+        {
+          "id": "k_d32",
+          "value": 1.0
+        },
+        {
+          "id": "k_r32",
+          "value": 0.08
+        },
+        {
+          "id": "k_d33",
+          "value": 1.0
+        },
+        {
+          "id": "k_r33",
+          "value": 0.1
+        },
+        {
+          "id": "k_d34",
+          "value": 1.0
+        },
+        {
+          "id": "k_r34",
+          "value": 0.33
+        },
+        {
+          "id": "k_d35",
+          "value": 1.0
+        },
+        {
+          "id": "k_r35",
+          "value": 0.09
+        },
+        {
+          "id": "k_d36",
+          "value": 1.0
+        },
+        {
+          "id": "k_r36",
+          "value": 0.33
+        },
+        {
+          "id": "k_d37",
+          "value": 1.0
+        },
+        {
+          "id": "k_r37",
+          "value": 1.0
+        },
+        {
+          "id": "k_d38",
+          "value": 1.0
+        },
+        {
+          "id": "k_r38",
+          "value": 1.0
+        },
+        {
+          "id": "k_d39",
+          "value": 1.0
+        },
+        {
+          "id": "k_r39",
+          "value": 0.89
+        },
+        {
+          "id": "k_d40",
+          "value": 1.0
+        },
+        {
+          "id": "k_r40",
+          "value": 0.48
+        },
+        {
+          "id": "k_d41",
+          "value": 1.0
+        },
+        {
+          "id": "k_r41",
+          "value": 0.06
+        },
+        {
+          "id": "k_d42",
+          "value": 1.0
+        },
+        {
+          "id": "k_r42",
+          "value": 0.02
+        },
+        {
+          "id": "k_d43",
+          "value": 1.0
+        },
+        {
+          "id": "k_r43",
+          "value": 1.0
+        },
+        {
+          "id": "k_d44",
+          "value": 1.0
+        },
+        {
+          "id": "k_r44",
+          "value": 0.89
+        },
+        {
+          "id": "k_d45",
+          "value": 1.0
+        },
+        {
+          "id": "k_r45",
+          "value": 0.06
+        },
+        {
+          "id": "k_d46",
+          "value": 1.0
+        },
+        {
+          "id": "k_r46",
+          "value": 1.0
+        },
+        {
+          "id": "k_d47",
+          "value": 0.5
+        },
+        {
+          "id": "k_r47",
+          "value": 1.0
+        },
+        {
+          "id": "k_d48",
+          "value": 0.5
+        },
+        {
+          "id": "k_r48",
+          "value": 0.48
+        },
+        {
+          "id": "k_d49",
+          "value": 0.5
+        },
+        {
+          "id": "k_r49",
+          "value": 0.06
+        },
+        {
+          "id": "k_d50",
+          "value": 0.5
+        },
+        {
+          "id": "k_r50",
+          "value": 0.02
+        },
+        {
+          "id": "k_d51",
+          "value": 1.0
+        },
+        {
+          "id": "k_r51",
+          "value": 0.48
+        },
+        {
+          "id": "k_d52",
+          "value": 1.0
+        },
+        {
+          "id": "k_r52",
+          "value": 0.06
+        },
+        {
+          "id": "k_d53",
+          "value": 1.0
+        },
+        {
+          "id": "k_r53",
+          "value": 0.02
+        },
+        {
+          "id": "k_d54",
+          "value": 1.0
+        },
+        {
+          "id": "k_r54",
+          "value": 0.44
+        },
+        {
+          "id": "k_d55",
+          "value": 1.0
+        },
+        {
+          "id": "k_r55",
+          "value": 0.06
+        },
+        {
+          "id": "k_d56",
+          "value": 1.0
+        },
+        {
+          "id": "k_r56",
+          "value": 0.15
+        },
+        {
+          "id": "k_d57",
+          "value": 1.0
+        },
+        {
+          "id": "k_r57",
+          "value": 0.79
+        },
+        {
+          "id": "k_d58",
+          "value": 1.0
+        },
+        {
+          "id": "k_r58",
+          "value": 0.04
+        },
+        {
+          "id": "k_d59",
+          "value": 1.0
+        },
+        {
+          "id": "k_r59",
+          "value": 0.16
+        },
+        {
+          "id": "k_d60",
+          "value": 1.0
+        },
+        {
+          "id": "k_r60",
+          "value": 0.05
+        },
+        {
+          "id": "k_d61",
+          "value": 1.0
+        },
+        {
+          "id": "k_r61",
+          "value": 0.93
+        },
+        {
+          "id": "k_d62",
+          "value": 1.0
+        },
+        {
+          "id": "k_r62",
+          "value": 0.18
+        },
+        {
+          "id": "k_d63",
+          "value": 0.333333333333333
+        },
+        {
+          "id": "k_r63",
+          "value": 0.06
+        },
+        {
+          "id": "k_d64",
+          "value": 0.333333333333333
+        },
+        {
+          "id": "k_r64",
+          "value": 0.19
+        },
+        {
+          "id": "k_d65",
+          "value": 0.333333333333333
+        },
+        {
+          "id": "k_r65",
+          "value": 0.04
+        },
+        {
+          "id": "k_d66",
+          "value": 0.333333333333333
+        },
+        {
+          "id": "k_r66",
+          "value": 0.16
+        },
+        {
+          "id": "k_d67",
+          "value": 0.333333333333333
+        },
+        {
+          "id": "k_r67",
+          "value": 0.05
+        },
+        {
+          "id": "k_d68",
+          "value": 0.333333333333333
+        },
+        {
+          "id": "k_r68",
+          "value": 0.18
+        },
+        {
+          "id": "k_d69",
+          "value": 0.333333333333333
+        },
+        {
+          "id": "k_r69",
+          "value": 0.06
+        },
+        {
+          "id": "k_d70",
+          "value": 0.333333333333333
+        },
+        {
+          "id": "k_r70",
+          "value": 0.15
+        },
+        {
+          "id": "k_d71",
+          "value": 0.333333333333333
+        },
+        {
+          "id": "k_r71",
+          "value": 0.16
+        },
+        {
+          "id": "k_d72",
+          "value": 0.333333333333333
+        },
+        {
+          "id": "k_r72",
+          "value": 0.05
+        },
+        {
+          "id": "k_d73",
+          "value": 0.333333333333333
+        },
+        {
+          "id": "k_r73",
+          "value": 0.18
+        },
+        {
+          "id": "k_d74",
+          "value": 1.0
+        },
+        {
+          "id": "k_r74",
+          "value": 0.06
+        },
+        {
+          "id": "k_d75",
+          "value": 1.0
+        },
+        {
+          "id": "k_r75",
+          "value": 0.19
+        },
+        {
+          "id": "k_d76",
+          "value": 1.0
+        },
+        {
+          "id": "k_r76",
+          "value": 0.16
+        },
+        {
+          "id": "k_d77",
+          "value": 1.0
+        },
+        {
+          "id": "k_r77",
+          "value": 0.05
+        },
+        {
+          "id": "k_d78",
+          "value": 1.0
+        },
+        {
+          "id": "k_r78",
+          "value": 0.07
+        },
+        {
+          "id": "k_d79",
+          "value": 1.0
+        },
+        {
+          "id": "k_r79",
+          "value": 0.1
+        },
+        {
+          "id": "k_d80",
+          "value": 1.0
+        },
+        {
+          "id": "k_r80",
+          "value": 0.43
+        },
+        {
+          "id": "k_d81",
+          "value": 1.0
+        },
+        {
+          "id": "k_r81",
+          "value": 1.0
+        },
+        {
+          "id": "k_d82",
+          "value": 0.5
+        },
+        {
+          "id": "k_r82",
+          "value": 0.1
+        },
+        {
+          "id": "k_d83",
+          "value": 0.5
+        },
+        {
+          "id": "k_r83",
+          "value": 0.43
+        },
+        {
+          "id": "k_d84",
+          "value": 0.5
+        },
+        {
+          "id": "k_r84",
+          "value": 0.36
+        },
+        {
+          "id": "k_d85",
+          "value": 1.0
+        },
+        {
+          "id": "k_r85",
+          "value": 0.1
+        },
+        {
+          "id": "k_d86",
+          "value": 1.0
+        },
+        {
+          "id": "k_r86",
+          "value": 0.43
+        },
+        {
+          "id": "k_d87",
+          "value": 1.0
+        },
+        {
+          "id": "k_r87",
+          "value": 0.05
+        },
+        {
+          "id": "k_d88",
+          "value": 1.0
+        },
+        {
+          "id": "k_r88",
+          "value": 0.31
+        },
+        {
+          "id": "k_d89",
+          "value": 1.0
+        },
+        {
+          "id": "k_r89",
+          "value": 0.1
+        },
+        {
+          "id": "k_d90",
+          "value": 1.0
+        },
+        {
+          "id": "k_r90",
+          "value": 0.43
+        },
+        {
+          "id": "k_d91",
+          "value": 1.0
+        },
+        {
+          "id": "k_r91",
+          "value": 0.31
+        },
+        {
+          "id": "k_d92",
+          "value": 1.0
+        },
+        {
+          "id": "k_r92",
+          "value": 0.54
+        },
+        {
+          "id": "k_d93",
+          "value": 1.0
+        },
+        {
+          "id": "k_r93",
+          "value": 0.22
+        },
+        {
+          "id": "k_d94",
+          "value": 1.0
+        },
+        {
+          "id": "k_r94",
+          "value": 0.78
+        },
+        {
+          "id": "k_d95",
+          "value": 1.0
+        },
+        {
+          "id": "k_r95",
+          "value": 0.46
+        },
+        {
+          "id": "k_d96",
+          "value": 1.0
+        },
+        {
+          "id": "k_r96",
+          "value": 1.0
+        },
+        {
+          "id": "k_d97",
+          "value": 1.0
+        },
+        {
+          "id": "k_r97",
+          "value": 1.0
+        },
+        {
+          "id": "k_d98",
+          "value": 0.333333333333333
+        },
+        {
+          "id": "k_r98",
+          "value": 0.22
+        },
+        {
+          "id": "k_d99",
+          "value": 0.333333333333333
+        },
+        {
+          "id": "k_r99",
+          "value": 0.78
+        },
+        {
+          "id": "k_d100",
+          "value": 0.333333333333333
+        },
+        {
+          "id": "k_r100",
+          "value": 0.46
+        },
+        {
+          "id": "k_d101",
+          "value": 1.0
+        },
+        {
+          "id": "k_r101",
+          "value": 0.22
+        },
+        {
+          "id": "k_d102",
+          "value": 1.0
+        },
+        {
+          "id": "k_r102",
+          "value": 0.78
+        },
+        {
+          "id": "k_d103",
+          "value": 1.0
+        },
+        {
+          "id": "k_r103",
+          "value": 0.46
+        },
+        {
+          "id": "k_d104",
+          "value": 1.0
+        },
+        {
+          "id": "k_r104",
+          "value": 0.22
+        },
+        {
+          "id": "k_d105",
+          "value": 0.333333333333333
+        },
+        {
+          "id": "k_r105",
+          "value": 0.22
+        },
+        {
+          "id": "k_d106",
+          "value": 0.333333333333333
+        },
+        {
+          "id": "k_r106",
+          "value": 0.78
+        },
+        {
+          "id": "k_d107",
+          "value": 0.333333333333333
+        },
+        {
+          "id": "k_r107",
+          "value": 0.46
+        },
+        {
+          "id": "k_d108",
+          "value": 0.333333333333333
+        },
+        {
+          "id": "k_r108",
+          "value": 0.22
+        },
+        {
+          "id": "default_compartment",
+          "value": 1.0
+        }
+      ],
+      "observables": [],
+      "time": {
+        "id": "t"
+      }
+    }
+  },
+  "metadata": {
+    "annotations": {}
+  }
+}

@@ -1,0 +1,294 @@
+{
+  "header": {
+    "name": "carbstor_calcium_carbonate_petrinet_model",
+    "schema": "https://raw.githubusercontent.com/DARPA-ASKEM/Model-Representations/petrinet_v0.6/petrinet/petrinet_schema.json",
+    "schema_name": "petrinet",
+    "description": "carbstor_calcium_carbonate_petrinet_model",
+    "model_version": "0.1"
+  },
+  "properties": {},
+  "model": {
+    "states": [
+      {
+        "id": "urea",
+        "name": "urea",
+        "grounding": {
+          "identifiers": {},
+          "modifiers": {}
+        }
+      },
+      {
+        "id": "water",
+        "name": "water",
+        "grounding": {
+          "identifiers": {},
+          "modifiers": {}
+        }
+      },
+      {
+        "id": "ammonia",
+        "name": "ammonia",
+        "grounding": {
+          "identifiers": {},
+          "modifiers": {}
+        }
+      },
+      {
+        "id": "carbon_dioxide",
+        "name": "carbon_dioxide",
+        "grounding": {
+          "identifiers": {},
+          "modifiers": {}
+        }
+      },
+      {
+        "id": "ammonium",
+        "name": "ammonium",
+        "grounding": {
+          "identifiers": {},
+          "modifiers": {}
+        }
+      },
+      {
+        "id": "hydroxide",
+        "name": "hydroxide",
+        "grounding": {
+          "identifiers": {},
+          "modifiers": {}
+        }
+      },
+      {
+        "id": "carbonic_acid",
+        "name": "carbonic_acid",
+        "grounding": {
+          "identifiers": {},
+          "modifiers": {}
+        }
+      },
+      {
+        "id": "bicarbonate",
+        "name": "bicarbonate",
+        "grounding": {
+          "identifiers": {},
+          "modifiers": {}
+        }
+      },
+      {
+        "id": "carbonate",
+        "name": "carbonate",
+        "grounding": {
+          "identifiers": {},
+          "modifiers": {}
+        }
+      },
+      {
+        "id": "calcium_ion",
+        "name": "calcium_ion",
+        "grounding": {
+          "identifiers": {},
+          "modifiers": {}
+        }
+      },
+      {
+        "id": "calcium_carbonate",
+        "name": "calcium_carbonate",
+        "grounding": {
+          "identifiers": {},
+          "modifiers": {}
+        }
+      }
+    ],
+    "transitions": [
+      {
+        "id": "t1",
+        "input": [
+          "urea",
+          "water"
+        ],
+        "output": [
+          "ammonia",
+          "carbon_dioxide"
+        ],
+        "properties": {
+          "name": "t1"
+        }
+      },
+      {
+        "id": "t2",
+        "input": [
+          "ammonia",
+          "water"
+        ],
+        "output": [
+          "ammonium",
+          "hydroxide"
+        ],
+        "properties": {
+          "name": "t2"
+        }
+      },
+      {
+        "id": "t3",
+        "input": [
+          "carbon_dioxide",
+          "water"
+        ],
+        "output": [
+          "carbonic_acid"
+        ],
+        "properties": {
+          "name": "t3"
+        }
+      },
+      {
+        "id": "t4",
+        "input": [
+          "carbonic_acid",
+          "hydroxide"
+        ],
+        "output": [
+          "bicarbonate",
+          "water"
+        ],
+        "properties": {
+          "name": "t4"
+        }
+      },
+      {
+        "id": "t5",
+        "input": [
+          "bicarbonate",
+          "hydroxide"
+        ],
+        "output": [
+          "carbonate",
+          "water"
+        ],
+        "properties": {
+          "name": "t5"
+        }
+      },
+      {
+        "id": "t6",
+        "input": [
+          "carbonate",
+          "calcium_ion"
+        ],
+        "output": [
+          "calcium_carbonate"
+        ],
+        "properties": {
+          "name": "t6"
+        }
+      }
+    ]
+  },
+  "semantics": {
+    "ode": {
+      "rates": [
+        {
+          "target": "t1",
+          "expression": "V_max_urease*urea/(K_m_urease + urea)",
+          "expression_mathml": "<apply><divide/><apply><times/><ci>V_max_urease</ci><ci>urea</ci></apply><apply><plus/><ci>K_m_urease</ci><ci>urea</ci></apply></apply>"
+        },
+        {
+          "target": "t2",
+          "expression": "ammonia**2*k2f*water**2 - ammonium**2*hydroxide**2*k2r",
+          "expression_mathml": "<apply><minus/><apply><times/><apply><power/><ci>ammonia</ci><cn>2</cn></apply><ci>k2f</ci><apply><power/><ci>water</ci><cn>2</cn></apply></apply><apply><times/><apply><power/><ci>ammonium</ci><cn>2</cn></apply><apply><power/><ci>hydroxide</ci><cn>2</cn></apply><ci>k2r</ci></apply></apply>"
+        },
+        {
+          "target": "t3",
+          "expression": "CA_conc*K_cat_CA*carbon_dioxide/(K_m_CA + carbon_dioxide)",
+          "expression_mathml": "<apply><divide/><apply><times/><ci>CA_conc</ci><ci>K_cat_CA</ci><ci>carbon_dioxide</ci></apply><apply><plus/><ci>K_m_CA</ci><ci>carbon_dioxide</ci></apply></apply>"
+        },
+        {
+          "target": "t4",
+          "expression": "-bicarbonate*k4r*water + carbonic_acid*hydroxide*k4f",
+          "expression_mathml": "<apply><plus/><apply><minus/><apply><times/><ci>bicarbonate</ci><ci>k4r</ci><ci>water</ci></apply></apply><apply><times/><ci>carbonic_acid</ci><ci>hydroxide</ci><ci>k4f</ci></apply></apply>"
+        },
+        {
+          "target": "t5",
+          "expression": "bicarbonate*hydroxide*k5f - carbonate*k5r*water",
+          "expression_mathml": "<apply><minus/><apply><times/><ci>bicarbonate</ci><ci>hydroxide</ci><ci>k5f</ci></apply><apply><times/><ci>carbonate</ci><ci>k5r</ci><ci>water</ci></apply></apply>"
+        },
+        {
+          "target": "t6",
+          "expression": "-calcium_carbonate*k6r + calcium_ion*carbonate*k6f",
+          "expression_mathml": "<apply><plus/><apply><minus/><apply><times/><ci>calcium_carbonate</ci><ci>k6r</ci></apply></apply><apply><times/><ci>calcium_ion</ci><ci>carbonate</ci><ci>k6f</ci></apply></apply>"
+        }
+      ],
+      "initials": [
+        {
+          "target": "calcium_carbonate",
+          "expression": "nan",
+          "expression_mathml": "<notanumber/>"
+        }
+      ],
+      "parameters": [
+        {
+          "id": "K_m_urease",
+          "value": 0.3
+        },
+        {
+          "id": "V_max_urease",
+          "value": 18000.0
+        },
+        {
+          "id": "k2f",
+          "value": 1.0
+        },
+        {
+          "id": "k2r",
+          "value": 1.0
+        },
+        {
+          "id": "CA_conc",
+          "value": 3e-05
+        },
+        {
+          "id": "K_cat_CA",
+          "value": 530000.0
+        },
+        {
+          "id": "K_m_CA",
+          "value": 12.9
+        },
+        {
+          "id": "k4f",
+          "value": 1.0
+        },
+        {
+          "id": "k4r",
+          "value": 1.0
+        },
+        {
+          "id": "k5f",
+          "value": 1.0
+        },
+        {
+          "id": "k5r",
+          "value": 1.0
+        },
+        {
+          "id": "k6f",
+          "value": 1.0
+        },
+        {
+          "id": "k6r",
+          "value": 1.0
+        },
+        {
+          "id": "default_compartment",
+          "value": 1.0
+        }
+      ],
+      "observables": [],
+      "time": {
+        "id": "t"
+      }
+    }
+  },
+  "metadata": {
+    "annotations": {}
+  }
+}
