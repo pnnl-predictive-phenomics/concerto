@@ -1,0 +1,2 @@
+sample_id,abundance,file,found_taxa,total_taxa,found_fraction,found_abundance_fraction
+One,200,One.pickle,5.0,5.0,1.0,1.0
