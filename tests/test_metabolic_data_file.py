@@ -3,13 +3,29 @@ import pandas as pd
 import re
 from pathlib import Path
 
-from concerto.Metabolic_Data_Files.Metabolite_Data import extract_BioCycIDs, Confirm_All_BioCycIDs, Confirm_BioCycIDs_n_Values
+from concerto.Metabolic_Data_Files.Metabolite_Data import (
+    extract_BioCycIDs,
+    Confirm_All_BioCycIDs,
+    Confirm_BioCycIDs_n_Values,
+)
+from concerto.Metabolic_Data_Files.Metabolite_Data import (
+    extract_BioCycIDs,
+    Confirm_All_BioCycIDs,
+    Confirm_BioCycIDs_n_Values,
+)
 
 HERE = Path(__file__).parent.resolve()
-Generated_File = pd.read_csv(HERE.joinpath("..concerto\Metabolic_Data_Files\BioCycID_Processed_Metabolomic_Data_NoRhodOutlier_6_14_24.tsv"), delimiter = "\t")
-file_hilpos = HERE.joinpath("successful_hilpos.csv", "r")
-file_hilneg = HERE.joinpath("successful_hilneg.csv", "r")
-Transposed_File = pd.read_csv(HERE.joinpath("Transposed_Processed_Metabolomics_Data_NoRhodOutlier_6_14_24.tsv"))
+Generated_File = pd.read_csv(
+   HERE.joinpath("../concerto/Metabolic_Data_files/BioCycID_Processed_Metabolomic_Data_NoRhodOutlier_6_14_24.tsv"
+    ),
+    delimiter="\t",
+)
+
+file_hilpos = HERE.joinpath("successful_hilpos.csv", "r").as_posix()
+file_hilneg = HERE.joinpath("successful_hilneg.csv", "r").as_posix()
+Transposed_File = HERE.joinpath(
+    "Transposed_Processed_Metabolomics_Data_NoRhodOutlier_6_14_24.csv"
+).as_posix()
 
 def test_Confirm_All_BioCycIDs():
     Metabolite_n_ID_HILPos, Metabolite_n_ID_Ambiguous_HILPos = extract_BioCycIDs(file_hilpos, "_HILPos")

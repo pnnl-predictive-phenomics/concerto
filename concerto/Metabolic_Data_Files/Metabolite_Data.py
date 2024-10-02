@@ -3,10 +3,12 @@ import re
 from pathlib import Path
 
 #set variables to filepaths
-HERE = Path("concerto/Metabolic_Data_Files/")
+HERE = Path("concerto/Metabolic_Data_Files").resolve()
+print(HERE)
 hilpos = HERE.joinpath("successful_hilpos.csv")
 hilneg = HERE.joinpath("successful_hilneg.csv")
 biocyc_file = HERE.joinpath("BioCycID_Processed_Metabolomic_Data_NoRhodOutlier_6_14_24.tsv")
+print(biocyc_file)
 
 # Open the file that we generated previously.
 Generated_File = pd.read_csv(biocyc_file, delimiter = "\t")
@@ -66,7 +68,7 @@ def Confirm_All_BioCycIDs(file, dictionary, ambiguous):
 #Confirm_All_BioCycIDs(Generated_File, Metabolite_n_ID_HILNeg, Metabolite_n_ID_Ambiguous_HILNeg)
 
 #We open the Transposed file we created previously.
-Transposed_File = pd.read_csv("Transposed_Processed_Metabolomics_Data_NoRhodOutlier_6_14_24.csv")
+Transposed_File = pd.read_csv(HERE.joinpath("Transposed_Processed_Metabolomics_Data_NoRhodOutlier_6_14_24.csv"))
 
 def Confirm_BioCycIDs_n_Values(Generated_File, Transposed_File):
     # We extract the column names of the file.
