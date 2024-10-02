@@ -6,10 +6,10 @@ from pathlib import Path
 from concerto.Metabolic_Data_Files.Metabolite_Data import extract_BioCycIDs, Confirm_All_BioCycIDs, Confirm_BioCycIDs_n_Values
 
 HERE = Path(__file__).parent.resolve()
-Generated_File = pd.read_csv("BioCycID_Processed_Metabolomic_Data_NoRhodOutlier_6_14_24.tsv", delimiter="\t")
+Generated_File = pd.read_csv(HERE.joinpath("Metabolic_Data_Files\BioCycID_Processed_Metabolomic_Data_NoRhodOutlier_6_14_24.csv"))
 file_hilpos = HERE.joinpath("successful_hilpos.csv", "r")
 file_hilneg = HERE.joinpath("successful_hilneg.csv", "r")
-Transposed_File = HERE.joinpath("Transposed_Processed_Metabolomics_Data_NoRhodOutlier_6_14_24.csv")
+Transposed_File = pd.read_csv(HERE.joinpath("Transposed_Processed_Metabolomics_Data_NoRhodOutlier_6_14_24.tsv"))
 
 def test_Confirm_All_BioCycIDs():
     Metabolite_n_ID_HILPos, Metabolite_n_ID_Ambiguous_HILPos = extract_BioCycIDs(file_hilpos, "_HILPos")
