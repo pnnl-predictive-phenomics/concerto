@@ -1,0 +1,80 @@
+/people/kimd999/.local/lib/python3.12/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:03<00:03,  3.42s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:04<00:00,  1.76s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:04<00:00,  2.01s/it]
+Traceback (most recent call last):
+  File "/qfs/projects/protein_design/model/Chai-1/predict_all_100_designs/folder_sbatch_files/../folder_new_predict_structure_py/RFDiffusion_AA_model_4_all_sequences_after_LigandMPNN_9_Gb2_Conformer3D_COMPOUND_CID_6424189_predict_structure.py", line 34, in <module>
+    output_pdb_paths = run_inference(
+                       ^^^^^^^^^^^^^^
+  File "/people/kimd999/.local/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/people/kimd999/bin/Miniconda3-py3.12.4_Linux/lib/python3.12/site-packages/chai_lab/chai1.py", line 256, in run_inference
+    embedding_context = get_esm_embedding_context(chains, device=device)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/people/kimd999/.local/lib/python3.12/site-packages/jaxtyping/_decorator.py", line 522, in wrapped_fn
+    return wrapped_fn_impl(args, kwargs, bound, memos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/people/kimd999/.local/lib/python3.12/site-packages/jaxtyping/_decorator.py", line 449, in wrapped_fn_impl
+    out = fn(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^
+  File "/people/kimd999/bin/Miniconda3-py3.12.4_Linux/lib/python3.12/site-packages/chai_lab/data/dataset/embeddings/esm.py", line 75, in get_esm_embedding_context
+    protein_seq2emb_context = _get_esm_contexts_for_sequences(
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/people/kimd999/bin/Miniconda3-py3.12.4_Linux/lib/python3.12/site-packages/chai_lab/data/dataset/embeddings/esm.py", line 58, in _get_esm_contexts_for_sequences
+    outputs = model(**inputs)
+              ^^^^^^^^^^^^^^^
+  File "/people/kimd999/.local/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/people/kimd999/.local/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/people/kimd999/.local/lib/python3.12/site-packages/transformers/models/esm/modeling_esm.py", line 907, in forward
+    encoder_outputs = self.encoder(
+                      ^^^^^^^^^^^^^
+  File "/people/kimd999/.local/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/people/kimd999/.local/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/people/kimd999/.local/lib/python3.12/site-packages/transformers/models/esm/modeling_esm.py", line 612, in forward
+    layer_outputs = layer_module(
+                    ^^^^^^^^^^^^^
+  File "/people/kimd999/.local/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/people/kimd999/.local/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/people/kimd999/.local/lib/python3.12/site-packages/transformers/models/esm/modeling_esm.py", line 502, in forward
+    self_attention_outputs = self.attention(
+                             ^^^^^^^^^^^^^^^
+  File "/people/kimd999/.local/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/people/kimd999/.local/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/people/kimd999/.local/lib/python3.12/site-packages/transformers/models/esm/modeling_esm.py", line 436, in forward
+    self_outputs = self.self(
+                   ^^^^^^^^^^
+  File "/people/kimd999/.local/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/people/kimd999/.local/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/people/kimd999/.local/lib/python3.12/site-packages/transformers/models/esm/modeling_esm.py", line 293, in forward
+    mixed_query_layer = self.query(hidden_states)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/people/kimd999/.local/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/people/kimd999/.local/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/people/kimd999/.local/lib/python3.12/site-packages/torch/nn/modules/linear.py", line 116, in forward
+    return F.linear(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 32.00 MiB. GPU 

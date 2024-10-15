@@ -1,0 +1,2 @@
+/rcfs/projects/ppi_concerto/DN/all_26k/chai-1_wo_MSA/omegaFold_not_ran_13052/output/prepare_array/folder_new_predict_structure_py/omegaFold_not_ran_13052_simplified_header_1_each_predict_structure.py
+/rcfs/projects/ppi_concerto/DN/all_26k/chai-1_wo_MSA/omegaFold_not_ran_13052/output/prepare_array/folder_new_predict_structure_py/omegaFold_not_ran_13052_simplified_header_2_each_predict_structure.py

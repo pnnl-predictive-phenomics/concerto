@@ -1,0 +1,233 @@
+**Python Program to Generate an SBATCH Script for 10,000 Jobs with Job Arrays**
+
+---
+
+To efficiently manage 10,000 jobs on a SLURM scheduler like Deception, 
+you can utilize SLURM's job array feature. 
+Job arrays allow you to submit multiple tasks (jobs) 
+with a single submission script, 
+reducing the overhead on the scheduler and complying with the cluster's policies.
+
+Below is a Python program that generates an 
+SBATCH script (`submit_array.sh`) to handle 10,000 jobs, 
+with a maximum of 50 jobs running simultaneously. 
+Each job is expected to run for approximately 4 minutes, 
+so the total wall clock time should be around 16 hours.
+
+### **Python Script: `generate_sbatch_script.py`**
+
+```python
+#!/usr/bin/env python3
+
+# generate_sbatch_script.py
+
+def generate_sbatch_script(total_jobs=10000, max_concurrent_jobs=50):
+    sbatch_script = """#!/bin/bash
+
+#SBATCH -p a100_shared,a100_80_shared
+#SBATCH -A ppi_concerto
+#SBATCH -t 0-6:0:0  # Time limit in the format days-hours:minutes:seconds
+#SBATCH -J omegaFold_array_job
+#SBATCH --error=omegaFold_array_job_%A_%a.err
+#SBATCH --output=omegaFold_array_job_%A_%a.out
+#SBATCH --array=1-{total_jobs}%{max_concurrent_jobs}
+
+# Load necessary modules or activate your conda environment here
+# For example:
+# source ~/.bash_profile_deception_personal_miniconda3.9_IsoNet_gpu_tf
+
+echo "Running on $(hostname)"
+echo "SLURM_ARRAY_JOB_ID: $SLURM_ARRAY_JOB_ID"
+echo "SLURM_ARRAY_TASK_ID: $SLURM_ARRAY_TASK_ID"
+
+nvcc --version
+nvidia-smi
+
+start_time=$(date +%s)
+
+# Your per-job command goes here
+# If you need to use the task ID, you can access it via $SLURM_ARRAY_TASK_ID
+
+python ../folder_new_predict_structure_py/omegaFold_predict_structure.py --task_id $SLURM_ARRAY_TASK_ID
+
+end_time=$(date +%s)
+
+elapsed_time=$((end_time - start_time))
+
+hours=$((elapsed_time / 3600))
+minutes=$(( (elapsed_time % 3600) / 60))
+seconds=$((elapsed_time % 60))
+
+echo "Task $SLURM_ARRAY_TASK_ID completed in ${hours}h:${minutes}m:${seconds}s."
+""".format(total_jobs=total_jobs, max_concurrent_jobs=max_concurrent_jobs)
+
+    # Write the SBATCH script to a file
+    with open('submit_array.sh', 'w') as f:
+        f.write(sbatch_script)
+    print("SBATCH script 'submit_array.sh' has been generated.")
+
+if __name__ == "__main__":
+    generate_sbatch_script()
+```
+
+### **Explanation:**
+
+- **Job Array Specification:**
+  - The line `#SBATCH --array=1-{total_jobs}%{max_concurrent_jobs}` specifies a job array 
+  with indices from 1 to 10,000.
+  - The `%50` limits the number of concurrently running jobs to 50.
+
+- **Time Limit:**
+  - The time limit is set to `0-6:0:0` (6 hours). Since each job runs for 
+  approximately 4 minutes, and jobs are running in parallel, a 6-hour limit per job is sufficient.
+  - Adjust the time limit if necessary.
+
+- **Error and Output Files:**
+  - `#SBATCH --error=omegaFold_array_job_%A_%a.err`
+  - `#SBATCH --output=omegaFold_array_job_%A_%a.out`
+  - `%A` is replaced with the job array ID, and `%a` with the array task ID.
+
+- **Per-Job Command:**
+  - The script runs the Python command:
+    ```bash
+    python ../folder_new_predict_structure_py/omegaFold_predict_structure.py --task_id $SLURM_ARRAY_TASK_ID
+    ```
+  - Modify this command according to your needs. If your Python script
+   requires different inputs for each task, use `$SLURM_ARRAY_TASK_ID` to parameterize it.
+
+- **Resource Allocation:**
+  - The partition is set to `a100_shared,a100_80_shared` as per your previous script.
+  - The account is set to `ppi_concerto`.
+  - Adjust these according to your cluster's configuration.
+
+- **Modules and Environment Activation:**
+  - Include any necessary module loads or environment activations before running your command.
+  - Uncomment and modify the lines where appropriate.
+
+### **Usage Instructions:**
+
+1. **Generate the SBATCH Script:**
+
+   - Save the Python script above as `generate_sbatch_script.py`.
+   - Run the script:
+     ```bash
+     python generate_sbatch_script.py
+     ```
+   - This will create a file named `submit_array.sh`.
+
+2. **Submit the Job Array to SLURM:**
+
+   - Submit the generated SBATCH script:
+     ```bash
+     sbatch submit_array.sh
+     ```
+
+3. **Monitoring Jobs:**
+
+   - Use `squeue` to monitor your jobs:
+     ```bash
+     squeue -u your_username
+     ```
+   - You can see the status of your job array and individual tasks.
+
+4. **Adjusting Job Parameters:**
+
+   - If you need to change the total number of jobs or the maximum concurrent jobs,
+    modify the parameters in the `generate_sbatch_script` function:
+     ```python
+     generate_sbatch_script(total_jobs=10000, max_concurrent_jobs=50)
+     ```
+   - Then regenerate and resubmit the SBATCH script.
+
+### **Additional Notes:**
+
+- **Per-Job Customization:**
+
+  - If each job requires unique input files or parameters, ensure your 
+  Python script (`omegaFold_predict_structure.py`) accepts the task ID and processes accordingly.
+  - For example, you might have input files named `input_1.dat`,
+   `input_2.dat`, ..., `input_10000.dat`, and your script can use the task ID to select the appropriate file:
+    ```python
+    import sys
+
+    task_id = sys.argv[1]
+    input_file = f"input_{task_id}.dat"
+    # Proceed with processing
+    ```
+
+- **Error Handling:**
+
+  - Check the `.err` and `.out` files for any errors or messages.
+  - If you encounter issues with resource allocation or execution,
+   adjust the SBATCH directives accordingly.
+
+- **Time Management:**
+
+  - Since each job runs for about 4 minutes, and you have 10,000 jobs running 50 at a time:
+    - Total CPU/GPU time: 10,000 jobs * 4 minutes = 40,000 minutes (~666.67 hours).
+    - Total wall clock time: 40,000 minutes / 50 jobs = 800 minutes (~13.33 hours).
+  - The jobs should complete within approximately 16 hours, considering scheduling and cluster load.
+
+### **Example of Generated `submit_array.sh`:**
+
+```bash
+#!/bin/bash
+
+#SBATCH -p a100_shared,a100_80_shared
+#SBATCH -A ppi_concerto
+#SBATCH -t 0-6:0:0  # Time limit in the format days-hours:minutes:seconds
+#SBATCH -J omegaFold_array_job
+#SBATCH --error=omegaFold_array_job_%A_%a.err
+#SBATCH --output=omegaFold_array_job_%A_%a.out
+#SBATCH --array=1-10000%50
+
+# Load necessary modules or activate your conda environment here
+# For example:
+# source ~/.bash_profile_deception_personal_miniconda3.9_IsoNet_gpu_tf
+
+echo "Running on $(hostname)"
+echo "SLURM_ARRAY_JOB_ID: $SLURM_ARRAY_JOB_ID"
+echo "SLURM_ARRAY_TASK_ID: $SLURM_ARRAY_TASK_ID"
+
+nvcc --version
+nvidia-smi
+
+start_time=$(date +%s)
+
+# Your per-job command goes here
+# If you need to use the task ID, you can access it via $SLURM_ARRAY_TASK_ID
+
+python ../folder_new_predict_structure_py/omegaFold_predict_structure.py --task_id $SLURM_ARRAY_TASK_ID
+
+end_time=$(date +%s)
+
+elapsed_time=$((end_time - start_time))
+
+hours=$((elapsed_time / 3600))
+minutes=$(( (elapsed_time % 3600) / 60))
+seconds=$((elapsed_time % 60))
+
+echo "Task $SLURM_ARRAY_TASK_ID completed in ${hours}h:${minutes}m:${seconds}s."
+```
+
+### **Important Considerations:**
+
+- **Cluster Policies:**
+  - Always check with your cluster's documentation or administrators 
+  to ensure compliance with job submission policies.
+  - Some clusters may have limits on the maximum number of array tasks or maximum concurrent jobs.
+
+- **Resource Utilization:**
+  - Ensure that your jobs are efficiently using allocated resources to avoid wasting computational power.
+
+- **Testing:**
+  - Before submitting all 10,000 jobs, test the script with a smaller number 
+  of tasks to verify that everything works as expected:
+    ```bash
+    #SBATCH --array=1-10%5
+    ```
+
+---
+
+**By using this approach, you can efficiently manage a large number
+ of jobs while minimizing the load on the scheduler and complying with cluster policies.**

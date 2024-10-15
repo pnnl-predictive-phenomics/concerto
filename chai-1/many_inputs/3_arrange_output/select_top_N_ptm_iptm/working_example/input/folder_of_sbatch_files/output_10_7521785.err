@@ -1,0 +1,13 @@
+/people/kimd999/.local/lib/python3.12/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:07<00:07,  7.44s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:08<00:00,  3.78s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:08<00:00,  4.33s/it]
+/people/kimd999/.local/lib/python3.12/site-packages/torch/export/_unlift.py:58: UserWarning: Attempted to insert a get_attr Node with no underlying reference in the owning GraphModule! Call GraphModule.add_submodule to add the necessary submodule, GraphModule.add_parameter to add the necessary Parameter, or nn.Module.register_buffer to add the necessary buffer
+  getattr_node = gm.graph.get_attr(lifted_node)
+/people/kimd999/.local/lib/python3.12/site-packages/torch/fx/graph.py:1460: UserWarning: Node _lifted_tensor_constant0_1 target _lifted_tensor_constant0 _lifted_tensor_constant0 of  does not reference an nn.Module, nn.Parameter, or buffer, which is what 'get_attr' Nodes typically target
+  warnings.warn(f'Node {node} target {node.target} {atom} of {seen_qualname} does '
+/people/kimd999/.local/lib/python3.12/site-packages/torch/fx/graph.py:1460: UserWarning: Node _lifted_tensor_constant1_1 target _lifted_tensor_constant1 _lifted_tensor_constant1 of  does not reference an nn.Module, nn.Parameter, or buffer, which is what 'get_attr' Nodes typically target
+  warnings.warn(f'Node {node} target {node.target} {atom} of {seen_qualname} does '
+/tmp/slurmd/job7521785/slurm_script: line 74: echo: write error: Remote I/O error
+last):
+Exception ignored in: <function tqdm.__del__ at 0x2b4de309de40>
+Exception ignored in sys.unraisablehook: <built-in function unraisablehook>

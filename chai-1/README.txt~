@@ -1,0 +1,6 @@
+Use >= python 3.7
+
+Refer working example folder's input and output folders as examples.
+
+The 1st step: (local concerto github repo)/chai-1/many_inputs/1_prepare_multi_input_without_MSA/1_make_non_array_sbatch/only_seq_exist/seq_at_fasta/all_input_seqs_are_ready_in_input_fasta_file/1_prepare_multi_inputs.py
+
