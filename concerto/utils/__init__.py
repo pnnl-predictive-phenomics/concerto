@@ -1,4 +1,4 @@
-from .utils import parse_carbsource_growth, create_carveme_mediadb_df
+from .utils import parse_carbon_source_growth_file, create_carveme_mediadb_df
 
 import pathlib
 import logging
