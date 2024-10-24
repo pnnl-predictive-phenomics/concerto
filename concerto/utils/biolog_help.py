@@ -26,7 +26,7 @@ def add_biolog_exchanges(model):
     -------
     cobra.Model
     """
-    new_model = model.copy()
+    new_model = model
     not_found = set()
     added = set()
 
