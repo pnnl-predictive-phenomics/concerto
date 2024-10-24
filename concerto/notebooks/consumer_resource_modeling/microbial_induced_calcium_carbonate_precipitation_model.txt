@@ -1,0 +1,66 @@
+
+model MICP
+
+  const water;
+
+  // Reaction 1: Ureolysis (irreversible)
+  reaction_ureolysis: urea + $water => 2 ammonia + carbon_dioxide; (V_max_urease*urea)/(K_m_urease + urea);  // Michaelis-Menton (water in excess and fixed);
+
+  // Reaction 2: Protonation of Ammonia
+  reaction_protonation_NH3: 2 ammonia + 2 $water -> 2 ammonium + 2 hydroxide; k2f * ammonia^2 * water^2 - k2r * ammonium^2 * hydroxide^2;
+
+  // Reaction 3: CO2 Hydrolysis (irreversible)
+  reaction_CO2_hydrolysis: carbon_dioxide + $water => carbonic_acid; (K_cat_CA*CA_conc*carbon_dioxide)/(K_m_CA + carbon_dioxide);   // Michaelis-Menton;
+
+  // Reaction 4: Dissociation of Carbonic Acid
+  reaction_dissociation_H2CO3: carbonic_acid + hydroxide -> bicarbonate + $water; k4f * carbonic_acid * hydroxide - k4r * bicarbonate * water;
+
+  // Reaction 5: Dissociation of Bicarbonate
+  reaction_dissociation_HCO3: bicarbonate + hydroxide -> carbonate + $water; k5f * bicarbonate * hydroxide - k5r * carbonate * water;
+
+  // Reaction 6: CaCO3 Precipitation/Dissolution
+  reaction_CaCO3_precipitation: carbonate + calcium_ion -> calcium_carbonate; k6f * carbonate * calcium_ion - k6r * calcium_carbonate;
+
+  // Set initial concentrations for species
+  urea = 0.33;                      // Initial concentration for urea
+  water = 55.0;                       // Initial concentration for water
+  ammonia = 1e-5;                      // Initial concentration for ammonia
+  carbon_dioxide = 1e-5;               // Initial concentration for carbon dioxide (from atmosphere)
+  ammonium = 1e-5;                     // Initial concentration for ammonium
+  hydroxide = 1e-7; // Initial concentration for hydroxide
+  carbonic_acid = 1e-5;                // Initial concentration for carbonic acid
+  bicarbonate = 1e-5;                  // Initial concentration for bicarbonate
+  carbonate = 1e-5;                    // Initial concentration for carbonate
+  calcium_ion = 0.136;                  // Initial concentration for calcium ion
+  calcium_carbonate = 0;            // Initial concentration for calcium carbonate
+
+  // Define rate constants
+  k2f = 1;  // Rate constant for reaction 2 forward
+  k2r = 1;  // Rate constant for reaction 2 reverse
+  k4f = 1;  // Rate constant for reaction 4 forward
+  k4r = 1;  // Rate constant for reaction 4 reverse  
+  k5f = 1;  // Rate constant for reaction 5 forward
+  k5r = 1;  // Rate constant for reaction 5 reverse 
+  k6f = 1;  // Rate constant for reaction 6 forward
+  k6r = 1;  // Rate constant for reaction 6 reverse
+
+  // enyzematic reaction parameters
+  V_max_urease = 1.8e4; // M/L/s (1100 mM/mg / min)
+  K_m_urease= 0.3; // M (300 mM)
+  K_cat_CA = 530000; // 1/s;
+  CA_conc = 3e-5; // M/L (30 uM)
+  K_m_CA = 12.9; // M (12900 mM) 
+
+  //K_cat_urease = 1;
+  //urease_conc = 5e-5; // M/L (50 uM)
+  //V_max_CA = 1.8e6;
+
+  // Define rate laws
+  //rate_ureolysis :=  (V_max_urease*urea*water)/(K_m_urease + (urea*water));  // Michaelis-Menton
+  //rate_protonation_NH3 := k2f * ammonia * water - k2r * ammonium * hydroxide;
+  //rate_CO2_hydrolysis := (K_cat_CA*CA_conc*carbon_dioxide*water)/(K_m_CA + (carbon_dioxide*water));   // Michaelis-Menton
+  //rate_dissociation_H2CO3 := k4f * carbonic_acid * hydroxide - k4r * bicarbonate * water;
+  //rate_dissociation_HCO3 := k5f * bicarbonate * hydroxide - k5r * carbonate * water;
+  //rate_CaCO3_precipitation := k6f * carbonate * calcium_ion - k6r * calcium_carbonate;
+
+end

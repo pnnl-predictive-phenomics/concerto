@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model metaid="MICP" id="MICP">
+    <listOfCompartments>
+      <compartment sboTerm="SBO:0000410" id="default_compartment" spatialDimensions="3" size="1" constant="true"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species id="water" compartment="default_compartment" initialConcentration="55" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false"/>
+      <species id="urea" compartment="default_compartment" initialAmount="0.33" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="ammonia" compartment="default_compartment" initialAmount="1e-05" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="carbon_dioxide" compartment="default_compartment" initialAmount="1e-05" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="ammonium" compartment="default_compartment" initialAmount="1e-05" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="hydroxide" compartment="default_compartment" initialAmount="1e-07" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="carbonic_acid" compartment="default_compartment" initialAmount="1e-05" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="bicarbonate" compartment="default_compartment" initialAmount="1e-05" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="carbonate" compartment="default_compartment" initialAmount="1e-05" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="calcium_ion" compartment="default_compartment" initialAmount="0.136" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="calcium_carbonate" compartment="default_compartment" initialAmount="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+    </listOfSpecies>
+    <listOfParameters>
+      <parameter id="V_max_urease" value="18000" constant="true"/>
+      <parameter id="K_m_urease" value="0.3" constant="true"/>
+      <parameter id="k2f" value="1" constant="true"/>
+      <parameter id="k2r" value="1" constant="true"/>
+      <parameter id="K_cat_CA" value="530000" constant="true"/>
+      <parameter id="CA_conc" value="3e-05" constant="true"/>
+      <parameter id="K_m_CA" value="12.9" constant="true"/>
+      <parameter id="k4f" value="1" constant="true"/>
+      <parameter id="k4r" value="1" constant="true"/>
+      <parameter id="k5f" value="1" constant="true"/>
+      <parameter id="k5r" value="1" constant="true"/>
+      <parameter id="k6f" value="1" constant="true"/>
+      <parameter id="k6r" value="1" constant="true"/>
+    </listOfParameters>
+    <listOfReactions>
+      <reaction id="reaction_ureolysis" reversible="false">
+        <listOfReactants>
+          <speciesReference species="urea" stoichiometry="1" constant="true"/>
+          <speciesReference species="water" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="ammonia" stoichiometry="2" constant="true"/>
+          <speciesReference species="carbon_dioxide" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> V_max_urease </ci>
+                <ci> urea </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <ci> K_m_urease </ci>
+                <ci> urea </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="reaction_protonation_NH3" reversible="true">
+        <listOfReactants>
+          <speciesReference species="ammonia" stoichiometry="2" constant="true"/>
+          <speciesReference species="water" stoichiometry="2" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="ammonium" stoichiometry="2" constant="true"/>
+          <speciesReference species="hydroxide" stoichiometry="2" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> k2f </ci>
+                <apply>
+                  <power/>
+                  <ci> ammonia </ci>
+                  <cn type="integer"> 2 </cn>
+                </apply>
+                <apply>
+                  <power/>
+                  <ci> water </ci>
+                  <cn type="integer"> 2 </cn>
+                </apply>
+              </apply>
+              <apply>
+                <times/>
+                <ci> k2r </ci>
+                <apply>
+                  <power/>
+                  <ci> ammonium </ci>
+                  <cn type="integer"> 2 </cn>
+                </apply>
+                <apply>
+                  <power/>
+                  <ci> hydroxide </ci>
+                  <cn type="integer"> 2 </cn>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="reaction_CO2_hydrolysis" reversible="false">
+        <listOfReactants>
+          <speciesReference species="carbon_dioxide" stoichiometry="1" constant="true"/>
+          <speciesReference species="water" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="carbonic_acid" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> K_cat_CA </ci>
+                <ci> CA_conc </ci>
+                <ci> carbon_dioxide </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <ci> K_m_CA </ci>
+                <ci> carbon_dioxide </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="reaction_dissociation_H2CO3" reversible="true">
+        <listOfReactants>
+          <speciesReference species="carbonic_acid" stoichiometry="1" constant="true"/>
+          <speciesReference species="hydroxide" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="bicarbonate" stoichiometry="1" constant="true"/>
+          <speciesReference species="water" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> k4f </ci>
+                <ci> carbonic_acid </ci>
+                <ci> hydroxide </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> k4r </ci>
+                <ci> bicarbonate </ci>
+                <ci> water </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="reaction_dissociation_HCO3" reversible="true">
+        <listOfReactants>
+          <speciesReference species="bicarbonate" stoichiometry="1" constant="true"/>
+          <speciesReference species="hydroxide" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="carbonate" stoichiometry="1" constant="true"/>
+          <speciesReference species="water" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> k5f </ci>
+                <ci> bicarbonate </ci>
+                <ci> hydroxide </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> k5r </ci>
+                <ci> carbonate </ci>
+                <ci> water </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="reaction_CaCO3_precipitation" reversible="true">
+        <listOfReactants>
+          <speciesReference species="carbonate" stoichiometry="1" constant="true"/>
+          <speciesReference species="calcium_ion" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="calcium_carbonate" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> k6f </ci>
+                <ci> carbonate </ci>
+                <ci> calcium_ion </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> k6r </ci>
+                <ci> calcium_carbonate </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+    </listOfReactions>
+  </model>
+</sbml>

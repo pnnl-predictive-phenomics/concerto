@@ -1,0 +1,3970 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model metaid="smetana" id="smetana">
+    <listOfCompartments>
+      <compartment sboTerm="SBO:0000410" id="default_compartment" spatialDimensions="3" size="1" constant="true"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species id="updated_csc031" compartment="default_compartment" initialAmount="0.437587211262693" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_arg__L_e" compartment="default_compartment" initialAmount="0.118274425868933" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="updated_csc009" compartment="default_compartment" initialAmount="0.143353287409046" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_gua_e" compartment="default_compartment" initialAmount="0.791725038082665" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_h2s_e" compartment="default_compartment" initialAmount="0.799158564216724" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_hom__L_e" compartment="default_compartment" initialAmount="0.77815675094985" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_nh4_e" compartment="default_compartment" initialAmount="0.383441518825778" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_orn_e" compartment="default_compartment" initialAmount="0.568044561093932" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="updated_csc040" compartment="default_compartment" initialAmount="0.0202183974403257" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_4abut_e" compartment="default_compartment" initialAmount="0.544883182996897" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_asp__L_e" compartment="default_compartment" initialAmount="0.89177300078208" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_fe3_e" compartment="default_compartment" initialAmount="0.528894919752904" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_fe3pyovd_kt_e" compartment="default_compartment" initialAmount="0.521848321750072" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_glu__L_e" compartment="default_compartment" initialAmount="0.602763376071644" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_pi_e" compartment="default_compartment" initialAmount="0.645894113066656" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_pydxn_e" compartment="default_compartment" initialAmount="0.639921021327524" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_s_e" compartment="default_compartment" initialAmount="0.780529176286455" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_ser__L_e" compartment="default_compartment" initialAmount="0.870012148246819" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_urea_e" compartment="default_compartment" initialAmount="0.414661939990524" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="updated_csc052" compartment="default_compartment" initialAmount="0.944668917049584" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_gthrd_e" compartment="default_compartment" initialAmount="0.461479362252932" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_ptrc_e" compartment="default_compartment" initialAmount="0.0871292997015407" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="csc043" compartment="default_compartment" initialAmount="0.423654799338905" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_xylan4_e" compartment="default_compartment" initialAmount="0.774233689434217" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_glyald_e" compartment="default_compartment" initialAmount="0.925596638292661" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_glyc_e" compartment="default_compartment" initialAmount="0.548813503927325" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_rib__D_e" compartment="default_compartment" initialAmount="0.715189366372419" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_lys__L_e" compartment="default_compartment" initialAmount="0.264555612104627" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_o2_e" compartment="default_compartment" initialAmount="0.963662760501029" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_ura_e" compartment="default_compartment" initialAmount="0.832619845547938" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_xyl__D_e" compartment="default_compartment" initialAmount="0.978618342232764" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="M_ppap_e" compartment="default_compartment" initialAmount="0.0710360581978869" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+    </listOfSpecies>
+    <listOfParameters>
+      <parameter id="k_d0" value="0.333333333333333" constant="true"/>
+      <parameter id="k_r0" value="0.08" constant="true"/>
+      <parameter id="k_d1" value="0.333333333333333" constant="true"/>
+      <parameter id="k_r1" value="0.1" constant="true"/>
+      <parameter id="k_d2" value="0.333333333333333" constant="true"/>
+      <parameter id="k_r2" value="0.33" constant="true"/>
+      <parameter id="k_d3" value="0.333333333333333" constant="true"/>
+      <parameter id="k_r3" value="0.07" constant="true"/>
+      <parameter id="k_d4" value="0.333333333333333" constant="true"/>
+      <parameter id="k_r4" value="0.09" constant="true"/>
+      <parameter id="k_d5" value="0.333333333333333" constant="true"/>
+      <parameter id="k_r5" value="0.03" constant="true"/>
+      <parameter id="k_d6" value="1" constant="true"/>
+      <parameter id="k_r6" value="0.01" constant="true"/>
+      <parameter id="k_d7" value="1" constant="true"/>
+      <parameter id="k_r7" value="0.08" constant="true"/>
+      <parameter id="k_d8" value="1" constant="true"/>
+      <parameter id="k_r8" value="0.06" constant="true"/>
+      <parameter id="k_d9" value="1" constant="true"/>
+      <parameter id="k_r9" value="0.39" constant="true"/>
+      <parameter id="k_d10" value="1" constant="true"/>
+      <parameter id="k_r10" value="0.61" constant="true"/>
+      <parameter id="k_d11" value="1" constant="true"/>
+      <parameter id="k_r11" value="0.06" constant="true"/>
+      <parameter id="k_d12" value="1" constant="true"/>
+      <parameter id="k_r12" value="0.1" constant="true"/>
+      <parameter id="k_d13" value="1" constant="true"/>
+      <parameter id="k_r13" value="0.33" constant="true"/>
+      <parameter id="k_d14" value="1" constant="true"/>
+      <parameter id="k_r14" value="0.07" constant="true"/>
+      <parameter id="k_d15" value="1" constant="true"/>
+      <parameter id="k_r15" value="0.09" constant="true"/>
+      <parameter id="k_d16" value="1" constant="true"/>
+      <parameter id="k_r16" value="0.03" constant="true"/>
+      <parameter id="k_d17" value="1" constant="true"/>
+      <parameter id="k_r17" value="0.49" constant="true"/>
+      <parameter id="k_d18" value="1" constant="true"/>
+      <parameter id="k_r18" value="0.02" constant="true"/>
+      <parameter id="k_d19" value="1" constant="true"/>
+      <parameter id="k_r19" value="0.33" constant="true"/>
+      <parameter id="k_d20" value="1" constant="true"/>
+      <parameter id="k_r20" value="0.12" constant="true"/>
+      <parameter id="k_d21" value="1" constant="true"/>
+      <parameter id="k_r21" value="0.07" constant="true"/>
+      <parameter id="k_d22" value="0.333333333333333" constant="true"/>
+      <parameter id="k_r22" value="0.08" constant="true"/>
+      <parameter id="k_d23" value="0.333333333333333" constant="true"/>
+      <parameter id="k_r23" value="0.39" constant="true"/>
+      <parameter id="k_d24" value="0.333333333333333" constant="true"/>
+      <parameter id="k_r24" value="0.06" constant="true"/>
+      <parameter id="k_d25" value="0.333333333333333" constant="true"/>
+      <parameter id="k_r25" value="0.04" constant="true"/>
+      <parameter id="k_d26" value="0.333333333333333" constant="true"/>
+      <parameter id="k_r26" value="0.33" constant="true"/>
+      <parameter id="k_d27" value="0.333333333333333" constant="true"/>
+      <parameter id="k_r27" value="0.09" constant="true"/>
+      <parameter id="k_d28" value="0.333333333333333" constant="true"/>
+      <parameter id="k_r28" value="0.03" constant="true"/>
+      <parameter id="k_d29" value="0.333333333333333" constant="true"/>
+      <parameter id="k_r29" value="0.01" constant="true"/>
+      <parameter id="k_d30" value="0.333333333333333" constant="true"/>
+      <parameter id="k_r30" value="0.33" constant="true"/>
+      <parameter id="k_d31" value="0.333333333333333" constant="true"/>
+      <parameter id="k_r31" value="0.07" constant="true"/>
+      <parameter id="k_d32" value="1" constant="true"/>
+      <parameter id="k_r32" value="0.08" constant="true"/>
+      <parameter id="k_d33" value="1" constant="true"/>
+      <parameter id="k_r33" value="0.1" constant="true"/>
+      <parameter id="k_d34" value="1" constant="true"/>
+      <parameter id="k_r34" value="0.33" constant="true"/>
+      <parameter id="k_d35" value="1" constant="true"/>
+      <parameter id="k_r35" value="0.09" constant="true"/>
+      <parameter id="k_d36" value="1" constant="true"/>
+      <parameter id="k_r36" value="0.33" constant="true"/>
+      <parameter id="k_d37" value="1" constant="true"/>
+      <parameter id="k_r37" value="1" constant="true"/>
+      <parameter id="k_d38" value="1" constant="true"/>
+      <parameter id="k_r38" value="1" constant="true"/>
+      <parameter id="k_d39" value="1" constant="true"/>
+      <parameter id="k_r39" value="0.89" constant="true"/>
+      <parameter id="k_d40" value="1" constant="true"/>
+      <parameter id="k_r40" value="0.48" constant="true"/>
+      <parameter id="k_d41" value="1" constant="true"/>
+      <parameter id="k_r41" value="0.06" constant="true"/>
+      <parameter id="k_d42" value="1" constant="true"/>
+      <parameter id="k_r42" value="0.02" constant="true"/>
+      <parameter id="k_d43" value="1" constant="true"/>
+      <parameter id="k_r43" value="1" constant="true"/>
+      <parameter id="k_d44" value="1" constant="true"/>
+      <parameter id="k_r44" value="0.89" constant="true"/>
+      <parameter id="k_d45" value="1" constant="true"/>
+      <parameter id="k_r45" value="0.06" constant="true"/>
+      <parameter id="k_d46" value="1" constant="true"/>
+      <parameter id="k_r46" value="1" constant="true"/>
+      <parameter id="k_d47" value="0.5" constant="true"/>
+      <parameter id="k_r47" value="1" constant="true"/>
+      <parameter id="k_d48" value="0.5" constant="true"/>
+      <parameter id="k_r48" value="0.48" constant="true"/>
+      <parameter id="k_d49" value="0.5" constant="true"/>
+      <parameter id="k_r49" value="0.06" constant="true"/>
+      <parameter id="k_d50" value="0.5" constant="true"/>
+      <parameter id="k_r50" value="0.02" constant="true"/>
+      <parameter id="k_d51" value="1" constant="true"/>
+      <parameter id="k_r51" value="0.48" constant="true"/>
+      <parameter id="k_d52" value="1" constant="true"/>
+      <parameter id="k_r52" value="0.06" constant="true"/>
+      <parameter id="k_d53" value="1" constant="true"/>
+      <parameter id="k_r53" value="0.02" constant="true"/>
+      <parameter id="k_d54" value="1" constant="true"/>
+      <parameter id="k_r54" value="0.44" constant="true"/>
+      <parameter id="k_d55" value="1" constant="true"/>
+      <parameter id="k_r55" value="0.06" constant="true"/>
+      <parameter id="k_d56" value="1" constant="true"/>
+      <parameter id="k_r56" value="0.15" constant="true"/>
+      <parameter id="k_d57" value="1" constant="true"/>
+      <parameter id="k_r57" value="0.79" constant="true"/>
+      <parameter id="k_d58" value="1" constant="true"/>
+      <parameter id="k_r58" value="0.04" constant="true"/>
+      <parameter id="k_d59" value="1" constant="true"/>
+      <parameter id="k_r59" value="0.16" constant="true"/>
+      <parameter id="k_d60" value="1" constant="true"/>
+      <parameter id="k_r60" value="0.05" constant="true"/>
+      <parameter id="k_d61" value="1" constant="true"/>
+      <parameter id="k_r61" value="0.93" constant="true"/>
+      <parameter id="k_d62" value="1" constant="true"/>
+      <parameter id="k_r62" value="0.18" constant="true"/>
+      <parameter id="k_d63" value="0.333333333333333" constant="true"/>
+      <parameter id="k_r63" value="0.06" constant="true"/>
+      <parameter id="k_d64" value="0.333333333333333" constant="true"/>
+      <parameter id="k_r64" value="0.19" constant="true"/>
+      <parameter id="k_d65" value="0.333333333333333" constant="true"/>
+      <parameter id="k_r65" value="0.04" constant="true"/>
+      <parameter id="k_d66" value="0.333333333333333" constant="true"/>
+      <parameter id="k_r66" value="0.16" constant="true"/>
+      <parameter id="k_d67" value="0.333333333333333" constant="true"/>
+      <parameter id="k_r67" value="0.05" constant="true"/>
+      <parameter id="k_d68" value="0.333333333333333" constant="true"/>
+      <parameter id="k_r68" value="0.18" constant="true"/>
+      <parameter id="k_d69" value="0.333333333333333" constant="true"/>
+      <parameter id="k_r69" value="0.06" constant="true"/>
+      <parameter id="k_d70" value="0.333333333333333" constant="true"/>
+      <parameter id="k_r70" value="0.15" constant="true"/>
+      <parameter id="k_d71" value="0.333333333333333" constant="true"/>
+      <parameter id="k_r71" value="0.16" constant="true"/>
+      <parameter id="k_d72" value="0.333333333333333" constant="true"/>
+      <parameter id="k_r72" value="0.05" constant="true"/>
+      <parameter id="k_d73" value="0.333333333333333" constant="true"/>
+      <parameter id="k_r73" value="0.18" constant="true"/>
+      <parameter id="k_d74" value="1" constant="true"/>
+      <parameter id="k_r74" value="0.06" constant="true"/>
+      <parameter id="k_d75" value="1" constant="true"/>
+      <parameter id="k_r75" value="0.19" constant="true"/>
+      <parameter id="k_d76" value="1" constant="true"/>
+      <parameter id="k_r76" value="0.16" constant="true"/>
+      <parameter id="k_d77" value="1" constant="true"/>
+      <parameter id="k_r77" value="0.05" constant="true"/>
+      <parameter id="k_d78" value="1" constant="true"/>
+      <parameter id="k_r78" value="0.07" constant="true"/>
+      <parameter id="k_d79" value="1" constant="true"/>
+      <parameter id="k_r79" value="0.1" constant="true"/>
+      <parameter id="k_d80" value="1" constant="true"/>
+      <parameter id="k_r80" value="0.43" constant="true"/>
+      <parameter id="k_d81" value="1" constant="true"/>
+      <parameter id="k_r81" value="1" constant="true"/>
+      <parameter id="k_d82" value="0.5" constant="true"/>
+      <parameter id="k_r82" value="0.1" constant="true"/>
+      <parameter id="k_d83" value="0.5" constant="true"/>
+      <parameter id="k_r83" value="0.43" constant="true"/>
+      <parameter id="k_d84" value="0.5" constant="true"/>
+      <parameter id="k_r84" value="0.36" constant="true"/>
+      <parameter id="k_d85" value="1" constant="true"/>
+      <parameter id="k_r85" value="0.1" constant="true"/>
+      <parameter id="k_d86" value="1" constant="true"/>
+      <parameter id="k_r86" value="0.43" constant="true"/>
+      <parameter id="k_d87" value="1" constant="true"/>
+      <parameter id="k_r87" value="0.05" constant="true"/>
+      <parameter id="k_d88" value="1" constant="true"/>
+      <parameter id="k_r88" value="0.31" constant="true"/>
+      <parameter id="k_d89" value="1" constant="true"/>
+      <parameter id="k_r89" value="0.1" constant="true"/>
+      <parameter id="k_d90" value="1" constant="true"/>
+      <parameter id="k_r90" value="0.43" constant="true"/>
+      <parameter id="k_d91" value="1" constant="true"/>
+      <parameter id="k_r91" value="0.31" constant="true"/>
+      <parameter id="k_d92" value="1" constant="true"/>
+      <parameter id="k_r92" value="0.54" constant="true"/>
+      <parameter id="k_d93" value="1" constant="true"/>
+      <parameter id="k_r93" value="0.22" constant="true"/>
+      <parameter id="k_d94" value="1" constant="true"/>
+      <parameter id="k_r94" value="0.78" constant="true"/>
+      <parameter id="k_d95" value="1" constant="true"/>
+      <parameter id="k_r95" value="0.46" constant="true"/>
+      <parameter id="k_d96" value="1" constant="true"/>
+      <parameter id="k_r96" value="1" constant="true"/>
+      <parameter id="k_d97" value="1" constant="true"/>
+      <parameter id="k_r97" value="1" constant="true"/>
+      <parameter id="k_d98" value="0.333333333333333" constant="true"/>
+      <parameter id="k_r98" value="0.22" constant="true"/>
+      <parameter id="k_d99" value="0.333333333333333" constant="true"/>
+      <parameter id="k_r99" value="0.78" constant="true"/>
+      <parameter id="k_d100" value="0.333333333333333" constant="true"/>
+      <parameter id="k_r100" value="0.46" constant="true"/>
+      <parameter id="k_d101" value="1" constant="true"/>
+      <parameter id="k_r101" value="0.22" constant="true"/>
+      <parameter id="k_d102" value="1" constant="true"/>
+      <parameter id="k_r102" value="0.78" constant="true"/>
+      <parameter id="k_d103" value="1" constant="true"/>
+      <parameter id="k_r103" value="0.46" constant="true"/>
+      <parameter id="k_d104" value="1" constant="true"/>
+      <parameter id="k_r104" value="0.22" constant="true"/>
+      <parameter id="k_d105" value="0.333333333333333" constant="true"/>
+      <parameter id="k_r105" value="0.22" constant="true"/>
+      <parameter id="k_d106" value="0.333333333333333" constant="true"/>
+      <parameter id="k_r106" value="0.78" constant="true"/>
+      <parameter id="k_d107" value="0.333333333333333" constant="true"/>
+      <parameter id="k_r107" value="0.46" constant="true"/>
+      <parameter id="k_d108" value="0.333333333333333" constant="true"/>
+      <parameter id="k_r108" value="0.22" constant="true"/>
+    </listOfParameters>
+    <listOfReactions>
+      <reaction id="_J0" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc031" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_arg__L_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d0 </ci>
+              <ci> updated_csc031 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J1" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_arg__L_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r0 </ci>
+              <ci> M_arg__L_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J2" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc031" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_gua_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d1 </ci>
+              <ci> updated_csc031 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J3" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_gua_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r1 </ci>
+              <ci> M_gua_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J4" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc031" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_h2s_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d2 </ci>
+              <ci> updated_csc031 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J5" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_h2s_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r2 </ci>
+              <ci> M_h2s_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J6" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc031" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_hom__L_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d3 </ci>
+              <ci> updated_csc031 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J7" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_hom__L_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r3 </ci>
+              <ci> M_hom__L_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J8" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc031" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_nh4_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d4 </ci>
+              <ci> updated_csc031 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J9" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_nh4_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r4 </ci>
+              <ci> M_nh4_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J10" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc031" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_orn_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d5 </ci>
+              <ci> updated_csc031 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J11" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_orn_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r5 </ci>
+              <ci> M_orn_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J12" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_4abut_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d6 </ci>
+              <ci> updated_csc040 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J13" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_4abut_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r6 </ci>
+              <ci> M_4abut_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J14" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_arg__L_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d7 </ci>
+              <ci> updated_csc040 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J15" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_arg__L_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r7 </ci>
+              <ci> M_arg__L_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J16" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_asp__L_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d8 </ci>
+              <ci> updated_csc040 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J17" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_asp__L_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r8 </ci>
+              <ci> M_asp__L_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J18" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_fe3_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d9 </ci>
+              <ci> updated_csc040 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J19" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_fe3_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r9 </ci>
+              <ci> M_fe3_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J20" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_fe3pyovd_kt_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d10 </ci>
+              <ci> updated_csc040 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J21" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_fe3pyovd_kt_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r10 </ci>
+              <ci> M_fe3pyovd_kt_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J22" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_glu__L_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d11 </ci>
+              <ci> updated_csc040 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J23" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_glu__L_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r11 </ci>
+              <ci> M_glu__L_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J24" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_gua_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d12 </ci>
+              <ci> updated_csc040 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J25" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_gua_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r12 </ci>
+              <ci> M_gua_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J26" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_h2s_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d13 </ci>
+              <ci> updated_csc040 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J27" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_h2s_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r13 </ci>
+              <ci> M_h2s_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J28" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_hom__L_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d14 </ci>
+              <ci> updated_csc040 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J29" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_hom__L_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r14 </ci>
+              <ci> M_hom__L_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J30" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_nh4_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d15 </ci>
+              <ci> updated_csc040 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J31" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_nh4_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r15 </ci>
+              <ci> M_nh4_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J32" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_orn_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d16 </ci>
+              <ci> updated_csc040 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J33" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_orn_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r16 </ci>
+              <ci> M_orn_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J34" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_pi_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d17 </ci>
+              <ci> updated_csc040 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J35" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_pi_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r17 </ci>
+              <ci> M_pi_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J36" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_pydxn_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d18 </ci>
+              <ci> updated_csc040 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J37" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_pydxn_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r18 </ci>
+              <ci> M_pydxn_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J38" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_s_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d19 </ci>
+              <ci> updated_csc040 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J39" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_s_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r19 </ci>
+              <ci> M_s_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J40" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_ser__L_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d20 </ci>
+              <ci> updated_csc040 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J41" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_ser__L_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r20 </ci>
+              <ci> M_ser__L_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J42" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_urea_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d21 </ci>
+              <ci> updated_csc040 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J43" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_urea_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r21 </ci>
+              <ci> M_urea_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J44" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_arg__L_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d22 </ci>
+              <ci> updated_csc052 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J45" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_arg__L_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r22 </ci>
+              <ci> M_arg__L_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J46" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_fe3_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d23 </ci>
+              <ci> updated_csc052 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J47" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_fe3_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r23 </ci>
+              <ci> M_fe3_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J48" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_glu__L_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d24 </ci>
+              <ci> updated_csc052 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J49" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_glu__L_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r24 </ci>
+              <ci> M_glu__L_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J50" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_gthrd_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d25 </ci>
+              <ci> updated_csc052 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J51" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_gthrd_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r25 </ci>
+              <ci> M_gthrd_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J52" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_h2s_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d26 </ci>
+              <ci> updated_csc052 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J53" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_h2s_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r26 </ci>
+              <ci> M_h2s_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J54" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_nh4_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d27 </ci>
+              <ci> updated_csc052 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J55" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_nh4_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r27 </ci>
+              <ci> M_nh4_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J56" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_orn_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d28 </ci>
+              <ci> updated_csc052 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J57" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_orn_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r28 </ci>
+              <ci> M_orn_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J58" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_ptrc_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d29 </ci>
+              <ci> updated_csc052 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J59" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_ptrc_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r29 </ci>
+              <ci> M_ptrc_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J60" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_s_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d30 </ci>
+              <ci> updated_csc052 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J61" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_s_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r30 </ci>
+              <ci> M_s_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J62" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_urea_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d31 </ci>
+              <ci> updated_csc052 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J63" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_urea_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r31 </ci>
+              <ci> M_urea_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J64" reversible="true">
+        <listOfReactants>
+          <speciesReference species="csc043" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_arg__L_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d32 </ci>
+              <ci> csc043 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J65" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_arg__L_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r32 </ci>
+              <ci> M_arg__L_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J66" reversible="true">
+        <listOfReactants>
+          <speciesReference species="csc043" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_gua_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d33 </ci>
+              <ci> csc043 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J67" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_gua_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r33 </ci>
+              <ci> M_gua_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J68" reversible="true">
+        <listOfReactants>
+          <speciesReference species="csc043" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_h2s_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d34 </ci>
+              <ci> csc043 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J69" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_h2s_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r34 </ci>
+              <ci> M_h2s_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J70" reversible="true">
+        <listOfReactants>
+          <speciesReference species="csc043" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_nh4_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d35 </ci>
+              <ci> csc043 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J71" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_nh4_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r35 </ci>
+              <ci> M_nh4_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J72" reversible="true">
+        <listOfReactants>
+          <speciesReference species="csc043" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_s_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d36 </ci>
+              <ci> csc043 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J73" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_s_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r36 </ci>
+              <ci> M_s_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J74" reversible="true">
+        <listOfReactants>
+          <speciesReference species="csc043" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_xylan4_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d37 </ci>
+              <ci> csc043 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J75" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_xylan4_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r37 </ci>
+              <ci> M_xylan4_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J76" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_fe3_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d38 </ci>
+              <ci> updated_csc009 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J77" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_fe3_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc031" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r38 </ci>
+              <ci> M_fe3_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J78" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_fe3pyovd_kt_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d39 </ci>
+              <ci> updated_csc009 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J79" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_fe3pyovd_kt_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc031" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r39 </ci>
+              <ci> M_fe3pyovd_kt_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J80" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_glyald_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d40 </ci>
+              <ci> updated_csc009 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J81" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_glyald_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc031" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r40 </ci>
+              <ci> M_glyald_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J82" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_glyc_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d41 </ci>
+              <ci> updated_csc009 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J83" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_glyc_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc031" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r41 </ci>
+              <ci> M_glyc_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J84" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_rib__D_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d42 </ci>
+              <ci> updated_csc009 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J85" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_rib__D_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc031" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r42 </ci>
+              <ci> M_rib__D_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J86" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_fe3_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d43 </ci>
+              <ci> updated_csc040 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J87" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_fe3_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc031" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r43 </ci>
+              <ci> M_fe3_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J88" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_fe3pyovd_kt_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d44 </ci>
+              <ci> updated_csc040 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J89" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_fe3pyovd_kt_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc031" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r44 </ci>
+              <ci> M_fe3pyovd_kt_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J90" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_glyc_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d45 </ci>
+              <ci> updated_csc040 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J91" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_glyc_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc031" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r45 </ci>
+              <ci> M_glyc_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J92" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_pi_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d46 </ci>
+              <ci> updated_csc040 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J93" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_pi_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc031" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r46 </ci>
+              <ci> M_pi_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J94" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_fe3_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d47 </ci>
+              <ci> updated_csc052 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J95" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_fe3_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc031" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r47 </ci>
+              <ci> M_fe3_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J96" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_glyald_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d48 </ci>
+              <ci> updated_csc052 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J97" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_glyald_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc031" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r48 </ci>
+              <ci> M_glyald_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J98" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_glyc_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d49 </ci>
+              <ci> updated_csc052 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J99" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_glyc_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc031" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r49 </ci>
+              <ci> M_glyc_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J100" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_rib__D_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d50 </ci>
+              <ci> updated_csc052 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J101" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_rib__D_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc031" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r50 </ci>
+              <ci> M_rib__D_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J102" reversible="true">
+        <listOfReactants>
+          <speciesReference species="csc043" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_glyald_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d51 </ci>
+              <ci> csc043 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J103" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_glyald_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc031" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r51 </ci>
+              <ci> M_glyald_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J104" reversible="true">
+        <listOfReactants>
+          <speciesReference species="csc043" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_glyc_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d52 </ci>
+              <ci> csc043 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J105" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_glyc_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc031" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r52 </ci>
+              <ci> M_glyc_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J106" reversible="true">
+        <listOfReactants>
+          <speciesReference species="csc043" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_rib__D_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d53 </ci>
+              <ci> csc043 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J107" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_rib__D_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc031" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r53 </ci>
+              <ci> M_rib__D_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J108" reversible="true">
+        <listOfReactants>
+          <speciesReference species="csc043" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_xylan4_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d54 </ci>
+              <ci> csc043 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J109" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_xylan4_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc031" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r54 </ci>
+              <ci> M_xylan4_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J110" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_arg__L_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d55 </ci>
+              <ci> updated_csc009 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J111" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_arg__L_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r55 </ci>
+              <ci> M_arg__L_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J112" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_fe3_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d56 </ci>
+              <ci> updated_csc009 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J113" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_fe3_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r56 </ci>
+              <ci> M_fe3_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J114" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_fe3pyovd_kt_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d57 </ci>
+              <ci> updated_csc009 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J115" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_fe3pyovd_kt_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r57 </ci>
+              <ci> M_fe3pyovd_kt_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J116" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_hom__L_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d58 </ci>
+              <ci> updated_csc009 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J117" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_hom__L_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r58 </ci>
+              <ci> M_hom__L_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J118" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_lys__L_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d59 </ci>
+              <ci> updated_csc009 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J119" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_lys__L_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r59 </ci>
+              <ci> M_lys__L_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J120" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_nh4_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d60 </ci>
+              <ci> updated_csc009 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J121" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_nh4_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r60 </ci>
+              <ci> M_nh4_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J122" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_o2_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d61 </ci>
+              <ci> updated_csc009 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J123" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_o2_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r61 </ci>
+              <ci> M_o2_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J124" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_orn_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d62 </ci>
+              <ci> updated_csc009 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J125" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_orn_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r62 </ci>
+              <ci> M_orn_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J126" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc031" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_arg__L_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d63 </ci>
+              <ci> updated_csc031 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J127" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_arg__L_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r63 </ci>
+              <ci> M_arg__L_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J128" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc031" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_gua_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d64 </ci>
+              <ci> updated_csc031 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J129" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_gua_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r64 </ci>
+              <ci> M_gua_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J130" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc031" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_hom__L_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d65 </ci>
+              <ci> updated_csc031 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J131" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_hom__L_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r65 </ci>
+              <ci> M_hom__L_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J132" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc031" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_lys__L_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d66 </ci>
+              <ci> updated_csc031 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J133" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_lys__L_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r66 </ci>
+              <ci> M_lys__L_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J134" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc031" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_nh4_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d67 </ci>
+              <ci> updated_csc031 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J135" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_nh4_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r67 </ci>
+              <ci> M_nh4_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J136" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc031" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_orn_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d68 </ci>
+              <ci> updated_csc031 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J137" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_orn_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r68 </ci>
+              <ci> M_orn_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J138" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_arg__L_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d69 </ci>
+              <ci> updated_csc052 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J139" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_arg__L_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r69 </ci>
+              <ci> M_arg__L_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J140" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_fe3_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d70 </ci>
+              <ci> updated_csc052 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J141" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_fe3_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r70 </ci>
+              <ci> M_fe3_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J142" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_lys__L_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d71 </ci>
+              <ci> updated_csc052 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J143" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_lys__L_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r71 </ci>
+              <ci> M_lys__L_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J144" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_nh4_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d72 </ci>
+              <ci> updated_csc052 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J145" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_nh4_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r72 </ci>
+              <ci> M_nh4_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J146" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_orn_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d73 </ci>
+              <ci> updated_csc052 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J147" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_orn_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r73 </ci>
+              <ci> M_orn_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J148" reversible="true">
+        <listOfReactants>
+          <speciesReference species="csc043" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_arg__L_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d74 </ci>
+              <ci> csc043 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J149" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_arg__L_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r74 </ci>
+              <ci> M_arg__L_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J150" reversible="true">
+        <listOfReactants>
+          <speciesReference species="csc043" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_gua_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d75 </ci>
+              <ci> csc043 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J151" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_gua_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r75 </ci>
+              <ci> M_gua_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J152" reversible="true">
+        <listOfReactants>
+          <speciesReference species="csc043" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_lys__L_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d76 </ci>
+              <ci> csc043 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J153" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_lys__L_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r76 </ci>
+              <ci> M_lys__L_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J154" reversible="true">
+        <listOfReactants>
+          <speciesReference species="csc043" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_nh4_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d77 </ci>
+              <ci> csc043 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J155" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_nh4_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r77 </ci>
+              <ci> M_nh4_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J156" reversible="true">
+        <listOfReactants>
+          <speciesReference species="csc043" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_ura_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d78 </ci>
+              <ci> csc043 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J157" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_ura_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r78 </ci>
+              <ci> M_ura_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J158" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_glyc_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d79 </ci>
+              <ci> updated_csc009 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J159" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_glyc_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r79 </ci>
+              <ci> M_glyc_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J160" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_h2s_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d80 </ci>
+              <ci> updated_csc009 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J161" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_h2s_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r80 </ci>
+              <ci> M_h2s_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J162" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_o2_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d81 </ci>
+              <ci> updated_csc009 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J163" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_o2_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r81 </ci>
+              <ci> M_o2_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J164" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc031" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_glyc_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d82 </ci>
+              <ci> updated_csc031 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J165" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_glyc_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r82 </ci>
+              <ci> M_glyc_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J166" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc031" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_h2s_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d83 </ci>
+              <ci> updated_csc031 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J167" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_h2s_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r83 </ci>
+              <ci> M_h2s_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J168" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc031" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_xyl__D_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d84 </ci>
+              <ci> updated_csc031 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J169" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_xyl__D_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r84 </ci>
+              <ci> M_xyl__D_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J170" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_glyc_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d85 </ci>
+              <ci> updated_csc040 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J171" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_glyc_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r85 </ci>
+              <ci> M_glyc_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J172" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_h2s_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d86 </ci>
+              <ci> updated_csc040 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J173" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_h2s_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r86 </ci>
+              <ci> M_h2s_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J174" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_pi_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d87 </ci>
+              <ci> updated_csc040 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J175" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_pi_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r87 </ci>
+              <ci> M_pi_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J176" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_s_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d88 </ci>
+              <ci> updated_csc040 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J177" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_s_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r88 </ci>
+              <ci> M_s_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J178" reversible="true">
+        <listOfReactants>
+          <speciesReference species="csc043" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_glyc_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d89 </ci>
+              <ci> csc043 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J179" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_glyc_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r89 </ci>
+              <ci> M_glyc_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J180" reversible="true">
+        <listOfReactants>
+          <speciesReference species="csc043" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_h2s_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d90 </ci>
+              <ci> csc043 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J181" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_h2s_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r90 </ci>
+              <ci> M_h2s_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J182" reversible="true">
+        <listOfReactants>
+          <speciesReference species="csc043" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_s_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d91 </ci>
+              <ci> csc043 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J183" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_s_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r91 </ci>
+              <ci> M_s_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J184" reversible="true">
+        <listOfReactants>
+          <speciesReference species="csc043" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_xylan4_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d92 </ci>
+              <ci> csc043 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J185" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_xylan4_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r92 </ci>
+              <ci> M_xylan4_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J186" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_arg__L_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d93 </ci>
+              <ci> updated_csc009 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J187" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_arg__L_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="csc043" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r93 </ci>
+              <ci> M_arg__L_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J188" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_h2s_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d94 </ci>
+              <ci> updated_csc009 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J189" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_h2s_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="csc043" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r94 </ci>
+              <ci> M_h2s_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J190" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_lys__L_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d95 </ci>
+              <ci> updated_csc009 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J191" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_lys__L_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="csc043" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r95 </ci>
+              <ci> M_lys__L_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J192" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_o2_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d96 </ci>
+              <ci> updated_csc009 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J193" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_o2_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="csc043" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r96 </ci>
+              <ci> M_o2_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J194" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc009" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_ppap_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d97 </ci>
+              <ci> updated_csc009 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J195" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_ppap_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="csc043" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r97 </ci>
+              <ci> M_ppap_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J196" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc031" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_arg__L_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d98 </ci>
+              <ci> updated_csc031 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J197" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_arg__L_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="csc043" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r98 </ci>
+              <ci> M_arg__L_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J198" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc031" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_h2s_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d99 </ci>
+              <ci> updated_csc031 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J199" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_h2s_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="csc043" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r99 </ci>
+              <ci> M_h2s_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J200" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc031" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_lys__L_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d100 </ci>
+              <ci> updated_csc031 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J201" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_lys__L_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="csc043" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r100 </ci>
+              <ci> M_lys__L_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J202" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_arg__L_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d101 </ci>
+              <ci> updated_csc040 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J203" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_arg__L_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="csc043" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r101 </ci>
+              <ci> M_arg__L_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J204" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_h2s_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d102 </ci>
+              <ci> updated_csc040 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J205" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_h2s_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="csc043" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r102 </ci>
+              <ci> M_h2s_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J206" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_lys__L_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d103 </ci>
+              <ci> updated_csc040 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J207" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_lys__L_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="csc043" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r103 </ci>
+              <ci> M_lys__L_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J208" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc040" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_s_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d104 </ci>
+              <ci> updated_csc040 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J209" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_s_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="csc043" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r104 </ci>
+              <ci> M_s_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J210" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_arg__L_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d105 </ci>
+              <ci> updated_csc052 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J211" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_arg__L_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="csc043" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r105 </ci>
+              <ci> M_arg__L_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J212" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_h2s_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d106 </ci>
+              <ci> updated_csc052 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J213" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_h2s_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="csc043" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r106 </ci>
+              <ci> M_h2s_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J214" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_lys__L_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d107 </ci>
+              <ci> updated_csc052 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J215" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_lys__L_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="csc043" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r107 </ci>
+              <ci> M_lys__L_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J216" reversible="true">
+        <listOfReactants>
+          <speciesReference species="updated_csc052" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_s_e" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d108 </ci>
+              <ci> updated_csc052 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="_J217" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_s_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="csc043" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_r108 </ci>
+              <ci> M_s_e </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+    </listOfReactions>
+  </model>
+</sbml>
