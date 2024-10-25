@@ -29,7 +29,7 @@ def split_fasta_from_file(each_fasta_file):
                 
                 if len(parts) == 2:
                     header = parts[0].strip()  # Get the header, ensure no extra spaces
-                    sequence = parts[1].replace('\n', '').strip()  # Get sequence and remove newlines
+                    sequence = parts[1].replace(r'\n', '').strip()  # Get sequence and remove newlines
                     
                     if sequence:  # Check if sequence is not empty
                         output_fa_each = each_fasta_file[:-6] + "_" + str(idx) + "_each.fa"  # Adjust extension handling

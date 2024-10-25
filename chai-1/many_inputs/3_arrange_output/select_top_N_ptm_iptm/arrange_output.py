@@ -51,7 +51,7 @@ def arrange_output():
 
     # Rename 'folder_of_sbatch_files' to 'output'
     os.chdir("..")
-    os.rename("folder_of_sbatch_files", "output")
+    os.rename("folder_sbatch_files", "output")
 
     # Now, move 'err' and 'out' folders inside 'output' into 'output/log'
     os.chdir("output")
@@ -267,7 +267,7 @@ if __name__ == "__main__":
     cwd = os.getcwd()
     basefolder = os.path.basename(cwd)
     if basefolder != "folder_of_sbatch_files":
-        print("This script should be run from the folder_of_sbatch_files folder")
+        print("This script should be run from the folder_sbatch_files folder")
         print(f"current folder is {cwd}")
         exit()
 
